@@ -2,7 +2,7 @@
   <header>
     <nav>
       <NuxtLink to="/">
-        <img src="/assets/Fred St_Logo.png" alt="Fred St." class="h-10" />
+        <img src="/assets/FredSt_Logo.png" alt="Fred St." class="h-10" />
       </NuxtLink>
       <!-- Main Nav -->
       <Nav class="hidden md:flex ml-auto" />
