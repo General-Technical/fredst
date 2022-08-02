@@ -86,7 +86,7 @@
         @apply w-96 bg-neutral px-4 py-1 rounded shadow trans;
     }
     .hero-image {
-        @apply bg-cover aspect-[3/4] lg:aspect-[16/9] w-4/6 h-auto absolute;
+        @apply bg-cover aspect-[3/4] lg:aspect-[16/9] w-5/6 h-auto absolute;
     }
     .form {
         @apply mb-4 pt-2 px-3 rounded-lg border-0 ring-0 focus:border-0 focus:ring-0 bg-secondary text-sm placeholder:font-medium placeholder:uppercase tracking-wide;
