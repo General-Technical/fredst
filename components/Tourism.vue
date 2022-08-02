@@ -1,9 +1,9 @@
 <template>
   <div>
     <template
-      :data="residential"
-      v-for="residential of residential"
-      :key="'#' + residential.slug"
+      :data="tourism"
+      v-for="tourism of tourism"
+      :key="'#' + tourism.slug"
     >
       <div
         class="site-padding items-center justify-center relative min-h-screen"
@@ -11,7 +11,7 @@
         <!-- Image -->
         <FadeUp
           bgImage
-          :style="{ backgroundImage: 'url(' + residential.image + ')' }"
+          :style="{ backgroundImage: 'url(' + tourism.image + ')' }"
           class="hero-image right-6 rounded-tl-full shadow-xl"
         />
         <!-- Image Overlay -->
@@ -21,13 +21,13 @@
         />
         <!-- Card / Content -->
         <FadeUp>
-          <h2 class="w-2/6 text-neutral">{{ residential.title }}</h2>
-          <h3 class="mt-4">{{ residential.location }}</h3>
+          <h2 class="w-2/6 text-neutral">{{ tourism.title }}</h2>
+          <h3 class="mt-4">{{ tourism.location }}</h3>
           <div
             class="card p-6 pl-0 m-0 w-2/3 bg-gradient-to-l from-secondary to-transparent z-50"
           >
-            <h4>{{ residential.description }}</h4>
-            <ContentRenderer :value="residential" />
+            <h4>{{ tourism.description }}</h4>
+            <ContentRenderer :value="tourism" />
             <div class="flex flex-row flex-wrap justify-between mt-4">
               <!-- Images -->
               <Lightbox>
@@ -35,7 +35,7 @@
                 <template v-slot:summary>
                   <div
                     :style="{
-                      backgroundImage: 'url(' + residential.image + ')',
+                      backgroundImage: 'url(' + tourism.image + ')',
                     }"
                     class="bg-cover aspect-[16/9] h-32 rounded"
                   />
@@ -46,7 +46,7 @@
                     class="flex flex-col h-fit my-auto mt-24 items-start justify-center gap-2"
                   >
                     <div class="max-w-3/4 m-auto">
-                      <img :src="residential.image" class="w-full rounded-xl" />
+                      <img :src="tourism.image" class="w-full rounded-xl" />
                     </div>
                   </div>
                 </template>
@@ -56,7 +56,7 @@
                 <template v-slot:summary>
                   <div
                     :style="{
-                      backgroundImage: 'url(' + residential.image + ')',
+                      backgroundImage: 'url(' + tourism.image + ')',
                     }"
                     class="bg-cover aspect-[16/9] h-32 rounded"
                   />
@@ -67,7 +67,7 @@
                     class="flex flex-col h-fit my-auto mt-24 items-start justify-center gap-2"
                   >
                     <div class="max-w-3/4 m-auto">
-                      <img :src="residential.image" class="w-full rounded-xl" />
+                      <img :src="tourism.image" class="w-full rounded-xl" />
                     </div>
                   </div>
                 </template>
@@ -77,7 +77,7 @@
                 <template v-slot:summary>
                   <div
                     :style="{
-                      backgroundImage: 'url(' + residential.image + ')',
+                      backgroundImage: 'url(' + tourism.image + ')',
                     }"
                     class="bg-cover aspect-[16/9] h-32 rounded"
                   />
@@ -88,7 +88,7 @@
                     class="flex flex-col h-fit my-auto mt-24 items-start justify-center gap-2"
                   >
                     <div class="max-w-3/4 m-auto">
-                      <img :src="residential.image" class="w-full rounded-xl" />
+                      <img :src="tourism.image" class="w-full rounded-xl" />
                     </div>
                   </div>
                 </template>
@@ -98,7 +98,7 @@
                 <template v-slot:summary>
                   <div
                     :style="{
-                      backgroundImage: 'url(' + residential.image + ')',
+                      backgroundImage: 'url(' + tourism.image + ')',
                     }"
                     class="bg-cover aspect-[16/9] h-32 rounded"
                   />
@@ -109,7 +109,7 @@
                     class="flex flex-col h-fit my-auto mt-24 items-start justify-center gap-2"
                   >
                     <div class="max-w-3/4 m-auto">
-                      <img :src="residential.image" class="w-full rounded-xl" />
+                      <img :src="tourism.image" class="w-full rounded-xl" />
                     </div>
                   </div>
                 </template>
@@ -123,7 +123,7 @@
 </template>
 
 <script setup>
-const { data: residential } = await useAsyncData("residential", () =>
-  queryContent("/projects/residential/").find()
+const { data: tourism } = await useAsyncData("tourism", () =>
+  queryContent("/projects/tourism/").find()
 );
 </script>

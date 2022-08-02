@@ -23,7 +23,7 @@
         @apply light-bg w-screen fixed top-0 left-0 pt-6 pb-2 z-40;
     }
     footer {
-        @apply py-4;
+        @apply flex items-center w-full site-padding;
     }
     nav {
         @apply flex items-center w-full site-padding;
@@ -32,34 +32,34 @@
         @apply flex flex-col min-h-screen site-padding items-center justify-center py-20 mt-10;
     }
     h1 {
-        @apply text-primary font-bold text-5xl md:text-4xl mb-1;
+        @apply text-primary font-bold text-5xl md:text-5xl mb-1 -tracking-tight;
     }
     h1 a {
-        @apply font-bold text-primary pointer-events-none;
+        @apply font-bold text-primary pointer-events-none -tracking-tight;
     }
     h2 {
-        @apply text-neutral text-xl md:text-2xl font-bold mb-4;
+        @apply text-neutral text-xl md:text-3xl font-bold;
     }
     h2 a {
-        @apply text-neutral pointer-events-none text-xl md:text-2xl font-bold mb-4;
+        @apply text-neutral pointer-events-none text-xl md:text-3xl font-bold -tracking-tight;
     }
     h3 {
-        @apply text-neutral text-lg md:text-xl font-bold tracking-widest;
+        @apply text-primary text-lg md:text-xl font-bold mb-4 -tracking-tight;
     }
     h3 a {
-        @apply text-neutral pointer-events-none text-lg md:text-xl font-bold tracking-widest;
+        @apply text-primary pointer-events-none text-lg md:text-xl font-bold mb-4 -tracking-tight;
     }
     h4 {
-        @apply text-primary text-base md:text-lg font-bold mb-2;
+        @apply text-primary text-base md:text-lg mb-2;
     }
     h4 a {
         @apply text-primary pointer-events-none text-base font-medium mb-4;
     }
     h5 {
-        @apply text-accent text-sm font-bold tracking-wider mb-2;
+        @apply text-neutral text-sm font-bold tracking-wider mb-2;
     }
     h5 a {
-        @apply text-accent pointer-events-none text-sm font-bold tracking-wider mb-2;
+        @apply text-neutral pointer-events-none text-sm font-bold tracking-wider mb-2;
     }
     p {
         @apply font-light tracking-wider normal-case mb-2;
@@ -83,7 +83,10 @@
 
 @layer components {
     .nav-item {
-        @apply w-96 bg-neutral px-4 py-1 rounded shadow-xl trans;
+        @apply w-96 bg-neutral px-4 py-1 rounded shadow trans;
+    }
+    .hero-image {
+        @apply bg-cover aspect-[3/4] lg:aspect-[16/9] w-4/6 h-auto absolute;
     }
     .form {
         @apply mb-4 pt-2 px-3 rounded-lg border-0 ring-0 focus:border-0 focus:ring-0 bg-secondary text-sm placeholder:font-medium placeholder:uppercase tracking-wide;
@@ -96,9 +99,6 @@
     }
     .light-bg {
         @apply bg-secondary bg-opacity-80 backdrop-blur-sm;
-    }
-    .red-bg {
-        @apply bg-accent bg-opacity-80 backdrop-blur-sm;
     }
     .white-bg {
         @apply bg-secondary bg-opacity-80 backdrop-blur-sm;
@@ -133,7 +133,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   -webkit-text-fill-color: #111518;
-  box-shadow: 0 0 0px 1000px #DEE2F7 inset;
+  box-shadow: 0 0 0px 1000px #d5d7cb inset;
   transition: tertiary-color 5000s ease-in-out 0s;
 }
 
@@ -160,6 +160,3 @@ body::-webkit-scrollbar {
 .page-leave-to {
     opacity: 0;
   }
-  .tm {
-    stop-color: #F51AA4;
-}

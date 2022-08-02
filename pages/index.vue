@@ -5,17 +5,16 @@
       <FadeUp
         bgImage
         :style="{ backgroundImage: 'url(' + home.image + ')' }"
-        class="bg-cover shadow-xl aspect-[3/4] lg:aspect-[16/9] w-5/6 my-auto h-auto absolute"
+        class="hero-image shadow-xl"
         :class="home.position"
       />
       <!-- Image Overlay -->
-      <FadeUp
-        class="aspect-[3/4] lg:aspect-[16/9] w-5/6 my-auto h-auto absolute"
-        :class="home.position"
-      />
+      <FadeUp class="hero-image" :class="home.position" />
       <!-- Card / Content -->
       <FadeUp>
-        <h1 class="w-1/6 mb-4" :class="home.position">{{ home.title }}</h1>
+        <h1 class="w-2/6 lg:w-1/6 mb-4" :class="home.position">
+          {{ home.title }}
+        </h1>
         <div class="card content py-6 m-0 w-2/3 z-50" :class="home.position">
           <ContentRenderer :value="home" />
         </div>

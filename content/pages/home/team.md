@@ -11,11 +11,11 @@ image: /assets/images/PlantNursery.jpg
 <tr>
 <td valign="top" width="40%" style="padding-right: 40px">
     
-## Lead by Tessa Leggo, our small team of highly skilled professionals are determined to provide the combined product of functional landscapes and creative outcomes.
+### Lead by Tessa Leggo, our small team of highly skilled professionals are determined to provide the combined product of functional landscapes and creative outcomes.
 
-### Tessa Leggo
+#### Tessa Leggo
 
-#### Director & Registered Landscape Architect
+##### Director & Registered Landscape Architect
 
 </td>
 <td valign="top">

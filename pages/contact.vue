@@ -1,50 +1,21 @@
 <template>
-  <section>
-    <form
-      action="https://api.staticforms.xyz/submit"
-      method="post"
-      class="flex flex-col w-full max-w-xl"
+  <div>
+    <div
+      class="flex site-padding justify-start items-end h-36 mb-8"
+      id="residential"
     >
-      <FadeUp>
-        <div class="flex flex-col w-full max-w-xl">
-          <div class="flex flex-col px-4 py-6 rounded-xl mb-6 bg-primary">
-            <input
-              type="text"
-              name="name"
-              placeholder="NAME"
-              required
-              class="form autofill:bg-primary"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="EMAIL"
-              required
-              class="form"
-            />
-            <textarea
-              name="message"
-              placeholder="MESSAGE"
-              required
-              class="form pb-0 mb-0"
-            ></textarea>
-            <input type="text" name="honeypot" style="display: none" />
-            <input
-              type="hidden"
-              name="accessKey"
-              value="a9ba3d2c-202a-4757-8cbd-c87656de4124"
-            />
-            <input type="hidden" name="subject" value="contact form - tm.ox" />
-            <input type="hidden" name="replyTo" value="@" />
-            <input
-              type="hidden"
-              name="redirectTo"
-              value="https://tm.oxenfree.net/sent"
-            />
-          </div>
-          <button class="submitButton" type="submit">SUBMIT</button>
-        </div>
-      </FadeUp>
-    </form>
-  </section>
+      <h1>Contact</h1>
+    </div>
+    <FadeUp class="h-screen flex flex-1 justify-end items-center">
+      <div class="m-auto pb-32">
+        <iframe
+          src="https://www.cognitoforms.com/f/6Ax0zmUI6UeB6_7JUBHcjA/19"
+          style="border: 0; width: 800px"
+          height="513"
+          class="flex justify-center w-full mx-auto"
+        >
+        </iframe>
+      </div>
+    </FadeUp>
+  </div>
 </template>
