@@ -1,5 +1,11 @@
 <template>
   <div>
+    <h1
+      class="flex site-padding justify-start items-end h-36 mb-8"
+      id="tourism"
+    >
+      Tourism
+    </h1>
     <template :data="tourism" v-for="tourism of tourism" :key="tourism.slug">
       <div
         class="site-padding items-center justify-center relative min-h-screen"
