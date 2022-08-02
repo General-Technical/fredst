@@ -40,11 +40,12 @@ module.exports = {
       },
       {
         dark: {
-          primary: "#f7f7f7",
-          secondary: "#c81f46",
-          accent: "#000000",
-          neutral: "#3d4451",
-          "base-100": "#ffffff",
+          primary: "#000000",
+          secondary: "#f7f7f7",
+          accent: "#c81f46",
+          neutral: "#B1D23B",
+          info: "#19B4B9",
+          "base-100": "#f7f7f7",
         },
       },
     ],

@@ -3,7 +3,7 @@
     <template
       :data="residential"
       v-for="residential of residential"
-      :key="'#' + residential.slug"
+      :key="residential.slug"
     >
       <div
         class="site-padding items-center justify-center relative min-h-screen"

@@ -1,10 +1,6 @@
 <template>
   <div>
-    <template
-      :data="tourism"
-      v-for="tourism of tourism"
-      :key="'#' + tourism.slug"
-    >
+    <template :data="tourism" v-for="tourism of tourism" :key="tourism.slug">
       <div
         class="site-padding items-center justify-center relative min-h-screen"
       >
