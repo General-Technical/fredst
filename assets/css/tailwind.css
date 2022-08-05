@@ -7,124 +7,119 @@
     font-family: "Jackwritethin";
     src: url("@/assets/fonts/JackwriteThin-YzvOL.ttf");
   } */
-  
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap");
+@import url("http://fonts.cdnfonts.com/css/century-gothic");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,500&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-
-    body {
-        @apply mx-auto bg-secondary text-primary font-body tracking-widest;
-    }
-    header {
-        @apply light-bg w-screen fixed top-0 left-0 pt-6 pb-2 z-40;
-    }
-    footer {
-        @apply flex items-center w-full site-padding;
-    }
-    nav {
-        @apply flex items-center w-full site-padding;
-    }
-    section {
-        @apply flex flex-col min-h-screen site-padding items-center justify-center py-20 mt-10;
-    }
-    h1 {
-        @apply text-primary font-bold text-5xl md:text-5xl mb-1 -tracking-tight;
-    }
-    h1 a {
-        @apply font-bold text-primary pointer-events-none -tracking-tight;
-    }
-    h2 {
-        @apply text-neutral text-xl md:text-3xl font-bold;
-    }
-    h2 a {
-        @apply text-neutral pointer-events-none text-xl md:text-3xl font-bold -tracking-tight;
-    }
-    h3 {
-        @apply text-primary text-lg md:text-xl font-bold mb-4 -tracking-tight;
-    }
-    h3 a {
-        @apply text-primary pointer-events-none text-lg md:text-xl font-bold mb-4 -tracking-tight;
-    }
-    h4 {
-        @apply text-primary text-base md:text-lg mb-2;
-    }
-    h4 a {
-        @apply text-primary pointer-events-none text-base font-medium mb-4;
-    }
-    h5 {
-        @apply text-neutral text-sm font-bold tracking-wider mb-2;
-    }
-    h5 a {
-        @apply text-neutral pointer-events-none text-sm font-bold tracking-wider mb-2;
-    }
-    p {
-        @apply font-light tracking-wider normal-case mb-2;
-    }
-    a {
-        @apply text-sm text-center tracking-widest;
-    }
-    ul {
-        @apply flex flex-col items-center justify-center gap-[1px] text-center md:flex-row;
-    }
-    li {
-        @apply w-full;
-    }
-    textarea {
-        @apply h-24;
-    }
-    button {
-        @apply w-24 text-3xl md:text-sm font-bold uppercase;
-    }
+  body {
+    @apply mx-auto bg-secondary text-primary font-body font-light text-sm tracking-widest;
+  }
+  header {
+    @apply light-bg w-screen fixed top-0 left-0 pt-2 z-40 border-b;
+  }
+  footer {
+    @apply flex items-center justify-center w-full site-padding px-6 xl:px-0;
+  }
+  nav {
+    @apply flex items-center w-full site-padding px-6 xl:px-0 mb-2;
+  }
+  section {
+    @apply flex flex-col min-h-screen site-padding pb-0 items-center justify-center border-x border-b;
+  }
+  h1 {
+    @apply font-bold text-primary text-2xl md:text-3xl uppercase -tracking-tight;
+  }
+  h1 a {
+    @apply font-bold text-primary pointer-events-none -tracking-tight leading-3;
+  }
+  h2 {
+    @apply font-normal text-xl md:text-2xl uppercase -tracking-tight;
+  }
+  h2 a {
+    @apply pointer-events-none font-normal text-xl md:text-2xl uppercase -tracking-tight;
+  }
+  h3 {
+    @apply text-primary text-lg md:text-xl mb-4 -tracking-tight;
+  }
+  h3 a {
+    @apply text-primary pointer-events-none text-lg md:text-xl mb-4 -tracking-tight;
+  }
+  h4 {
+    @apply text-primary text-base md:text-lg mb-2;
+  }
+  h4 a {
+    @apply text-primary pointer-events-none text-base font-medium mb-4;
+  }
+  h5 {
+    @apply text-neutral text-sm font-bold tracking-wider mb-2;
+  }
+  h5 a {
+    @apply text-neutral pointer-events-none text-sm font-bold tracking-wider mb-2;
+  }
+  p {
+    @apply tracking-wider normal-case mb-2;
+  }
+  a {
+    @apply text-sm text-center tracking-widest;
+  }
+  ul {
+    @apply flex flex-col items-center justify-center gap-4 text-center md:flex-row;
+  }
+  li {
+    @apply uppercase hover:underline hover:underline-offset-8 hover:decoration-2 trans;
+  }
+  textarea {
+    @apply h-24;
+  }
 }
 
 @layer components {
-    .nav-item {
-        @apply w-96 bg-neutral px-4 py-1 rounded shadow trans;
-    }
-    .hero-image {
-        @apply bg-cover aspect-[3/4] lg:aspect-[16/9] w-5/6 h-auto absolute;
-    }
-    .form {
-        @apply mb-4 pt-2 px-3 rounded-lg border-0 ring-0 focus:border-0 focus:ring-0 bg-secondary text-sm placeholder:font-medium placeholder:uppercase tracking-wide;
-    }
-    .submitButton {
-        @apply self-center bg-primary font-medium text-secondary border-primary p-1 px-4 rounded-lg trans;
-    }
-    .trans {
-        @apply transition duration-300 ease-in-out;
-    }
-    .light-bg {
-        @apply bg-secondary bg-opacity-80 backdrop-blur-sm;
-    }
-    .white-bg {
-        @apply bg-secondary bg-opacity-80 backdrop-blur-sm;
-    }
-    .site-padding {
-        @apply max-w-screen-2xl mx-auto px-6;
-    }
-    .sosmed {
-        @apply w-7 h-8 fill-primary shadow trans;
-    }
+  .hero-image {
+    @apply bg-cover aspect-[3/4] xl:aspect-[4/3] w-4/6 h-auto absolute bottom-0;
+  }
+  .form {
+    @apply mb-4 pt-2 px-3 rounded-lg border-0 ring-0 focus:border-0 focus:ring-0 bg-secondary text-sm placeholder:font-medium placeholder:uppercase tracking-wide;
+  }
+  .submitButton {
+    @apply self-center bg-primary font-medium text-secondary border-primary p-1 px-4 rounded-lg trans;
+  }
+  .trans {
+    @apply transition duration-300 ease-in-out;
+  }
+  .light-bg {
+    @apply bg-secondary bg-opacity-80 backdrop-blur-sm;
+  }
+  .white-bg {
+    @apply bg-secondary bg-opacity-80 backdrop-blur-sm;
+  }
+  .site-padding {
+    @apply max-w-screen-xl mx-auto;
+  }
+  .sosmed {
+    @apply w-6 h-6 fill-primary shadow trans;
+  }
 }
 
 /* Daisy */
 
 .dropdown-content {
-    @apply w-full bg-secondary bg-opacity-80 backdrop-blur-sm rounded;
+  @apply w-full bg-secondary bg-opacity-80 backdrop-blur-sm rounded;
 }
 .card {
-    @apply bg-transparent rounded pb-4;
+  @apply bg-transparent !rounded-none border pb-4;
 }
 .card-body {
-    @apply p-5;
+  @apply p-5;
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
@@ -138,25 +133,23 @@ select:-webkit-autofill:focus {
 }
 
 html {
-    scroll-behavior: smooth;
-  }
-  
-body::-webkit-scrollbar {
-    display: none;
-  }
+  scroll-behavior: smooth;
+}
 
-  /* Page Transittion */
-.page-enter-from{
-    opacity: 0;
-    transform: translateY(0);
-  }
-  
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Page Transittion */
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(0);
+}
 .page-enter-active,
 .page-leave-active {
-    transition: all 0.5s;
-
-  }
+  transition: all 0.5s;
+}
 .page-enter,
 .page-leave-to {
-    opacity: 0;
-  }
+  opacity: 0;
+}

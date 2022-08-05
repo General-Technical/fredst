@@ -1,8 +1,9 @@
 <template>
   <header>
     <nav>
-      <NuxtLink to="/">
-        <img src="/assets/FredSt_Logo.png" alt="Fred St." class="h-10" />
+      <NuxtLink to="/" class="flex justify-end items-end gap-2">
+        <Squares class="mb-[2px]" />
+        <img src="/assets/FredSt_Logo.png" alt="Fred St." class="h-9" />
       </NuxtLink>
       <!-- Main Nav -->
       <Nav class="hidden md:flex ml-auto" />

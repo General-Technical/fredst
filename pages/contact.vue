@@ -1,10 +1,9 @@
 <template>
-  <div>
-    <div
-      class="flex site-padding justify-start items-end h-36 mb-8"
-      id="residential"
-    >
-      <h1>Contact</h1>
+  <section>
+    <div class="flex site-padding justify-start items-end h-36 mb-8">
+      <FadeUp>
+        <h1>Contact</h1>
+      </FadeUp>
     </div>
     <FadeUp class="h-screen flex flex-1 justify-end items-center">
       <div class="m-auto pb-32">
@@ -17,5 +16,14 @@
         </iframe>
       </div>
     </FadeUp>
-  </div>
+  </section>
 </template>
+
+<script setup>
+definePageMeta({
+  layout: "contact",
+});
+useHead({
+  title: "Contact - Fred St.",
+});
+</script>

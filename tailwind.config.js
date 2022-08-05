@@ -11,7 +11,7 @@ module.exports = {
     colors: {},
     extend: {
       fontFamily: {
-        body: ["Roboto Slab", "serif"],
+        body: ["Montserrat", "sans-serif"],
       },
       animation: {
         "pulse-slow": "pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",

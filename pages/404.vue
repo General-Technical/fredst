@@ -6,3 +6,9 @@
     </FadeUp>
   </section>
 </template>
+
+<script setup>
+useHead({
+  title: "Fred St. - 404",
+});
+</script>
