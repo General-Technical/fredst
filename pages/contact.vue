@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="border-t">
     <div class="flex site-padding justify-start items-end h-36 mb-8">
       <FadeUp>
         <h1>Contact</h1>
