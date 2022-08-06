@@ -1,7 +1,7 @@
 ---
-id: box2
-sector: Residential
-title: Newmarket & Alderly Trainstations
+sector: Tourism
+year: 2017
+title: Alderly Trainstations
 location: Queensland
 description: Landscape concept design; detailed documentation
 image: https://www.floornature.com/media/photos/1/9150/01_mostra_landscape_architecture_full.jpg

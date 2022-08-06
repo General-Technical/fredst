@@ -1,6 +1,6 @@
 ---
-id: box1
-sector: Tourism
+sector: Residential
+year: 2019
 title: Kingsford Smith Drive Upgrade Reference Design
 location: Hamilton
 description: Concept reference design & documentation; infrastructure landscape / urban design masterplanning; site analysis & SWTC development
