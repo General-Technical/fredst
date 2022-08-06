@@ -8,8 +8,6 @@
     src: url("@/assets/fonts/JackwriteThin-YzvOL.ttf");
   } */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap");
-@import url("http://fonts.cdnfonts.com/css/century-gothic");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,500&display=swap");
 
 @tailwind base;
