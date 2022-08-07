@@ -1,5 +1,4 @@
 ---
-section: 04
 id: team
 position: right
 title: Team

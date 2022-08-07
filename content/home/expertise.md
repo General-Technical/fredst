@@ -1,5 +1,4 @@
 ---
-section: 03
 id: expertise
 position: left
 title: Expertise

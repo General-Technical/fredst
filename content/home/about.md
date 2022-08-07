@@ -1,5 +1,4 @@
 ---
-section: 02
 id: about
 position: right
 title: About Us
