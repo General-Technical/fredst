@@ -19,7 +19,7 @@
         <!-- Card -->
         <ContentRenderer
           :value="doc"
-          class="content p-6 border shadow-xl w-2/3 z-50"
+          class="content crd"
           :class="doc.position"
         />
       </FadeUp>
@@ -29,7 +29,7 @@
 
 <style scoped>
 .left {
-  @apply right-0 bg-gradient-to-r from-secondary via-transparent to-transparent;
+  @apply right-0 bg-gradient-to-r from-secondary to-transparent;
 }
 h1.left {
   @apply ml-6 bg-none;
@@ -41,7 +41,7 @@ h1.left {
   @apply bg-gradient-to-l from-secondary to-transparent border-l-0;
 }
 .right {
-  @apply ml-auto left-0 bg-gradient-to-l from-secondary via-transparent to-transparent border-l-0;
+  @apply ml-auto left-0 bg-gradient-to-l from-secondary to-transparent border-l-0;
 }
 h1.right {
   @apply ml-auto mr-6 bg-none text-right;
@@ -50,7 +50,7 @@ h1.right {
   @apply justify-end mr-6 mb-6 bg-none;
 }
 .content.right {
-  @apply bg-gradient-to-r from-secondary to-transparent border-l border-r-0;
+  @apply bg-gradient-to-r from-secondary to-transparent border-l-0 sm:border-l border-r-0;
 }
 .full-span {
   @apply col-span-2;

@@ -1,21 +1,26 @@
 <template>
   <section class="justify-start mx-auto">
-    <div class="grid grid-flow-row grid-cols-3 gap-3 p-4">
+    <div class="projects-grid">
       <template
         :data="residential"
         v-for="project of residential"
         :key="project.slug"
       >
         <FadeUp class="flex flex-col flex-1 border p-3 shadow-lg">
-          <NuxtLink :to="project._path" class="">
-            <p>{{ project.sector }} {{ project.year }}</p>
+          <NuxtLink :to="project._path">
+            <div class="flex items-center mb-3">
+              <Squares />
+              <p class="mb-0 ml-auto">
+                {{ project.sector }} {{ project.year }}
+              </p>
+            </div>
             <div
               bgImage
               :style="{ backgroundImage: 'url(' + project.image + ')' }"
               class="aspect-video bg-cover mb-2"
             />
-            <h3 class="mb-2">{{ project.title }}</h3>
-            <p>{{ project.description }}</p>
+            <h3 class="text-left mb-1">{{ project.title }}</h3>
+            <p class="text-left">{{ project.description }}</p>
           </NuxtLink>
         </FadeUp>
       </template>
