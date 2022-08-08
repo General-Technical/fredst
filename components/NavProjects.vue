@@ -18,9 +18,3 @@
     </ul>
   </div>
 </template>
-
-<style scoped>
-.router-link-active {
-  @apply font-bold underline underline-offset-8 decoration-2 trans;
-}
-</style>
