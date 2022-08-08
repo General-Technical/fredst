@@ -1,5 +1,4 @@
 ---
-section: 01
 id: home
 position: left
 title: Designing Places for People

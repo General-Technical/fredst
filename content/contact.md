@@ -1,5 +1,5 @@
 ---
-id: home
+id: contact
 position: left
 title: Contact
 description: Description
