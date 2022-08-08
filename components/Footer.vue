@@ -1,31 +1,5 @@
 <template>
   <div class="w-screen bg-secondary border-t mt-8">
-    <footer class="h-12 flex items-center justify-between">
-      <NuxtLink to="/" class="flex items-end gap-2">
-        <Squares class="mb-[2px]" />
-        <img src="/assets/FredSt_Logo.png" alt="Fred St." class="h-6" />
-      </NuxtLink>
-      <div class="flex gap-2 mt-2">
-        <p class="font-bold text-xs">
-          &copy; <span class="font-bold">2022</span>
-        </p>
-        <div class="flex my-auto">
-          <p class="font-light text-xs uppercase">
-            By:
-            <a
-              href="https://generaltechnical.com.au"
-              target="_blank"
-              class="text-xs font-light"
-            >
-              General Technical
-            </a>
-          </p>
-        </div>
-      </div>
-      <div class="flex pl-2 gap-1">
-        <Fb class="sosmed fill-info" />
-        <In class="sosmed fill-neutral" />
-      </div>
-    </footer>
+    <footer class="h-12 flex items-center justify-between"></footer>
   </div>
 </template>
