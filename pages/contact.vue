@@ -1,16 +1,6 @@
 <template>
   <section class="relative border-t justify-start items-start mx-auto py-4">
-    <FadeUp class="flex gap-3 mx-auto w-full">
-      <div class="content crd right ml-auto border border-r-0 h-fit w-2/3 p-4">
-        <iframe
-          src="https://www.cognitoforms.com/f/6Ax0zmUI6UeB6_7JUBHcjA/19"
-          style="border: 0; width: 800px"
-          height="400"
-          class="flex justify-center w-full mx-auto"
-        >
-        </iframe>
-      </div>
-    </FadeUp>
+    <FadeUp class="flex gap-3 mx-auto w-full"> </FadeUp>
   </section>
 </template>
 
