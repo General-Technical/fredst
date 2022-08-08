@@ -1,3 +1,14 @@
 <template>
-  <h1>Test</h1>
+  <section>
+    <h1>Contact</h1>
+  </section>
 </template>
+
+<script setup>
+definePageMeta({
+  layout: "contact",
+});
+useHead({
+  title: "Contact - Fred St.",
+});
+</script>
