@@ -6,7 +6,7 @@
 
 <script setup>
 definePageMeta({
-  layout: "contact",
+  layout: "projects",
 });
 useHead({
   title: "Contact - Fred St.",
