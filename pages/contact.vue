@@ -1,6 +1,6 @@
 <template>
   <section class="relative items-start">
-    <ContentDoc path="contact" v-slot="{ doc }">
+    <ContentDoc path="/pages/contact" v-slot="{ doc }">
       <!-- Image -->
       <FadeUp
         bgImage
@@ -41,7 +41,7 @@
       >
         <iframe
           src="https://www.cognitoforms.com/f/6Ax0zmUI6UeB6_7JUBHcjA/19"
-          style="border: 0; width: 800px"
+          style="border: 0; width: 100%"
           height="400"
           class="flex justify-center w-full mx-auto"
         >

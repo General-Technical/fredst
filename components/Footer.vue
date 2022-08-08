@@ -1,11 +1,15 @@
 <template>
   <div class="w-screen bg-secondary border-t mt-8">
-    <footer class="h-12">
-      <div class="flex items-center gap-2">
+    <footer class="h-12 flex items-center justify-between">
+      <NuxtLink to="/" class="flex items-end gap-2">
+        <Squares class="mb-[2px]" />
+        <img src="/assets/FredSt_Logo.png" alt="Fred St." class="h-6" />
+      </NuxtLink>
+      <div class="flex gap-2 mt-2">
         <p class="font-bold text-xs">
           &copy; <span class="font-bold">2022</span>
         </p>
-        <div>
+        <div class="flex my-auto">
           <p class="font-light text-xs uppercase">
             By:
             <a
@@ -18,7 +22,7 @@
           </p>
         </div>
       </div>
-      <div class="flex ml-auto pl-2 gap-1">
+      <div class="flex pl-2 gap-1">
         <Fb class="sosmed fill-info" />
         <In class="sosmed fill-neutral" />
       </div>
