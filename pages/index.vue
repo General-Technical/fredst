@@ -1,6 +1,6 @@
 <template>
   <section class="relative">
-    <ContentDoc path="/pages/home" v-slot="{ doc }">
+    <ContentDoc path="/home" v-slot="{ doc }">
       <!-- Image -->
       <FadeUp
         bgImage
