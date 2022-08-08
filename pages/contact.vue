@@ -18,6 +18,10 @@
         <Squares class="squares" :class="doc.position" />
         <!-- Card -->
         <ContentRenderer :value="doc" class="ml-6 mb-6" />
+        <div class="flex gap-1 mb-10 ml-6">
+          <Fb class="sosmed fill-info" />
+          <In class="sosmed fill-neutral" />
+        </div>
       </FadeUp>
     </ContentDoc>
     <FadeUp class="flex gap-3 mx-auto w-full">
