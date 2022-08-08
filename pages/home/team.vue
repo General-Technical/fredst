@@ -1,6 +1,6 @@
 <template>
   <section class="relative">
-    <ContentDoc path="/home/home" v-slot="{ doc }">
+    <ContentDoc path="/home/team" v-slot="{ doc }">
       <!-- Image -->
       <FadeUp
         bgImage
@@ -26,6 +26,12 @@
     </ContentDoc>
   </section>
 </template>
+
+<script setup>
+useHead({
+  title: "Team - Fred St.",
+});
+</script>
 
 <style scoped>
 .left {

@@ -4,13 +4,13 @@
       class="flex justify-start sm:justify-end pb-4 site-padding border-b px-6 xl:px-0 trans"
     >
       <li class="decoration-info">
-        <NuxtLink to="about">About</NuxtLink>
+        <NuxtLink to="/home/about">About</NuxtLink>
       </li>
       <li class="decoration-neutral">
-        <NuxtLink to="expertise">Expertise</NuxtLink>
+        <NuxtLink to="/home/expertise">Expertise</NuxtLink>
       </li>
       <li class="decoration-accent">
-        <NuxtLink to="team">Team</NuxtLink>
+        <NuxtLink to="/home/team">Team</NuxtLink>
       </li>
     </ul>
   </div>
