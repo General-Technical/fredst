@@ -23,24 +23,24 @@
             <div class="flex gap-3">
               <div
                 bgImage
-                :style="{ backgroundImage: 'url(' + doc.image + ')' }"
+                :style="{ backgroundImage: 'url(' + doc.image1 + ')' }"
                 class="aspect-video bg-cover w-1/2"
               />
               <div
                 bgImage
-                :style="{ backgroundImage: 'url(' + doc.image + ')' }"
+                :style="{ backgroundImage: 'url(' + doc.image2 + ')' }"
                 class="aspect-video bg-cover w-1/2"
               />
             </div>
             <div class="flex gap-3">
               <div
                 bgImage
-                :style="{ backgroundImage: 'url(' + doc.image + ')' }"
+                :style="{ backgroundImage: 'url(' + doc.image3 + ')' }"
                 class="aspect-video bg-cover w-1/2"
               />
               <div
                 bgImage
-                :style="{ backgroundImage: 'url(' + doc.image + ')' }"
+                :style="{ backgroundImage: 'url(' + doc.image4 + ')' }"
                 class="aspect-video bg-cover w-1/2"
               />
             </div>

@@ -16,12 +16,10 @@ collections:
     format: "frontmatter"
     create: true
     fields:
-      - label: "Tags"
-        name: "tags"
+      - label: "Sector"
+        name: "sector"
         widget: "select"
-        multiple: true
         options: ["Residential", "Tourism", "Transport"]
-        default: ["Residential"]
       - { label: Year, name: year, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Location, name: location, widget: string }
