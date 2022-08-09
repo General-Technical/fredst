@@ -19,31 +19,11 @@
           <h3>{{ doc.description }}</h3>
           <!-- Card -->
           <ContentRenderer :value="doc" />
-          <div class="flex flex-col gap-3 mt-6">
-            <div class="flex gap-3">
-              <div
-                bgImage
-                :style="{ backgroundImage: 'url(' + doc.image1 + ')' }"
-                class="aspect-video bg-cover w-1/2"
-              />
-              <div
-                bgImage
-                :style="{ backgroundImage: 'url(' + doc.image2 + ')' }"
-                class="aspect-video bg-cover w-1/2"
-              />
-            </div>
-            <div class="flex gap-3">
-              <div
-                bgImage
-                :style="{ backgroundImage: 'url(' + doc.image3 + ')' }"
-                class="aspect-video bg-cover w-1/2"
-              />
-              <div
-                bgImage
-                :style="{ backgroundImage: 'url(' + doc.image4 + ')' }"
-                class="aspect-video bg-cover w-1/2"
-              />
-            </div>
+          <div class="grid grid-cols-2 gap-3 mt-6">
+            <img :src="doc.image1" alt="" />
+            <img :src="doc.image2" alt="" />
+            <img :src="doc.image3" alt="" />
+            <img :src="doc.image4" alt="" />
           </div>
         </div>
       </FadeUp>
