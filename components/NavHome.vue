@@ -1,7 +1,7 @@
 <template>
-  <div class="light-bg w-screen fixed top-14 sm:top-[53px] pt-3 z-40">
+  <div class="light-bg w-screen fixed top-10 sm:top-[53px] pt-3 z-10">
     <ul
-      class="flex justify-start sm:justify-end pb-4 site-padding border-b px-6 xl:px-0 trans"
+      class="flex justify-end pb-3 sm:pb-4 site-padding border-b px-6 xl:px-0 trans"
     >
       <li class="decoration-info">
         <NuxtLink to="/about">About</NuxtLink>

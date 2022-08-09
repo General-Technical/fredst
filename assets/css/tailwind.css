@@ -61,7 +61,7 @@
     @apply text-neutral pointer-events-none text-sm font-bold tracking-wider mb-2;
   }
   p {
-    @apply tracking-wider normal-case mb-2;
+    @apply text-left tracking-wider normal-case mb-2;
   }
   a {
     @apply text-sm text-center tracking-widest;

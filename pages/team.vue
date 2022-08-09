@@ -17,19 +17,45 @@
         </h1>
         <Squares class="squares" :class="doc.position" />
         <!-- Card -->
-        <ContentRenderer
-          :value="doc"
-          class="content crd"
-          :class="doc.position"
-        />
+        <div class="content crd" :class="doc.position">
+          <ContentRenderer :value="doc" />
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mt-3">
+            <!-- Team Member -->
+            <template
+              :data="people"
+              v-for="person of people"
+              :key="person.slug"
+            >
+              <FadeUp class="flex flex-col flex-1 border p-3 pb-0 shadow-lg">
+                <NuxtLink :to="person._path" class="flex flex-col h-full">
+                  <div class="flex items-center mb-3">
+                    <Squares />
+                  </div>
+                  <div
+                    bgImage
+                    :style="{ backgroundImage: 'url(' + person.image + ')' }"
+                    class="aspect-square bg-cover mb-2"
+                  />
+                  <h3 class="text-left mb-1">{{ person.name }}</h3>
+                  <p class="text-left">{{ person.description }}</p>
+                  <p class="mt-auto">more...</p>
+                </NuxtLink>
+              </FadeUp>
+            </template>
+          </div>
+        </div>
       </FadeUp>
     </ContentDoc>
   </section>
 </template>
 
 <script setup>
+const { data: people } = await useAsyncData("people", () => {
+  return queryContent("/people").sort({ name: -1 }).find();
+});
+
 useHead({
-  title: "Team - Fred St.",
+  title: "people - Fred St.",
 });
 </script>
 
