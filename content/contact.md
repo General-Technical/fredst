@@ -1,6 +1,4 @@
 ---
-id: contact
-position: left
 title: Contact
 description: Description
 image: https://planner5d.com/s/6/images/landing-seo/landscape-design/landscape_design@2x.jpg
