@@ -20,9 +20,9 @@ collections:
           name: "sector",
           widget: "select",
           options:
-          - { label: "Residential", value: "residential", }
-          - { label: "Tourism", value: "tourism", }
-          - { label: "Transport", value: "transport", }
+          - { label: Residential, value: residential }
+          - { label: Tourism value: tourism }
+          - { label: Transport, value: transport }
           }
       - { label: Year, name: year, widget: string }
       - { label: Title, name: title, widget: string }

@@ -5,17 +5,16 @@
       <FadeUp
         bgImage
         :style="{ backgroundImage: 'url(' + doc.image + ')' }"
-        class="hero-image"
-        :class="doc.position"
+        class="hero-image left"
       />
       <!-- Image Overlay -->
-      <FadeUp class="hero-image" :class="doc.position" />
+      <FadeUp class="hero-image left" />
       <!-- Content -->
       <FadeUp>
-        <h1 class="page-title" :class="doc.position">
+        <h1 class="page-title left">
           {{ doc.title }}
         </h1>
-        <Squares class="squares" :class="doc.position" />
+        <Squares class="squares left" />
         <!-- Card -->
         <ContentRenderer :value="doc" class="ml-6 mb-6" />
         <div class="flex gap-1 mb-10 ml-6">
