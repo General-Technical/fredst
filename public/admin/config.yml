@@ -16,7 +16,13 @@ collections:
     format: "frontmatter"
     create: true
     fields:
-      - { label: Sector, name: sector, widget: string }
+      - { label: "Sector",
+          name: "sector",
+          widget: "select",
+          options:
+          - { label: "Residential", value: "residential" }
+          - { label: "Tourism", value: "Tourism" }
+          - { label: "Transport", value: "transport" }}
       - { label: Year, name: year, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Location, name: location, widget: string }
