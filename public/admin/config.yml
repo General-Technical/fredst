@@ -16,14 +16,12 @@ collections:
     format: "frontmatter"
     create: true
     fields:
-      - { label: "Sector",
-          name: "sector",
-          widget: "select",
-          options:
-          - { label: Residential, value: residential }
-          - { label: Tourism value: tourism }
-          - { label: Transport, value: transport }
-          }
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options: ["Residential", "Tourism", "Transport"]
+        default: ["Residential"]
       - { label: Year, name: year, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Location, name: location, widget: string }
@@ -41,7 +39,8 @@ collections:
           name: "image1",
           widget: "image",
           choose_url: false,
-          required: false,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
+          required: false,
+          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,
         }
       - {
           label: "Project Image 2",
