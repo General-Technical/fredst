@@ -3,7 +3,7 @@
     <footer class="h-12 flex items-center justify-between">
       <NuxtLink to="/" class="flex items-end gap-2">
         <Squares class="mb-[2px]" />
-        <img src="/assets/FredSt_Logo.png" alt="Fred St." class="h-6" />
+        <Logo class="h-6 w-auto" />
       </NuxtLink>
       <div class="flex gap-2 mt-2">
         <p class="font-bold text-xs">
