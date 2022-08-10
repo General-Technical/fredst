@@ -1,11 +1,11 @@
 <template>
   <div class="w-screen bg-secondary border-t mt-8">
-    <footer class="h-12 flex items-center justify-between">
+    <footer class="h-12 grid grid-cols-3">
       <NuxtLink to="/" class="flex items-end gap-2">
         <Squares class="mb-[2px]" />
         <Logo class="h-6 w-auto" />
       </NuxtLink>
-      <div class="flex gap-2 mt-2">
+      <div class="flex gap-2 mt-2 justify-center">
         <p class="font-bold text-xs">
           &copy; <span class="font-bold">2022</span>
         </p>
@@ -22,7 +22,7 @@
           </p>
         </div>
       </div>
-      <div class="flex pl-2 gap-1">
+      <div class="flex pl-2 gap-1 justify-end">
         <Fb class="sosmed fill-info" />
         <In class="sosmed fill-neutral" />
       </div>
