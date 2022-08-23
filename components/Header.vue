@@ -3,7 +3,7 @@
     <nav>
       <NuxtLink to="/" class="flex justify-end items-end gap-2">
         <img
-          src="/assets/Fred St Logo_Header.jpg"
+          src="/assets/FredSt_Logo_Header.jpg"
           alt=""
           class="h-8 md:h-12 p-0 m-0"
         />
