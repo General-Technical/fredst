@@ -1,6 +1,5 @@
 ---
 title: About
-description:
 image: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/173e7b35587347.578640ffeaff5.jpg
 ---
 

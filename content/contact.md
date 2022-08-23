@@ -1,6 +1,5 @@
 ---
 title: Contact
-description: Description
 image: https://lawebloca.com/wp-content/uploads/2014/11/contemporary-modern-landscape-architecture.jpg
 ---
 

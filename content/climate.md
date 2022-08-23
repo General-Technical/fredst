@@ -1,6 +1,5 @@
 ---
 title: Climate Active
-description:
 image: https://www.italianlandscapearchitecture.it/wp-content/uploads/2017/12/landscape-project-company-italian-render-design-akfa_11.jpg
 ---
 
