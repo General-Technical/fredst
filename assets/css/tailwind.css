@@ -5,10 +5,10 @@
     src: url("@/assets/fonts/Jackwrite-8MxjA.ttf");
   }
 */
-@font-face {
+/* @font-face {
   font-family: "ZnikomitSC";
   src: url("@/assets/fonts/ZnikomitSC.otf");
-}
+} */
 
 @tailwind base;
 @tailwind components;
