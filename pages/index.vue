@@ -1,6 +1,6 @@
 <template>
   <section class="relative">
-    <ContentDoc path="/home" v-slot="{ doc }">
+    <ContentDoc path="/contact" v-slot="{ doc }">
       <!-- Image -->
       <FadeUp
         bgImage
@@ -11,13 +11,24 @@
       <FadeUp class="hero-image left" />
       <!-- Content -->
       <FadeUp>
-        <h1 class="page-title left">
-          {{ doc.title }}
-        </h1>
-        <Squares class="squares left" />
-        <!-- Card -->
-        <ContentRenderer :value="doc" class="content crd left" />
+        <NuxtLink to="/company">
+          <img
+            src="/assets/Fred St Logo_Header.jpg"
+            class="h-32 md:h-20 p-0 m-0 site-padding mx-auto"
+            alt=""
+          />
+          <button class="w-full mx-auto mt-4"><h2>Enter</h2></button>
+        </NuxtLink>
       </FadeUp>
     </ContentDoc>
   </section>
 </template>
+
+<script setup>
+definePageMeta({
+  layout: "blank",
+});
+useHead({
+  title: "Contact - Fred St.",
+});
+</script>

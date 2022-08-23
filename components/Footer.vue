@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen bg-secondary border-t mt-8">
+  <div class="w-screen bg-secondary border-t z-50">
     <footer class="h-12 grid grid-cols-3">
       <NuxtLink to="/" class="flex items-end gap-2">
         <Squares class="mb-[2px]" />

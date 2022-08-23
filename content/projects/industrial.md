@@ -1,7 +1,8 @@
 ---
-sector: Residential
+title: Industrial
+sector: Industrial
+services: Masterplannning, Concept Design
 year: "2022"
-title: Test
 location: Queensland
 description: Description
 image: /images/botanicalgarden.jpg

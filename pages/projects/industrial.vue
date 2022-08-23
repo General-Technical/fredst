@@ -1,9 +1,9 @@
 <template>
   <section class="justify-start">
-    <div class="projects-grid">
+    <div class="projects-grid site-padding">
       <template
-        :data="projects"
-        v-for="project of projects"
+        :data="industrial"
+        v-for="project of industrial"
         :key="project.slug"
       >
         <FadeUp class="flex flex-col flex-1 p-3 shadow-lg">
@@ -37,8 +37,9 @@
 </template>
 
 <script setup>
-const { data: projects } = await useAsyncData("projects", () => {
+const { data: industrial } = await useAsyncData("industrial", () => {
   return queryContent("/projects")
+    .where({ sector: "Industrial" })
     .sort({ year: -1 })
     .sort({ sector: 1 })
     .find();
@@ -48,6 +49,6 @@ definePageMeta({
   layout: "projects",
 });
 useHead({
-  title: "Projects - Fred St.",
+  title: "Industrial - Fred St.",
 });
 </script>

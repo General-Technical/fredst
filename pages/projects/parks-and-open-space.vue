@@ -1,11 +1,7 @@
 <template>
   <section class="justify-start">
-    <div class="projects-grid">
-      <template
-        :data="projects"
-        v-for="project of projects"
-        :key="project.slug"
-      >
+    <div class="projects-grid site-padding">
+      <template :data="parks" v-for="project of parks" :key="project.slug">
         <FadeUp class="flex flex-col flex-1 p-3 shadow-lg">
           <NuxtLink :to="project._path">
             <div
@@ -37,8 +33,9 @@
 </template>
 
 <script setup>
-const { data: projects } = await useAsyncData("projects", () => {
+const { data: parks } = await useAsyncData("parks", () => {
   return queryContent("/projects")
+    .where({ sector: "Parks & Open Space" })
     .sort({ year: -1 })
     .sort({ sector: 1 })
     .find();
@@ -48,6 +45,6 @@ definePageMeta({
   layout: "projects",
 });
 useHead({
-  title: "Projects - Fred St.",
+  title: "Parks & Open Space - Fred St.",
 });
 </script>

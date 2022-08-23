@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ["Montserrat", "sans-serif"],
+        fred: ["ZnikomitSC", "serif"],
       },
       animation: {
         "pulse-slow": "pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",
@@ -21,6 +22,10 @@ module.exports = {
       },
       rotate: {
         127: "127deg",
+      },
+      backgroundImage: {
+        "hero-pattern":
+          "linear-gradient(to right bottom, rgba(43, 108, 176, 0.9), rgba(43, 108, 176, 0.9)), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.eAFxNBriFW8k0jCNOTCe6gHaHs%26pid%3DApi&f=1')",
       },
     },
   },

@@ -1,19 +1,36 @@
 <template>
-  <div class="light-bg w-screen fixed top-14 sm:top-[53px] pt-3 z-40">
-    <ul
-      class="flex flex-wrap justify-end pb-4 site-padding border-b px-6 xl:px-0 trans"
-    >
+  <div
+    class="bg-secondary w-screen fixed top-14 sm:top-[80px] pt-3 border-b z-40"
+  >
+    <ul class="flex flex-wrap justify-end pb-4 site-padding px-6 xl:px-0 trans">
       <li class="decoration-info">
         <NuxtLink to="/projects">All</NuxtLink>
       </li>
       <li class="decoration-neutral">
-        <NuxtLink to="/projects/residential">Residential</NuxtLink>
+        <NuxtLink to="/projects/transport-infrastructure"
+          >Transport Infrastructure</NuxtLink
+        >
       </li>
       <li class="decoration-accent">
-        <NuxtLink to="/projects/tourism">Tourism</NuxtLink>
+        <NuxtLink to="/projects/social-infrastructure"
+          >Social Infrastructure</NuxtLink
+        >
       </li>
       <li class="decoration-info">
-        <NuxtLink to="/projects/transport">Transport</NuxtLink>
+        <NuxtLink to="/projects/parks-and-open-space"
+          >Parks & Open Space</NuxtLink
+        >
+      </li>
+      <li class="decoration-neutral">
+        <NuxtLink to="/projects/residential-development"
+          >Residential Development</NuxtLink
+        >
+      </li>
+      <li class="decoration-accent">
+        <NuxtLink to="/projects/urban-mixed-use">Urban Mixed Use</NuxtLink>
+      </li>
+      <li class="decoration-info">
+        <NuxtLink to="/projects/industrial"> Industrial</NuxtLink>
       </li>
     </ul>
   </div>

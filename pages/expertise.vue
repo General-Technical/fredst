@@ -10,14 +10,16 @@
       <!-- Image Overlay -->
       <FadeUp class="hero-image left" />
       <!-- Content -->
-      <FadeUp>
-        <h1 class="page-title left">
-          {{ doc.title }}
-        </h1>
-        <Squares class="squares left" />
-        <!-- Card -->
-        <ContentRenderer :value="doc" class="content crd left" />
-      </FadeUp>
+      <div class="site-padding">
+        <FadeUp>
+          <h1 class="page-title left">
+            {{ doc.title }}
+          </h1>
+          <Squares class="squares left" />
+          <!-- Card -->
+          <ContentRenderer :value="doc" class="content crd left" />
+        </FadeUp>
+      </div>
     </ContentDoc>
   </section>
 </template>

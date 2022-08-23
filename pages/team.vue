@@ -1,5 +1,5 @@
 <template>
-  <section class="relative">
+  <section class="relative items-start pt-36">
     <ContentDoc path="/team" v-slot="{ doc }">
       <!-- Image -->
       <FadeUp
@@ -10,40 +10,42 @@
       <!-- Image Overlay -->
       <FadeUp class="hero-image right" />
       <!-- Content -->
-      <FadeUp>
-        <h1 class="page-title right">
-          {{ doc.title }}
-        </h1>
-        <Squares class="squares right" />
-        <!-- Card -->
-        <div class="content crd right">
-          <ContentRenderer :value="doc" />
-          <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mt-3">
-            <!-- Team Member -->
-            <template
-              :data="people"
-              v-for="person of people"
-              :key="person.slug"
-            >
-              <FadeUp class="flex flex-col flex-1 border p-3 pb-0 shadow-lg">
-                <NuxtLink :to="person._path" class="flex flex-col h-full">
-                  <div class="flex items-center mb-3">
-                    <Squares />
-                  </div>
-                  <div
-                    bgImage
-                    :style="{ backgroundImage: 'url(' + person.image + ')' }"
-                    class="aspect-square bg-cover mb-2"
-                  />
-                  <h3 class="text-left mb-1">{{ person.name }}</h3>
-                  <p class="text-left">{{ person.description }}</p>
-                  <p class="mt-auto">more...</p>
-                </NuxtLink>
-              </FadeUp>
-            </template>
+      <div class="site-padding">
+        <FadeUp>
+          <h1 class="page-title right">
+            {{ doc.title }}
+          </h1>
+          <Squares class="squares right" />
+          <!-- Card -->
+          <div class="content crd right">
+            <ContentRenderer :value="doc" />
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mt-3">
+              <!-- Team Member -->
+              <template
+                :data="people"
+                v-for="person of people"
+                :key="person.slug"
+              >
+                <FadeUp class="flex flex-col flex-1 p-3 pb-0 shadow-lg">
+                  <NuxtLink :to="person._path" class="flex flex-col h-full">
+                    <div class="flex items-center mb-3">
+                      <Squares />
+                    </div>
+                    <div
+                      bgImage
+                      :style="{ backgroundImage: 'url(' + person.image + ')' }"
+                      class="aspect-square bg-cover mb-2"
+                    />
+                    <h3 class="text-left mb-1">{{ person.name }}</h3>
+                    <p class="text-left">{{ person.description }}</p>
+                    <p class="mt-auto">more...</p>
+                  </NuxtLink>
+                </FadeUp>
+              </template>
+            </div>
           </div>
-        </div>
-      </FadeUp>
+        </FadeUp>
+      </div>
     </ContentDoc>
   </section>
 </template>
