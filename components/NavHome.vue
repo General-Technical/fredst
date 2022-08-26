@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="bg-secondary w-screen fixed top-10 sm:top-[80px] pt-3 z-10 border-b"
-  >
+  <div class="secondary-nav">
     <ul class="flex justify-end pb-3 sm:pb-4 site-padding px-6 xl:px-0 trans">
       <li class="decoration-info">
         <NuxtLink to="/about">About Us</NuxtLink>

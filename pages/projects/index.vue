@@ -6,14 +6,14 @@
         v-for="project of projects"
         :key="project.slug"
       >
-        <FadeUp class="flex flex-col flex-1 p-3 shadow-lg">
+        <FadeUp class="flex flex-col flex-1">
           <NuxtLink :to="project._path">
             <div
               bgImage
               :style="{ backgroundImage: 'url(' + project.image + ')' }"
               class="aspect-video bg-cover mb-2"
             />
-            <h3 class="text-left mb-1 pb-3 border-b">
+            <h3 class="underlined-text">
               {{ project.title }}
             </h3>
             <div class="flex flex-col mt-3">
@@ -26,7 +26,7 @@
                 <h5 class="text-left w-2/3">{{ project.services }}</h5>
               </div>
             </div>
-            <p class="text-left mt-2 pb-3 border-b">
+            <p class="underlined-text">
               {{ project.description }}
             </p>
           </NuxtLink>

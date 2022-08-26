@@ -12,12 +12,7 @@
       <!-- Content -->
       <FadeUp>
         <NuxtLink to="/company">
-          <img
-            src="/assets/FredSt_Logo_Header.jpg"
-            class="h-32 md:h-20 p-0 m-0 site-padding mx-auto"
-            alt=""
-          />
-          <button class="w-full mx-auto mt-4"><h2>Enter</h2></button>
+          <Logo class="h-24 w-auto" />
         </NuxtLink>
       </FadeUp>
     </ContentDoc>
@@ -26,7 +21,7 @@
 
 <script setup>
 definePageMeta({
-  layout: "blank",
+  layout: "base",
 });
 useHead({
   title: "Contact - Fred St.",
