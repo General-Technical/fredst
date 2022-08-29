@@ -78,6 +78,9 @@
 }
 
 @layer components {
+  .site-padding {
+    @apply max-w-screen-xl mx-auto;
+  }
   .secondary-nav {
     @apply bg-secondary w-screen fixed top-10 sm:top-[64px] pt-4 z-10;
   }
@@ -96,61 +99,21 @@
   .projects-grid {
     @apply grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 w-full site-padding mt-36 lg:mt-32;
   }
-  .trans {
-    @apply transition duration-300 ease-in-out;
-  }
-  .light-bg {
-    @apply bg-secondary bg-opacity-80 backdrop-blur-sm;
-  }
-  .white-bg {
-    @apply bg-secondary bg-opacity-80 backdrop-blur-sm;
-  }
-  .site-padding {
-    @apply max-w-screen-xl mx-auto;
-  }
   .sosmed {
     @apply w-6 h-6 fill-primary shadow trans;
-  }
-
-  .left {
-    @apply right-0 bg-gradient-to-r from-secondary to-transparent;
-  }
-  h1.left {
-    @apply ml-6 bg-none;
   }
   .squares {
     @apply mb-5 bg-none;
   }
-  .squares.left {
-    @apply ml-6 mb-6 bg-none;
-  }
-  .squares.right {
-    @apply justify-end mr-6 mb-6 bg-none;
-  }
-  .content.left {
-    @apply bg-gradient-to-l from-secondary to-transparent;
+  .left {
+    @apply right-0;
   }
   .right {
-    @apply ml-auto left-0 bg-gradient-to-l from-secondary to-transparent;
+    @apply ml-auto left-0;
   }
-  h1.right {
-    @apply ml-auto mr-6 bg-none text-right;
+  .trans {
+    @apply transition duration-300 ease-in-out;
   }
-  .content.right {
-    @apply bg-gradient-to-r from-secondary to-transparent;
-  }
-}
-
-/* Daisy */
-
-.dropdown-content {
-  @apply w-full bg-secondary bg-opacity-80 backdrop-blur-sm rounded;
-}
-.card {
-  @apply bg-transparent !rounded-none pb-4;
-}
-.card-body {
-  @apply p-5;
 }
 
 input:-webkit-autofill,

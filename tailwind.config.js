@@ -8,7 +8,13 @@ module.exports = {
   ],
   mode: "jit",
   theme: {
-    colors: {},
+    colors: {
+      primary: "#000000",
+      secondary: "#f7f7f7",
+      accent: "#c81f46",
+      neutral: "#B1D23B",
+      info: "#19B4B9",
+    },
     extend: {
       fontFamily: {
         body: ["Montserrat", "sans-serif"],
@@ -29,36 +35,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms"), require("daisyui")],
-  daisyui: {
-    styled: true,
-    themes: [
-      {
-        light: {
-          primary: "#000000",
-          secondary: "#f7f7f7",
-          accent: "#c81f46",
-          neutral: "#B1D23B",
-          info: "#19B4B9",
-          "base-100": "#f7f7f7",
-        },
-      },
-      {
-        dark: {
-          primary: "#000000",
-          secondary: "#f7f7f7",
-          accent: "#c81f46",
-          neutral: "#B1D23B",
-          info: "#19B4B9",
-          "base-100": "#f7f7f7",
-        },
-      },
-    ],
-    base: true,
-    utils: true,
-    logs: true,
-    rtl: false,
-    prefix: "",
-    darkTheme: "dark",
-  },
+  plugins: [],
 };

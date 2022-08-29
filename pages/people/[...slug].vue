@@ -5,29 +5,29 @@
       <FadeUp
         bgImage
         :style="{ backgroundImage: 'url(' + doc.image + ')' }"
-        class="hero-image left"
+        class="hero-image left bg-cover"
       />
-      <!-- Image Overlay -->
-      <FadeUp class="hero-image left" />
       <!-- Content -->
-      <FadeUp>
-        <h1 class="page-title left w-4/6">
-          {{ doc.name }}
-        </h1>
-        <Squares class="squares left" />
+      <div class="site-padding">
         <!-- Card -->
-        <div class="content crd left grid grid-cols-2 gap-3">
-          <div>
-            <h3>{{ doc.description }}</h3>
-            <ContentRenderer :value="doc" />
+        <FadeUp class="content crd left">
+          <div class="grid grid-cols-2 gap-8">
+            <div>
+              <h1 class="page-title">
+                {{ doc.name }}
+              </h1>
+              <Squares class="squares" />
+              <h3>{{ doc.description }}</h3>
+              <ContentRenderer :value="doc" />
+            </div>
+            <div
+              bgImage
+              :style="{ backgroundImage: 'url(' + doc.image + ')' }"
+              class="aspect-[3/4] bg-cover w-full"
+            />
           </div>
-          <div
-            bgImage
-            :style="{ backgroundImage: 'url(' + doc.image + ')' }"
-            class="aspect-[3/4] bg-cover w-full"
-          />
-        </div>
-      </FadeUp>
+        </FadeUp>
+      </div>
     </ContentDoc>
   </section>
 </template>
