@@ -1,6 +1,6 @@
 <template>
   <section class="justify-start">
-    <div class="projects-grid">
+    <div class="projects-grid site-padding">
       <template
         :data="projects"
         v-for="project of projects"

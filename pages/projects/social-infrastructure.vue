@@ -2,7 +2,7 @@
   <section class="justify-start">
     <div class="projects-grid site-padding">
       <template :data="social" v-for="project of social" :key="project.slug">
-        <FadeUp class="flex flex-col flex-1 p-3 shadow-lg">
+        <FadeUp class="flex flex-col flex-1">
           <NuxtLink :to="project._path">
             <div
               bgImage

@@ -6,7 +6,7 @@
         v-for="project of transport"
         :key="project.slug"
       >
-        <FadeUp class="flex flex-col flex-1 p-3 shadow-lg">
+        <FadeUp class="flex flex-col flex-1">
           <NuxtLink :to="project._path">
             <div
               bgImage

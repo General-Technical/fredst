@@ -11,20 +11,20 @@
         <Squares class="squares" />
         <div class="flex gap-8">
           <div class="w-2/5">
-            <h2 class="mb-1">Services</h2>
-            <h4>Masterplanning</h4>
-            <h4>Infrastructure Urban Design</h4>
-            <h4>Design & Documentation</h4>
-            <h4>Contract Administration</h4>
-            <h4>Graphic & 3D Visualisation</h4>
-            <h2 class="mb-1 mt-3">Sectors</h2>
-            <h4>Transport Infrastructure</h4>
-            <h4>Parks & Open Space</h4>
-            <h4>Social Infrastructure</h4>
-            <h4>Urban Multi-Use</h4>
-            <h4>Residential</h4>
-            <h4>RMining & Industrial</h4>
-            <h4>Tourism</h4>
+            <h4 class="mb-1">Services</h4>
+            <h5>Masterplanning</h5>
+            <h5>Infrastructure Urban Design</h5>
+            <h5>Design & Documentation</h5>
+            <h5>Contract Administration</h5>
+            <h5>Graphic & 3D Visualisation</h5>
+            <h4 class="mb-1 mt-3">Sectors</h4>
+            <h5>Transport Infrastructure</h5>
+            <h5>Parks & Open Space</h5>
+            <h5>Social Infrastructure</h5>
+            <h5>Urban Multi-Use</h5>
+            <h5>Residential</h5>
+            <h5>Mining & Industrial</h5>
+            <h5>Tourism</h5>
           </div>
           <div class="w-3/5">
             <p>
