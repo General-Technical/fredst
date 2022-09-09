@@ -4,7 +4,11 @@ sector: Social Infrastructure
 services: Design & Documentation
 year: "2020"
 location: Brisbane, Queensland
-description: tbc
+description: This design incorporated a specific planting palette, timber
+  decking and play elements in order to stabilise and rehabilitate steep
+  embankments that hindered play opportunities and contributed to erosion.
+  Terraced seating has provided further support and functionality to a
+  previously troublesome area.
 image: /images/20220318_112051.jpg
 image1: /images/rochedale-ss_concept-plan.jpg
 image2: /images/20220318_112141.jpg
