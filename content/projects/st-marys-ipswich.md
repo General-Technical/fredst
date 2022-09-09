@@ -6,8 +6,8 @@ year: "2016"
 location: Ipswich, Queensland
 description: Fred St designed and documented universally accessible play spaces
   within St Mary's Primary School. Great care and sensitivity was employed to
-  successfully the integrate a modern and vibrant play outcome amongst the
-  context of the heritage-listed St Mary's Roman Catholic Church Precinct.
+  successfully integrate a modern and vibrant play outcome amongst the context
+  of the heritage-listed St Mary's Roman Catholic Church Precinct.
 image: /images/img_2010.jpg
 image1: /images/img_2028.jpg
 image2: /images/img_2034.jpg
