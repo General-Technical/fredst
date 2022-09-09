@@ -1,7 +1,7 @@
 ---
 name: Dave Fisher
 role: Landscape Technician
-description: Is cool guy?
+description: Quinoa forever
 image: /images/dave_no-background.jpg
 ---
 .
