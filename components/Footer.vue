@@ -10,7 +10,6 @@
         </p>
         <div class="flex my-auto">
           <p class="font-light text-xs uppercase">
-            By:
             <a
               href="https://generaltechnical.com.au"
               target="_blank"
