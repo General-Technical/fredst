@@ -1,6 +1,6 @@
 ---
 title: Primewest SRG
-sector: Industrial
+sector: Urban Mixed Use
 services: Design & Documentation
 year: "2020"
 location: Strathpine, Queensland
