@@ -12,11 +12,11 @@
           @click="setActive"
           class="absolute top-20 left-1/2 -translate-x-1/2 hover:text-accent site-padding"
         >
-          <FadeDown>
+          <FadeDownLeave>
             <Close />
-          </FadeDown>
+          </FadeDownLeave>
         </button>
-        <FadeUpLeave class="mt-32">
+        <FadeUpLeave class="mt-28">
           <slot name="details" />
         </FadeUpLeave>
       </div>
