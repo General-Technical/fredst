@@ -10,80 +10,91 @@ media_folder: public/images
 public_folder: /images
 
 collections:
-  - label: "Projects"
-    name: "projects"
-    folder: "content/projects"
-    format: "frontmatter"
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - label: 'About'
+        name: 'about'
+        file: '/content/about.md'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Body, name: body, widget: markdown }
+
+  - label: 'Projects'
+    name: 'projects'
+    folder: 'content/projects'
+    format: 'frontmatter'
     create: true
     fields:
       - { label: Title, name: title, widget: string }
-      - label: "Sector"
-        name: "sector"
-        widget: "select"
+      - label: 'Sector'
+        name: 'sector'
+        widget: 'select'
         options:
           [
-            "Transport Infrastructure",
-            "Social Infrastructure",
-            "Parks & Open Space",
-            "Residential Development",
-            "Urban Mixed Use",
-            "Industrial",
+            'Transport Infrastructure',
+            'Social Infrastructure',
+            'Parks & Open Space',
+            'Residential Development',
+            'Urban Mixed Use',
+            'Industrial',
           ]
       - { label: Services, name: services, widget: string }
       - { label: Year, name: year, widget: string }
       - { label: Location, name: location, widget: string }
       - { label: Description, name: description, widget: string }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
       - {
-          label: "Hero Image",
-          name: "image",
-          widget: "image",
+          label: 'Hero Image',
+          name: 'image',
+          widget: 'image',
           choose_url: false,
           required: true,
         }
       - {
-          label: "Project Image 1",
-          name: "image1",
-          widget: "image",
+          label: 'Project Image 1',
+          name: 'image1',
+          widget: 'image',
           choose_url: false,
           required: false,
           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,
         }
       - {
-          label: "Project Image 2",
-          name: "image2",
-          widget: "image",
+          label: 'Project Image 2',
+          name: 'image2',
+          widget: 'image',
           choose_url: false,
           required: false,
         }
       - {
-          label: "Project Image 3",
-          name: "image3",
-          widget: "image",
+          label: 'Project Image 3',
+          name: 'image3',
+          widget: 'image',
           choose_url: false,
           required: false,
         }
       - {
-          label: "Project Image 4",
-          name: "image4",
-          widget: "image",
+          label: 'Project Image 4',
+          name: 'image4',
+          widget: 'image',
           choose_url: false,
           required: false,
         }
-  - label: "Team"
-    name: "team"
-    folder: "content/people"
-    format: "frontmatter"
+  - label: 'Team'
+    name: 'team'
+    folder: 'content/people'
+    format: 'frontmatter'
     create: true
     fields:
       - { label: Name, name: name, widget: string }
       - { label: Role, name: role, widget: string }
       - { label: Description, name: description, widget: string }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
       - {
-          label: "Image",
-          name: "image",
-          widget: "image",
+          label: 'Image',
+          name: 'image',
+          widget: 'image',
           choose_url: false,
           required: true,
         }
