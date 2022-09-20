@@ -13,9 +13,44 @@ collections:
   - label: 'Pages'
     name: 'pages'
     files:
+      - label: 'Home'
+        name: 'home'
+        file: '/content/home.md'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Body, name: body, widget: markdown }
+      - label: 'Company'
+        name: 'company'
+        file: '/content/company.md'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Body, name: body, widget: markdown }
       - label: 'About'
         name: 'about'
         file: '/content/about.md'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Body, name: body, widget: markdown }
+      - label: 'Expertise'
+        name: 'expertise'
+        file: '/content/expertise.md'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Body, name: body, widget: markdown }
+      - label: 'Team'
+        name: 'team'
+        file: '/content/team.md'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Body, name: body, widget: markdown }
+      - label: 'Climate Active'
+        name: 'climate'
+        file: '/content/climate.md'
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }

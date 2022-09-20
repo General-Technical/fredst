@@ -7,33 +7,33 @@ image: https://www.floornature.com/media/photos/1/9150/01_mostra_landscape_archi
 <tr>
 <td valign="top" width="40%" style="padding-right: 40px">
 
-## Services
+#### Services
 
-#### Masterplanning
+##### Masterplanning
 
-#### Infrastructure Urban Design
+##### Infrastructure Urban Design
 
-#### Design & Documentation
+##### Design & Documentation
 
-#### Contract Administration
+##### Contract Administration
 
-#### Graphic & 3D Visualisation
+##### Graphic & 3D Visualisation
 
-## Sectors
+#### Sectors
 
-#### Transport Infrastructure
+##### Transport Infrastructure
 
-#### Parks & Open Space
+##### Parks & Open Space
 
-#### Social Infrastructure
+##### Social Infrastructure
 
-#### Urban Multi-Use
+##### Urban Multi-Use
 
-#### Residential
+##### Residential
 
-#### Mining & Industrial
+##### Mining & Industrial
 
-#### Tourism
+##### Tourism
 
 </td>
 <td valign="top">

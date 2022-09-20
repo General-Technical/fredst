@@ -21,6 +21,6 @@
 
 <script setup>
 useHead({
-  title: '2About Us - Fred St.',
+  title: 'About Us - Fred St.',
 });
 </script>

@@ -1,18 +1,10 @@
 ---
-title: Designing Places for People
-image: https://www.italianlandscapearchitecture.it/wp-content/uploads/2017/12/landscape-project-company-italian-render-design-akfa_11.jpg
+title: Home
+image: https://lawebloca.com/wp-content/uploads/2014/11/contemporary-modern-landscape-architecture.jpg
 ---
 
-## FRED represents our community
+## Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
-### you, me and everyone we design for.
+### Deserunt deleniti consequatur odio error.
 
-## St is the site
-
-### the places where we live, work and play.
-
-At FRED St our desire is to create a landscape architecture group that provides innovative ideas and delivers outstanding design outcomes. By drawing upon our extensive and varied project experience and detailed technical expertise, we will deliver unique and responsive project solutions with a personalised, efficient and dynamic approach.
-
-We offer complete landscape architectural design services from master planning to detailed documentation, construction supervision and 3D visualisation.
-
-Every day, everyone and every community interacts with the street. It’s central to our daily experiences, shapes our future, and places us on the outside — exactly where we love to be!
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est soluta earum, deleniti dignissimos error saepe repellat maxime distinctio ipsa cumque, alias, officiis corporis reprehenderit. Ea, maxime. Rem officiis hic labore!
