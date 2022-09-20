@@ -12,5 +12,9 @@
       defer
     />
     <Script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer />
+    <Link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css"
+    />
   </Head>
 </template>
