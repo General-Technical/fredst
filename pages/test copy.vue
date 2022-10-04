@@ -29,13 +29,34 @@
             </FadeUp>
           </template>
           <template v-slot:details>
-            <h3 class="underlined-text mb-2">
+            <h3 class="underlined-text">
               {{ project.title }}
             </h3>
-            <ContentRenderer :value="project" />
-            <!-- <Swiper>
-              <ContentRenderer :value="project" class="swiper-wrapper" />
-            </Swiper> -->
+            <Swiper>
+              <template v-slot:slides>
+                <div class="swiper-slide px-10 py-8">
+                  <div
+                    bgImage
+                    :style="{ backgroundImage: 'url(' + project.image + ')' }"
+                    class="aspect-video bg-cover bg-center mb-2 w-full h-full swiper-slide px-10 py-8"
+                  />
+                </div>
+                <div class="swiper-slide px-10 py-8">
+                  <div
+                    bgImage
+                    :style="{ backgroundImage: 'url(' + project.image1 + ')' }"
+                    class="aspect-video bg-cover bg-center mb-2 w-full h-full"
+                  />
+                </div>
+                <!-- <swiper-slide class="px-10 py-8">
+                  <div
+                    bgImage
+                    :style="{ backgroundImage: 'url(' + project.image + ')' }"
+                    class="aspect-video bg-cover bg-center mb-2 w-full h-full"
+                  />
+                </swiper-slide> -->
+              </template>
+            </Swiper>
           </template>
         </Lightbox>
       </template>

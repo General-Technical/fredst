@@ -6,6 +6,7 @@ module.exports = {
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
     './src/**/*.{html,js}',
+    './node_modules/tw-elements/dist/js/**/*.js',
   ],
   mode: 'jit',
   theme: {
@@ -36,5 +37,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tw-elements/dist/plugin')],
 };
