@@ -1,6 +1,6 @@
 ---
 title: Climate Active
-image: https://www.italianlandscapearchitecture.it/wp-content/uploads/2017/12/landscape-project-company-italian-render-design-akfa_11.jpg
+image: /images/hero_climate-active.jpg
 ---
 
 ## FRED St is climate active
