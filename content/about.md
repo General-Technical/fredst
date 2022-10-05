@@ -1,6 +1,6 @@
 ---
 title: About
-image: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/173e7b35587347.578640ffeaff5.jpg
+image: /images/hero_about.jpg
 ---
 
 Fred St offers a fresh and exciting landscape architectural design alternative for Developers, Construction Companies and Consultancy businesses operating in the Urban Development and Infrastructure sectors across Australia and who might be seeking a more personalized, creative and cost-effective landscape architectural design service.
