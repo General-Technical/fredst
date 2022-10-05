@@ -1,6 +1,6 @@
 ---
 title: Expertise
-image: https://www.floornature.com/media/photos/1/9150/01_mostra_landscape_architecture_full.jpg
+image: /images/hero_expertise.jpg
 ---
 
 <table>
