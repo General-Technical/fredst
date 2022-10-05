@@ -1,6 +1,6 @@
 ---
 title: Contact
-image: https://lawebloca.com/wp-content/uploads/2014/11/contemporary-modern-landscape-architecture.jpg
+image: /images/hero_contact.jpg
 ---
 
 #### Fred St Pty. Ltd.
