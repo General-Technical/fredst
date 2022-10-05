@@ -1,6 +1,6 @@
 ---
 title: Home
-image: https://lawebloca.com/wp-content/uploads/2014/11/contemporary-modern-landscape-architecture.jpg
+image: /images/hero_home.jpg
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit.
