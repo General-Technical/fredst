@@ -1,26 +1,46 @@
 <template>
   <div class="secondary-nav">
-    <ul class="flex flex-wrap justify-end pb-4 site-padding px-6 xl:px-0 trans">
+    <ul
+      class="flex flex-wrap justify-center sm:justify-end pb-4 site-padding px-6 xl:px-0 trans"
+    >
       <li class="decoration-info">
-        <NuxtLink to="/projects">All</NuxtLink>
+        <NuxtLink to="/projects" class="secondary-nav-item">All</NuxtLink>
       </li>
       <li class="decoration-neutral">
-        <NuxtLink to="/projects/transport-infrastructure">Transport</NuxtLink>
+        <NuxtLink
+          to="/projects/transport-infrastructure"
+          class="secondary-nav-item"
+          >Transport</NuxtLink
+        >
       </li>
       <li class="decoration-accent">
-        <NuxtLink to="/projects/social-infrastructure">Social</NuxtLink>
+        <NuxtLink
+          to="/projects/social-infrastructure"
+          class="secondary-nav-item"
+          >Social</NuxtLink
+        >
       </li>
       <li class="decoration-info">
-        <NuxtLink to="/projects/parks-and-open-space">Parks</NuxtLink>
+        <NuxtLink to="/projects/parks-and-open-space" class="secondary-nav-item"
+          >Parks</NuxtLink
+        >
       </li>
       <li class="decoration-neutral">
-        <NuxtLink to="/projects/residential-development">Residential</NuxtLink>
+        <NuxtLink
+          to="/projects/residential-development"
+          class="secondary-nav-item"
+          >Residential</NuxtLink
+        >
       </li>
       <li class="decoration-accent">
-        <NuxtLink to="/projects/urban-mixed-use">Urban</NuxtLink>
+        <NuxtLink to="/projects/urban-mixed-use" class="secondary-nav-item"
+          >Urban</NuxtLink
+        >
       </li>
       <li class="decoration-info">
-        <NuxtLink to="/projects/industrial"> Industrial</NuxtLink>
+        <NuxtLink to="/projects/industrial" class="secondary-nav-item">
+          Industrial</NuxtLink
+        >
       </li>
     </ul>
   </div>

@@ -56,6 +56,6 @@ definePageMeta({
   layout: 'projects',
 });
 useHead({
-  title: 'Test 5',
+  title: 'Test - Fred St.',
 });
 </script>
