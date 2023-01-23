@@ -1,10 +1,31 @@
 ---
 title: About
-image: /images/hero_about.jpg
+image: /images/hero_about-01.jpg
 ---
+At FRED St our desire is to create a landscape architecture group that provides innovative ideas and delivers outstanding design outcomes. By drawing upon our extensive and varied project experience and detailed technical expertise, we will deliver unique and responsive project solutions with a personalised, efficient and dynamic approach.
 
-Fred St offers a fresh and exciting landscape architectural design alternative for Developers, Construction Companies and Consultancy businesses operating in the Urban Development and Infrastructure sectors across Australia and who might be seeking a more personalized, creative and cost-effective landscape architectural design service.
+We offer full landscape architectural and urban design services as well as specialist 3D visualization from our design studio in Woolloongabba. Our efficient corporate structure enables us to meet the time frame and budgetary expectations of our clients whilst also consistently providing a personalized design service that is innovative, fully resolved and technically excellent.  We deliver the solution, priding ourselves on our ability to work with teams of co-consultants, from the most straightforward projects to the most complex.  
 
-The company’s director Tessa Leggo is supported by specialist CAD, graphics and design employees based at our Fred St Design Studio in Woolloongabba. We offer full landscape architectural and urban design services as well as specialist 3D visualization and graphic design. Our efficient corporate structure enables us to meet the time frame and budgetary expectations of our clients whilst also consistently providing a personalized design service that is innovative, fully resolved and technically excellent.
+We’ve been involved in many projects for various sectors.  Ranging from very small pro bono’s for schools to the largest major infrastructure projects in South East Queensland including Airport Link, Legacy Way and Brisbane Metro. 
 
-We look forward to catching up with all of our friends and colleagues to personally tell them about our current projects and future plans. In the meantime, please explore our evolving website and don’t hesitate to contact one of us if you need any further information or if we can assist you with one of your current project needs.
+Our strengths lie in being able to see the ‘big idea’ with strong a conceptual vision and excellence in communication. We have the capability to provide cutting edge graphic visualisation for presentations and an attention to detail that is apparent in highly resolved construction documentation.  Our projects are characterised by ensuring resources are used in the most effective way, integrating necessary infrastructure with urban design elements and improved community outcomes.
+
+‘At the core of our design approach are collaborations that have lasting social benefits and that support a sustainable, robust and diverse community. We explore innovative ways to meld design and lifestyle, always ensuring the outcome is in-keeping with our client’s visions.’ 
+
+Tessa Leggo
+Director & Registered Landscape Architect
+
+Services
+Masterplanning
+Infrastructure Urban Design
+Design & Documentation
+Contract Administration
+Graphic & 3D Visualisation
+
+Sectors
+Transport Infrastructure
+Social Infrastructure
+PUBLIC REALM, Parks & Open Space
+Residential
+Urban Mixed-Use
+Industrial
