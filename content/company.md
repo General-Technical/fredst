@@ -1,18 +1,9 @@
 ---
 title: Designing Places for People
-image: /images/hero_about.jpg
+image: /images/hero_home-company.jpg
 ---
+Our name evolved from our strong desire to form a Landscape Architectural design consultancy that focused on, and became renowned for, designing unique and memorable places and spaces for people. As designers we are privileged to have the opportunity to influence public realm, urban form and living environments and at FRED St we are always mindful to ensure that our work impacts positively upon everyone that interacts with our projects.
 
-## FRED represents our community
+FRED therefore, is our most important, yet often hidden client - the everyday person that will use the places that we create. It’s representative of our community and everyone we design for.  It also describes the responsibility we have to the people, the animals and the landscape of that place. 
 
-### you, me and everyone we design for.
-
-## St is the site
-
-### the places where we live, work and play.
-
-At FRED St our desire is to create a landscape architecture group that provides innovative ideas and delivers outstanding design outcomes. By drawing upon our extensive and varied project experience and detailed technical expertise, we will deliver unique and responsive project solutions with a personalised, efficient and dynamic approach.
-
-We offer complete landscape architectural design services from master planning to detailed documentation, construction supervision and 3D visualisation.
-
-Every day, everyone and every community interacts with the street. It’s central to our daily experiences, shapes our future, and places us on the outside — exactly where we love to be!
+The St represents the site or location - the places where we all live, work and play. Every day, everyone and every community interacts with the street. It’s central to our daily experiences, shapes our future, and places us outside - exactly where we love to be!
