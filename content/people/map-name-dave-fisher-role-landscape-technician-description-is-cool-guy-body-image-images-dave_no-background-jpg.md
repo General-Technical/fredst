@@ -2,6 +2,6 @@
 name: Dave Fisher
 role: Landscape Technician
 description: Quinoa forever
-image: /images/dave_no-background.jpg
+image: /images/dave-fisher.jpg
 ---
-.
+Currently completing his studies in Landscape Architecture, Dave is a long term FRED that supports the team with his documentation skills.  Having a history in the hospitality industry, Dave brings a level of understanding to spatial requirements and the experience of the users.  He’s extending his knowledge of local plants, getting a real feel for how to arrange the palettes into a softscape design that gives each project it’s own character and visual interest.  Water plays an integral part to all landscapes and Dave is exploring what this means to the future of our industry and lifestyles.
