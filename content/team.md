@@ -1,26 +1,41 @@
 ---
 title: Team
-image: /images/hero_team.jpg
+image: /images/hero_team-01.jpg
 ---
-
 <table>
 <tr>
 <td valign="top" width="34%" style="padding-right: 40px">
     
-### Lead by Tessa Leggo, our small team of highly skilled professionals are determined to provide the combined product of functional landscapes and creative outcomes.
-
-#### Tessa Leggo
-
-##### Director & Registered Landscape Architect
+### Our team of highly skilled professionals are determined to provide the combined product of functional landscapes and creative outcomes in a socially responsible context.
 
 </td>
 <td valign="top">
     
-Tessa is a passionate Landscape Architect with extensive experience in the design of public open spaces, urban multi-use, residential communities and transport infrastructure. She has worked within local government, in Dubai, UAE, and in multi-disciplinary firms where she had the opportunity to work on high profile, large scale projects.
+FRED St was started in 2014 and in that time we have been lucky enough to receive a number of industry awards:
 
-Tessa has had extensive experience in the design and documentation of play experiences, from small scale to multi-million dollar projects. Tessa was the lead designer on the winning Cairns connect bid for the Cairns Bruce Highway Upgrade; was the Urban Design lead for the Eastern connection works on the winning the Transcity Legacy Way Bid; and was Urban Design lead for the Airport Link, Bowen Hills precinct, and Airport Roundabout Upgrade Projects.
+AILA Qld Award for Excellence 2016 - Infrastructure
+L&UD Masterplan - KSD Reference Design & Framework
 
-Currently completing the detailed design for the Heritage Listed site of Bremer TAFE, she’s involved in the delivery of interpretive design for this historical site. She has significant experience working in multi-disciplinary teams integrating innovative and creative urban design and community outcomes within complex engineering designs.
+Australian Urban Design Awards 2016 
+Urban Design, Policies, Programs and Concepts – Large Scale, Commendation
+L&UD Masterplan - KSD Reference Design & Framework
+
+AILA Qld Award for Excellence 2017 - 
+Community Contribution
+Yeronga State School - Cool School Review
+
+AILA Qld Regional Achievement Award 2018 
+Oakey Creek Linear Corridor
+
+AILA Qld Regional Achievement Award 2019 
+TRC TRSC Entry Statements Masterplan  
+
+AILA Qld Landscape Architecture Award 2020 - Small Projects
+Flower St Offices  
+
+AILA Qld Award for Excellence 2022 - 
+Small Projects
+Carol Park - Shared Path Link
 
 </td>
 </tr>
