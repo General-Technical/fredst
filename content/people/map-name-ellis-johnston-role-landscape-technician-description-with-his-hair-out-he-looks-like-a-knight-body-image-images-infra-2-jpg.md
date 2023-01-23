@@ -2,6 +2,6 @@
 name: Ellis Johnston
 role: Landscape Technician
 description: With his hair out, he looks like a knight
-image: /images/ellis-no-background.jpg
+image: /images/ellis-johnston.jpg
 ---
-.
+Having recently graduated, Ellis is quickly solidifying his studies into practical experience.  He is competently documenting a range of projects and beginning to apply his interest in fabrication and mechanics in the development of construction details for bespoke structures and play items.  Ellis loves to adventure across our beautiful piece of the world and looks to integrate a light touch, exploring the environmentally responsible aspects of design.  His vision is being able to provide a fully functional development that has a zero negative impact.
