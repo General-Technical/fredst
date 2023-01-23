@@ -1,41 +1,41 @@
 module.exports = {
-  darkMode: 'class',
+  darkMode: "class",
   content: [
-    './components/**/*.{js,vue,ts}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './src/**/*.{html,js}',
-    './node_modules/tw-elements/dist/js/**/*.js',
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
-  mode: 'jit',
+  mode: "jit",
   theme: {
     colors: {
-      primary: '#000000',
-      secondary: '#f7f7f7',
-      accent: '#c81f46',
-      neutral: '#B1D23B',
-      info: '#19B4B9',
+      primary: "#000000",
+      secondary: "#ffffff",
+      accent: "#c81f46",
+      neutral: "#B1D23B",
+      info: "#19B4B9",
     },
     extend: {
       fontFamily: {
-        body: ['Montserrat', 'sans-serif'],
+        body: ["Montserrat", "sans-serif"],
         // fred: ["ZnikomitSC", "serif"],
       },
       animation: {
-        'pulse-slow': 'pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        "pulse-slow": "pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
       dropShadow: {
-        '3xl': '3px 3px 3px rgba(75, 189, 164, 0.5)',
+        "3xl": "3px 3px 3px rgba(75, 189, 164, 0.5)",
       },
       rotate: {
-        127: '127deg',
+        127: "127deg",
       },
       backgroundImage: {
-        'hero-pattern':
+        "hero-pattern":
           "linear-gradient(to right bottom, rgba(43, 108, 176, 0.9), rgba(43, 108, 176, 0.9)), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.eAFxNBriFW8k0jCNOTCe6gHaHs%26pid%3DApi&f=1')",
       },
     },
   },
-  plugins: [require('tw-elements/dist/plugin')],
+  plugins: [require("tw-elements/dist/plugin")],
 };

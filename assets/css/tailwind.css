@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,500&display=swap");
 /*
 @font-face {
     font-family: "Jackwrite";
@@ -19,7 +19,7 @@
     @apply mx-auto bg-secondary text-primary font-body font-light text-sm tracking-widest;
   }
   header {
-    @apply bg-secondary w-screen fixed top-0 left-0 pt-6 z-50 shadow-md;
+    @apply bg-secondary w-screen fixed top-0 left-0 pt-6 z-50 shadow-md bg-opacity-90;
   }
   footer {
     @apply flex items-center justify-center w-full site-padding z-50;
@@ -82,7 +82,7 @@
     @apply max-w-screen-xl mx-auto px-2 sm:px-6 xl:px-0;
   }
   .secondary-nav {
-    @apply bg-secondary w-screen fixed top-[96px] sm:top-[64px] pt-4 z-10 shadow-md;
+    @apply bg-secondary w-screen fixed top-[96px] sm:top-[64px] pt-4 z-10 shadow-md bg-opacity-90;
   }
   .secondary-nav-item {
     @apply text-xs sm:text-sm;
@@ -94,7 +94,7 @@
     @apply bg-cover w-full h-full absolute top-0 z-0;
   }
   .crd {
-    @apply bg-secondary p-6 shadow-xl w-full md:w-2/3 z-50 px-2 sm:px-6 mt-36 sm:mt-0;
+    @apply bg-secondary p-6 shadow-xl w-full lg:w-2/3 z-50 px-2 sm:px-6 mt-36 sm:mt-0;
   }
   .projects-grid {
     @apply grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 w-full site-padding mt-36 lg:mt-32;

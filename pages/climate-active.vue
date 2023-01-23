@@ -8,7 +8,7 @@
         class="hero-image"
       />
       <!-- Content -->
-      <div class="site-padding">
+      <div class="site-padding pt-28">
         <FadeUp class="crd left">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
@@ -21,6 +21,6 @@
 
 <script setup>
 useHead({
-  title: 'Climate Active - Fred St.',
+  title: "Climate Active - Fred St.",
 });
 </script>

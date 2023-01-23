@@ -1,6 +1,6 @@
 <template>
   <section class="relative">
-    <ContentDoc path="/expertise" v-slot="{ doc }">
+    <ContentDoc path="/country" v-slot="{ doc }">
       <!-- Image -->
       <FadeUp
         bgImage
@@ -8,7 +8,7 @@
         class="hero-image"
       />
       <!-- Content -->
-      <div class="site-padding">
+      <div class="site-padding pt-28">
         <FadeUp class="crd left">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
@@ -21,6 +21,6 @@
 
 <script setup>
 useHead({
-  title: 'Expertise - Fred St.',
+  title: "Country - Fred St.",
 });
 </script>

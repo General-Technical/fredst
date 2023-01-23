@@ -4,18 +4,17 @@
       <li class="decoration-info">
         <NuxtLink to="/about" class="secondary-nav-item">About</NuxtLink>
       </li>
+
       <li class="decoration-neutral">
-        <NuxtLink to="/expertise" class="secondary-nav-item"
-          >Expertise</NuxtLink
-        >
-      </li>
-      <li class="decoration-accent">
         <NuxtLink to="/team" class="secondary-nav-item">Team</NuxtLink>
       </li>
-      <li class="decoration-info">
+      <li class="decoration-accent">
         <NuxtLink to="/climate-active" class="secondary-nav-item"
           >Climate Active</NuxtLink
         >
+      </li>
+      <li class="decoration-info">
+        <NuxtLink to="/country" class="secondary-nav-item">Country</NuxtLink>
       </li>
     </ul>
   </div>

@@ -13,13 +13,13 @@ collections:
   - label: 'Pages'
     name: 'pages'
     files:
-      - label: 'Home'
-        name: 'home'
-        file: '/content/home.md'
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Body, name: body, widget: markdown }
+      # - label: 'Home'
+      #   name: 'home'
+      #   file: '/content/home.md'
+      #   fields:
+      #     - { label: Title, name: title, widget: string }
+      #     - { label: Image, name: image, widget: image }
+      #     - { label: Body, name: body, widget: markdown }
       - label: 'Company'
         name: 'company'
         file: '/content/company.md'

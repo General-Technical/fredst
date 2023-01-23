@@ -1,6 +1,6 @@
 <template>
   <section class="relative">
-    <ContentDoc path="/company" v-slot="{ doc }">
+    <ContentDoc path="/home" v-slot="{ doc }">
       <!-- Image -->
       <FadeUp
         bgImage
@@ -9,7 +9,7 @@
       />
       <!-- Content -->
       <div class="site-padding">
-        <FadeUp class="crd left">
+        <FadeUp class="crd right">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
           <ContentRenderer :value="doc" />
@@ -21,6 +21,6 @@
 
 <script setup>
 useHead({
-  title: 'Company - Fred St.',
+  title: 'Fred St.',
 });
 </script>

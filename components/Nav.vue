@@ -2,7 +2,7 @@
   <ul class="font-bold">
     <li class="flex items-center gap-2 decoration-info">
       <div class="h-3 w-3 bg-info"></div>
-      <NuxtLink to="/company">Company</NuxtLink>
+      <NuxtLink to="/">Company</NuxtLink>
     </li>
     <li class="flex items-center gap-2 decoration-neutral">
       <div class="h-3 w-3 bg-neutral"></div>
