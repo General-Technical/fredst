@@ -1,12 +1,19 @@
 ---
 title: Contact
-image: /images/hero_contact.jpg
+image: /images/hero_contact-01.jpg
 ---
+FRED St PTY LTD 
 
-#### Fred St Pty. Ltd.
++61 7 3393 2914
 
-29A Logan Rd, Woolloongabba QLD 4102, Australia
+info@fredst.com
 
-**[+61 733 932 914](tel:61-733-932-914)**
+1/29a Logan Rd
+Woolloongabba
+QLD 4012
 
-**[info@fredst.com](mailto:info@fredst.com)**
+P.O. Box 6024
+Woolloongabba
+QLD 4102
+
+you can follow us on the following socials:	or find directions on maps:
