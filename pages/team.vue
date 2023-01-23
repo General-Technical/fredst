@@ -21,14 +21,19 @@
               :key="person.slug"
             >
               <FadeUp class="flex flex-col flex-1">
-                <div class="flex flex-col h-full">
+                <div class="flex flex-col h-full border-b">
                   <div
                     bgImage
                     :style="{ backgroundImage: 'url(' + person.image + ')' }"
                     class="aspect-square bg-cover mb-2"
                   />
-                  <h3 class="underlined-text">{{ person.name }}</h3>
-                  <p class="underlined-text font-medium">
+                  <h3 class="project-title underlined-text">
+                    {{ person.name }}
+                  </h3>
+                  <h5 class="font-bold">
+                    {{ person.role }}
+                  </h5>
+                  <p class="font-medium">
                     {{ person.description }}
                   </p>
                   <ContentRenderer :value="person" />
@@ -44,7 +49,7 @@
 
 <script setup>
 const { data: people } = await useAsyncData("people", () => {
-  return queryContent("/people").sort({ name: -1 }).find();
+  return queryContent("/people").find();
 });
 
 useHead({

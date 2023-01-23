@@ -14,20 +14,20 @@
                 :style="{ backgroundImage: 'url(' + project.image + ')' }"
                 class="aspect-video bg-cover mb-2"
               />
-              <h3 class="underlined-text">
+              <div class="project-title">
                 {{ project.title }}
-              </h3>
-              <div class="flex flex-col mt-3">
+              </div>
+              <div class="project-details">
                 <div class="flex">
-                  <h5 class="text-left font-bold w-1/3">Sector:</h5>
+                  <h5 class="project-subtitle">Sector:</h5>
                   <h5 class="text-left w-2/3">{{ project.sector }}</h5>
                 </div>
                 <div class="flex">
-                  <h5 class="text-left font-bold w-1/3">Services:</h5>
+                  <h5 class="project-subtitle">Services:</h5>
                   <h5 class="text-left w-2/3">{{ project.services }}</h5>
                 </div>
               </div>
-              <p class="underlined-text">
+              <p>
                 {{ project.description }}
               </p>
             </FadeUp>
@@ -49,18 +49,18 @@
 </template>
 
 <script setup>
-const { data: residential } = await useAsyncData('residential', () => {
-  return queryContent('/projects')
-    .where({ sector: 'Residential Development' })
+const { data: residential } = await useAsyncData("residential", () => {
+  return queryContent("/projects")
+    .where({ sector: "Residential Development" })
     .sort({ year: -1 })
     .sort({ sector: 1 })
     .find();
 });
 
 definePageMeta({
-  layout: 'projects',
+  layout: "projects",
 });
 useHead({
-  title: 'Residential Development - Fred St.',
+  title: "Residential Development - Fred St.",
 });
 </script>

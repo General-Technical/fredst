@@ -1,7 +1,0 @@
----
-name: Tom Wilmott
-role: Registered Landscape Architect
-description: Is in very good shape
-image: /images/tom-willmott.jpg
----
-Tom’s knowledge spans across a broad range of projects in scale and complexity. From concept to construction, he has worked on projects in the residential, commercial, industrial, educational, aged care, environmental and major transport infrastructure sectors. Tom’s interest in landscape architecture stems from a desire to create better living environments and has developed particular passions around subtropical design; best practice design in aged care facilities for residents with dementia; using of native flora to celebrate the unique character; and ecological restoration. He heads the Glindemann Park Bushcare Group where he can bring his practice and passion together.

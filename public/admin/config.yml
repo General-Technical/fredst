@@ -34,13 +34,6 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Body, name: body, widget: markdown }
-      - label: 'Expertise'
-        name: 'expertise'
-        file: '/content/expertise.md'
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Body, name: body, widget: markdown }
       - label: 'Team'
         name: 'team'
         file: '/content/team.md'
@@ -51,6 +44,13 @@ collections:
       - label: 'Climate Active'
         name: 'climate'
         file: '/content/climate.md'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Body, name: body, widget: markdown }
+      - label: 'Country'
+        name: 'country'
+        file: '/content/country.md'
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
