@@ -1,7 +1,7 @@
 ---
 name: Tessa Leggo
 role: Director
-description: Outright LEGEND.
-image: /images/tessa.jpg
+description: the boss lady
+image: /images/tessa-leggo.jpg
 ---
-.
+Tessa is a passionate Landscape Architect with extensive experience in the design of public open spaces, urban mixed-use, sporting fields, residential communities and transport infrastructure. She has worked locally and internationally within both the government and private sectors. Having had the opportunity to work on high profile, large scale projects, she has significant experience working in multi-disciplinary teams integrating innovative and creative urban design and community outcomes within complex engineering designs. She is the current AILA Queensland Chapter President and is a strong voice within industry, advocating for a greener, more sustainable future for all of our communities.
