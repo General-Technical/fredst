@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b">
+  <div>
     <button @click="setActive" class="w-full">
       <slot name="summary" />
     </button>

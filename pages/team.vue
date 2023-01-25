@@ -9,7 +9,7 @@
       />
       <!-- Content -->
       <div class="site-padding pt-28">
-        <FadeUp class="crd right">
+        <FadeUp class="crd left">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
           <ContentRenderer :value="doc" />
@@ -21,23 +21,13 @@
               :key="person.slug"
             >
               <FadeUp class="flex flex-col flex-1">
-                <div class="flex flex-col h-full border-b">
-                  <div
-                    bgImage
-                    :style="{ backgroundImage: 'url(' + person.image + ')' }"
-                    class="aspect-square bg-cover mb-2"
-                  />
-                  <h3 class="project-title underlined-text">
-                    {{ person.name }}
-                  </h3>
-                  <h5 class="font-bold">
-                    {{ person.role }}
-                  </h5>
-                  <p class="font-medium">
-                    {{ person.description }}
-                  </p>
-                  <ContentRenderer :value="person" />
-                </div>
+                <TeamCard
+                  :src="person.image"
+                  :name="person.name"
+                  :role="person.role"
+                  :description="person.description"
+                  :body="person"
+                />
               </FadeUp>
             </template>
           </div>

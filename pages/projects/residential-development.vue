@@ -6,43 +6,29 @@
         v-for="project of residential"
         :key="project.slug"
       >
-        <Lightbox>
-          <template v-slot:summary>
-            <FadeUp class="flex flex-col flex-1">
+        <FadeUp class="border-b">
+          <Lightbox>
+            <template v-slot:summary>
+              <ProjectCard
+                :src="project.image"
+                :title="project.title"
+                :sector="project.sector"
+                :services="project.services"
+                :description="project.description"
+              />
+            </template>
+            <template v-slot:details>
               <div
                 bgImage
                 :style="{ backgroundImage: 'url(' + project.image + ')' }"
                 class="aspect-video bg-cover mb-2"
               />
-              <div class="project-title">
+              <h3 class="underlined-text">
                 {{ project.title }}
-              </div>
-              <div class="project-details">
-                <div class="flex">
-                  <h5 class="project-subtitle">Sector:</h5>
-                  <h5 class="text-left w-2/3">{{ project.sector }}</h5>
-                </div>
-                <div class="flex">
-                  <h5 class="project-subtitle">Services:</h5>
-                  <h5 class="text-left w-2/3">{{ project.services }}</h5>
-                </div>
-              </div>
-              <p>
-                {{ project.description }}
-              </p>
-            </FadeUp>
-          </template>
-          <template v-slot:details>
-            <div
-              bgImage
-              :style="{ backgroundImage: 'url(' + project.image + ')' }"
-              class="aspect-video bg-cover mb-2"
-            />
-            <h3 class="underlined-text">
-              {{ project.title }}
-            </h3>
-          </template>
-        </Lightbox>
+              </h3>
+            </template>
+          </Lightbox>
+        </FadeUp>
       </template>
     </div>
   </section>

@@ -9,7 +9,7 @@
       />
       <!-- Content -->
       <div class="site-padding pt-28">
-        <FadeUp class="crd left">
+        <FadeUp class="crd right">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
           <ContentRenderer :value="doc" />
