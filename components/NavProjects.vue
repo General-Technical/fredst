@@ -1,7 +1,7 @@
 <template>
   <div class="secondary-nav">
     <ul
-      class="flex flex-wrap justify-center sm:justify-end pb-4 site-padding px-6 xl:px-0 trans"
+      class="flex flex-wrap justify-center sm:justify-start pb-4 site-padding px-6 xl:px-0 trans"
     >
       <li class="decoration-info">
         <NuxtLink to="/projects" class="secondary-nav-item">All</NuxtLink>
