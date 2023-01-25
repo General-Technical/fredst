@@ -1,6 +1,6 @@
 <template>
   <div class="secondary-nav">
-    <ul class="flex justify-end pb-3 sm:pb-4 site-padding px-6 xl:px-0 trans">
+    <ul class="flex justify-start pb-3 sm:pb-4 site-padding px-6 xl:px-0 trans">
       <li class="decoration-info">
         <NuxtLink to="/about" class="secondary-nav-item">About</NuxtLink>
       </li>

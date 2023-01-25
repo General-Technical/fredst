@@ -8,10 +8,10 @@
         class="hero-image"
       />
       <!-- Content -->
-      <div class="site-padding pt-28">
-        <FadeUp class="crd left">
-          <h1 class="page-title">{{ doc.title }}</h1>
+      <div class="site-padding z-20">
+        <div class="crd right">
           <Squares class="squares" />
+          <h1 class="page-title">{{ doc.title }}</h1>
           <ContentRenderer :value="doc" />
           <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mt-3">
             <!-- Team Member -->
@@ -31,7 +31,7 @@
               </FadeUp>
             </template>
           </div>
-        </FadeUp>
+        </div>
       </div>
     </ContentDoc>
   </section>

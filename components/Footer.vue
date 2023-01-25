@@ -1,12 +1,14 @@
 <template>
   <div class="w-screen bg-secondary shadow-md z-50">
     <footer class="h-12 grid grid-cols-3">
-      <NuxtLink to="/" class="flex items-end gap-2">
-        <Logo class="h-6 w-auto" />
-      </NuxtLink>
+      <div class="flex pl-2 gap-2 justify-start">
+        <Fb class="sosmed fill-info" />
+        <In class="sosmed fill-neutral" />
+        <Ig class="sosmed fill-accent" />
+      </div>
       <div class="flex gap-2 mt-2 justify-center">
         <p class="font-bold text-xs">
-          &copy; <span class="font-bold">2022</span>
+          &copy; <span class="font-bold">2023</span>
         </p>
         <div class="flex my-auto">
           <p class="font-light text-xs uppercase">
@@ -20,10 +22,9 @@
           </p>
         </div>
       </div>
-      <div class="flex pl-2 gap-1 justify-end">
-        <Fb class="sosmed fill-info" />
-        <In class="sosmed fill-neutral" />
-      </div>
+      <NuxtLink to="/" class="flex justify-end gap-2">
+        <Logo class="h-6 w-auto" />
+      </NuxtLink>
     </footer>
   </div>
 </template>

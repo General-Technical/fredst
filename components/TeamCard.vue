@@ -11,10 +11,10 @@
     <h5 class="font-medium">
       {{ role }}
     </h5>
-    <p>
+    <h5>
       {{ description }}
-    </p>
-    <ContentRenderer :value="body" />
+    </h5>
+    <ContentRenderer :value="body" class="mt-2" />
   </div>
 </template>
 
