@@ -4,11 +4,13 @@
       <div class="nav-item">Nav Item</div>
       <div class="secondary-nav-item">Secondary Nav Item</div>
       <h1>h1 - Page Title</h1>
-      <h2>h2</h2>
-      <h3>h3</h3>
-      <h4>h4 - Project Titles, Team Names</h4>
-      <h5 class="font-medium">h5 Medium - Sector/Services Title, Team Role</h5>
-      <h5>h5 - Sector/Services, Team Description</h5>
+      <h2>h2 - Services/Sectors Titles</h2>
+      <h3>h3 - Services/Sectors</h3>
+      <h4>h4 - Project Card Titles, Team Card Names</h4>
+      <h5 class="font-medium">
+        h5 Medium - Project Card Sectors/Services Title, Team Card Role
+      </h5>
+      <h5>h5 - Project Card Sectors/Services, Team Card Description</h5>
       <p>
         Paragraph - Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Aspernatur minus eos fuga voluptas odio! Obcaecati pariatur, praesentium

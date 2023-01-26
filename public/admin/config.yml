@@ -33,8 +33,6 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
-          - { label: Services, name: services, widget: string }
-          - { label: Sectors, name: sectors, widget: string }
           - { label: Body, name: body, widget: markdown }
       - label: 'Team'
         name: 'team'
@@ -49,6 +47,7 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
+          - { label: Logo, name: logo, widget: image }
           - { label: Body, name: body, widget: markdown }
       - label: 'Country'
         name: 'country'

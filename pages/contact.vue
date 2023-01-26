@@ -10,22 +10,29 @@
       <!-- Content -->
       <div class="flex flex-col md:flex-row site-padding w-full">
         <!-- Content -->
-
         <FadeUp class="crd left">
-          <h1 class="page-title">{{ doc.title }}</h1>
-          <Squares class="squares" />
-          <ContentRenderer :value="doc" />
-        </FadeUp>
-        <FadeUp class="flex gap-0 mx-auto w-full">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.41072974254!2d153.0345296156378!3d-27.48759908288346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a153436b7a9%3A0xcdfddfba3e076fb5!2sFRED%20St%20pty%20ltd!5e0!3m2!1sen!2sid!4v1659878756581!5m2!1sen!2sid"
-            width="100%"
-            height="449"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div class="flex">
+            <div>
+              <h1 class="page-title">{{ doc.title }}</h1>
+              <Squares class="squares" />
+              <ContentRenderer :value="doc" />
+            </div>
+            <div>
+              <img :src="doc.map" :alt="doc.title" class="aspect-auto" />
+            </div>
+          </div>
+          <div class="flex gap-2 justify-start mt-8">
+            <Fb class="sosmed fill-info" />
+            <In class="sosmed fill-neutral" />
+            <Ig class="sosmed fill-accent" />
+            <a
+              href="https://goo.gl/maps/3nH7r1nsZPgRuuVn6"
+              target="_blank"
+              class="ml-auto"
+            >
+              <Pin class="sosmed fill-accent" />
+            </a>
+          </div>
         </FadeUp>
       </div>
     </ContentDoc>
@@ -34,9 +41,9 @@
 
 <script setup>
 definePageMeta({
-  layout: 'base',
+  layout: "base",
 });
 useHead({
-  title: 'Contact - Fred St.',
+  title: "Contact - Fred St.",
 });
 </script>

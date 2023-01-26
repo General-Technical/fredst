@@ -1,6 +1,7 @@
 ---
 title: Fred St is Climate Active
 image: /images/hero_climate-active-01.jpg
+logo: /images/Climate_Active_Network_Member_Logo_pos_RGB.png
 ---
 
 Becoming carbon neutral certified is a proactive step FRED St has taken to demonstrate our commitment to sustainable environmental outcomes for our industry, partners and the land on which we work.
