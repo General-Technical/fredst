@@ -9,11 +9,13 @@
       />
       <!-- Content -->
       <div class="container-mid">
-        <div class="crd right">
-          <h1 class="page-title">{{ doc.title }}</h1>
-          <Squares class="squares" />
-          <ContentRenderer :value="doc" />
-        </div>
+        <FadeUp class="crd right">
+          <FadeUp>
+            <h1 class="page-title">{{ doc.title }}</h1>
+            <Squares class="squares" />
+            <ContentRenderer :value="doc" />
+          </FadeUp>
+        </FadeUp>
       </div>
     </ContentDoc>
   </section>

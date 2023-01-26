@@ -9,14 +9,16 @@
       />
       <!-- Content -->
       <div class="container-mid">
-        <div class="crd left">
-          <h1 class="page-title">{{ doc.title }}</h1>
-          <Squares class="squares" />
-          <ContentRenderer :value="doc" />
-        </div>
-        <div class="pt-[80vh] w-2/5">
+        <FadeUp class="crd">
+          <FadeUp>
+            <h1 class="page-title">{{ doc.title }}</h1>
+            <Squares class="squares" />
+            <ContentRenderer :value="doc" />
+          </FadeUp>
+        </FadeUp>
+        <FadeUp class="secondary-content">
           <img :src="doc.logo" :alt="doc.title" class="aspect-auto" />
-        </div>
+        </FadeUp>
       </div>
     </ContentDoc>
   </section>

@@ -8,10 +8,10 @@
         class="hero-image"
       />
       <!-- Content -->
-      <div class="flex flex-col md:flex-row site-padding w-full">
+      <div class="container-mid">
         <!-- Content -->
-        <FadeUp class="crd left">
-          <div class="flex">
+        <FadeUp class="crd">
+          <div class="flex flex-col md:flex-row">
             <div>
               <h1 class="page-title">{{ doc.title }}</h1>
               <Squares class="squares" />

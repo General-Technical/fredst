@@ -9,13 +9,13 @@
       />
       <!-- Content -->
       <div class="container-mid">
-        <div class="pt-[80vh] w-2/5">
+        <FadeUp class="secondary-content left">
           <ContentRenderer :value="doc" />
-        </div>
-        <div class="crd right">
+        </FadeUp>
+        <FadeUp class="crd right">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
-          <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mt-3">
+          <div class="team-grid">
             <!-- Team Member -->
             <template
               :data="people"
@@ -33,7 +33,7 @@
               </FadeUp>
             </template>
           </div>
-        </div>
+        </FadeUp>
       </div>
     </ContentDoc>
   </section>

@@ -3,7 +3,7 @@
     <div
       bgImage
       :style="{ backgroundImage: 'url(' + src + ')' }"
-      class="aspect-square bg-cover mb-2"
+      class="aspect-square bg-cover mb-2 rounded"
     />
     <h4 class="underlined-text mb-3">
       {{ name }}

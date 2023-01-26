@@ -9,7 +9,9 @@
       />
       <!-- Content -->
       <div class="container">
-        <h1 class="page-title-lrg">{{ doc.title }}</h1>
+        <FadeUp class="secondary-content-low left">
+          <h1>{{ doc.title }}</h1>
+        </FadeUp>
         <div class="crd right">
           <Squares class="squares" />
           <ContentRenderer :value="doc" />

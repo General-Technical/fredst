@@ -9,21 +9,21 @@
       />
       <!-- Content -->
       <div class="container">
-        <div class="crd left">
+        <div class="crd">
           <Squares class="squares" />
           <h1 class="page-title">{{ doc.title }}</h1>
           <ContentRenderer :value="doc" />
         </div>
-        <div class="page-title-lrg flex flex-col gap-4 w-2/5 text-right">
-          <div>
+        <div class="secondary-content-low flex flex-col gap-4 md:text-right">
+          <FadeUp>
             <h2>Services</h2>
             <h3>Masterplanning</h3>
             <h3>Infrastructure Urban Designg</h3>
             <h3>Design & Documentation</h3>
             <h3>Contract Administration</h3>
             <h3>Graphic & 3D Visualisation</h3>
-          </div>
-          <div>
+          </FadeUp>
+          <FadeUp>
             <h2>Sectors</h2>
             <h3>Transport Infrastructure</h3>
             <h3>Social Infrastructure</h3>
@@ -31,7 +31,7 @@
             <h3>Residential</h3>
             <h3>Urban Mixed-Use</h3>
             <h3>Industrial</h3>
-          </div>
+          </FadeUp>
         </div>
       </div>
     </ContentDoc>
