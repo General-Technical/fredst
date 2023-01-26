@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen bg-secondary shadow-md z-50">
+  <div class="w-screen bg-secondary shadow-md mt-24 z-50">
     <footer class="h-12 grid grid-cols-3">
       <div class="flex pl-2 gap-2 justify-start">
         <Fb class="sosmed fill-info" />

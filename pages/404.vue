@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="items-center">
     <FadeUp>
       <h1>404</h1>
       <NuxtLink to="/" class="nav-item">Home</NuxtLink>

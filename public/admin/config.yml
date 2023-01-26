@@ -33,6 +33,8 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
+          - { label: Services, name: services, widget: string }
+          - { label: Sectors, name: sectors, widget: string }
           - { label: Body, name: body, widget: markdown }
       - label: 'Team'
         name: 'team'

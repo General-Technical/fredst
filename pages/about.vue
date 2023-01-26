@@ -8,7 +8,7 @@
         class="hero-image"
       />
       <!-- Content -->
-      <div class="site-padding z-20">
+      <div class="container">
         <div class="crd left">
           <Squares class="squares" />
           <h1 class="page-title">{{ doc.title }}</h1>

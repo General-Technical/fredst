@@ -8,11 +8,13 @@
         class="hero-image"
       />
       <!-- Content -->
-      <div class="site-padding z-20">
-        <div class="crd right">
-          <Squares class="squares" />
-          <h1 class="page-title">{{ doc.title }}</h1>
+      <div class="container-mid">
+        <div class="pt-[80vh] w-2/5">
           <ContentRenderer :value="doc" />
+        </div>
+        <div class="crd right">
+          <h1 class="page-title">{{ doc.title }}</h1>
+          <Squares class="squares" />
           <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mt-3">
             <!-- Team Member -->
             <template

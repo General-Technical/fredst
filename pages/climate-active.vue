@@ -8,10 +8,10 @@
         class="hero-image"
       />
       <!-- Content -->
-      <div class="site-padding z-20">
+      <div class="container-mid">
         <div class="crd left">
-          <Squares class="squares" />
           <h1 class="page-title">{{ doc.title }}</h1>
+          <Squares class="squares" />
           <ContentRenderer :value="doc" />
         </div>
       </div>
