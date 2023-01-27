@@ -18,14 +18,10 @@
               />
             </template>
             <template v-slot:details>
-              <div
-                bgImage
-                :style="{ backgroundImage: 'url(' + project.image + ')' }"
-                class="aspect-video bg-cover mb-2"
-              />
-              <h3 class="underlined-text">
+              <h3 class="underlined-text mb-2">
                 {{ project.title }}
               </h3>
+              <ContentRenderer :value="project" />
             </template>
           </Lightbox>
         </FadeUp>

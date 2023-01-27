@@ -20,4 +20,13 @@ image2: /images/cbhu_03.jpg
 image3: /images/cbhu_05.jpg
 image4: /images/cbhu_06.jpg
 ---
-x
+
+:Carousel{
+id=cbhu
+target=#cbhu
+src1=/images/cbhu_01.jpg
+src2=/images/cbhu_02.jpg
+src3=/images/cbhu_03.jpg
+src4=/images/cbhu_05.jpg
+src5=/images/cbhu_06.jpg
+}

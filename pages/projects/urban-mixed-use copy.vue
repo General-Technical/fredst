@@ -1,11 +1,7 @@
 <template>
   <section class="justify-start">
     <div class="projects-grid site-padding">
-      <template
-        :data="transport"
-        v-for="project of transport"
-        :key="project.slug"
-      >
+      <template :data="urban" v-for="project of urban" :key="project.slug">
         <FadeUp class="border-b">
           <Lightbox>
             <template v-slot:summary>
@@ -18,13 +14,14 @@
               />
             </template>
             <template v-slot:details>
-              <h3 class="underlined-text mb-2">
+              <div
+                bgImage
+                :style="{ backgroundImage: 'url(' + project.image + ')' }"
+                class="aspect-video bg-cover mb-2"
+              />
+              <h3 class="underlined-text">
                 {{ project.title }}
               </h3>
-              <ContentRenderer :value="project" />
-              <!-- <Swiper>
-              <ContentRenderer :value="project" class="swiper-wrapper" />
-            </Swiper> -->
             </template>
           </Lightbox>
         </FadeUp>
@@ -34,9 +31,9 @@
 </template>
 
 <script setup>
-const { data: transport } = await useAsyncData("transport", () => {
+const { data: urban } = await useAsyncData("urban", () => {
   return queryContent("/projects")
-    .where({ sector: "Transport Infrastructure" })
+    .where({ sector: "Urban Mixed Use" })
     .sort({ year: -1 })
     .sort({ sector: 1 })
     .find();
@@ -46,6 +43,6 @@ definePageMeta({
   layout: "projects",
 });
 useHead({
-  title: "Test - Fred St.",
+  title: "Urban Mixed Use - Fred St.",
 });
 </script>

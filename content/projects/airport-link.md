@@ -24,4 +24,12 @@ image2: /images/apl_05.jpg
 image3: /images/apl_07.jpg
 image4: /images/apl_09.jpg
 ---
-x
+
+:Carousel{
+id=apl
+target=#apl
+src1=/images/apl_01.jpg
+src2=/images/apl_02.jpg
+src3=/images/apl_05.jpg
+src4=/images/apl_09.jpg
+}

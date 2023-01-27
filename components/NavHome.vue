@@ -9,7 +9,7 @@
           <NuxtLink to="/team" class="secondary-nav-item">Team</NuxtLink>
         </li>
         <li class="decoration-accent">
-          <NuxtLink to="/climate-active" class="secondary-nav-item"
+          <NuxtLink to="/climate" class="secondary-nav-item"
             >Climate Active</NuxtLink
           >
         </li>

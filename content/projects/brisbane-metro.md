@@ -16,4 +16,11 @@ image: /images/metro_01.jpg
 image1: /images/metro_02.jpg
 image2: /images/metro_03.jpg
 ---
-x
+
+:Carousel{
+id=metro
+target=#metro
+src1=/images/metro_01.jpg
+src2=/images/metro_02.jpg
+src3=/images/metro_03.jpg
+}

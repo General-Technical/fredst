@@ -20,4 +20,13 @@ image2: /images/tsrc_04.jpg
 image3: /images/tsrc_03.jpg
 image4: /images/tsrc_05.jpg
 ---
-x
+
+:Carousel{
+id=tsrc
+target=#tsrc
+src1=/images/tsrc_01.jpg
+src2=/images/tsrc_02.jpg
+src3=/images/tsrc_04.jpg
+src4=/images/tsrc_03.jpg
+src5=/images/tsrc_05.jpg
+}

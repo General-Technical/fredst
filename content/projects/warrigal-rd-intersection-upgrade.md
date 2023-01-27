@@ -14,6 +14,12 @@ description: Working within the framework of Brisbane City Council standard
 image: /images/warrigal-rd_01.jpg
 image1: /images/warrigal-rd_02.jpg
 image2: /images/warrigal-rd_03.jpg
-image3: ""
 ---
-x
+
+:Carousel{
+id=warrigal-rd
+target=#warrigal-rd
+src1=/images/warrigal-rd_01.jpg
+src2=/images/warrigal-rd_02.jpg
+src3=/images/warrigal-rd_03.jpg
+}

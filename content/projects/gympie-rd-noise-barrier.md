@@ -19,4 +19,12 @@ image1: /images/gympie-rd_02.jpg
 image2: /images/gympie-rd_03.jpg
 image3: /images/gympie-rd_04.jpg
 ---
-x
+
+:Carousel{
+id=gympie-rd
+target=#gympie-rd
+src1=/images/gympie-rd_01.jpg
+src2=/images/gympie-rd_02.jpg
+src3=/images/gympie-rd_03.jpg
+src4=/images/gympie-rd_04.jpg
+}

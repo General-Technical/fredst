@@ -23,4 +23,13 @@ image2: /images/ksd_3.jpg
 image3: /images/ksd_4.jpg
 image4: /images/ksd_5.jpg
 ---
-x
+
+:Carousel{
+id=ksd
+target=#ksd
+src1=/images/ksd_1.jpg
+src2=/images/ksd_2.jpg
+src3=/images/ksd_3.jpg
+src4=/images/ksd_4.jpg
+src5=/images/ksd_5.jpg
+}

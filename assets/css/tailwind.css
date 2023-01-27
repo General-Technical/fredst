@@ -39,16 +39,16 @@
     @apply pointer-events-none;
   }
   h2 {
-    @apply font-normal text-xl md:text-2xl -tracking-tight mb-4;
+    @apply font-medium text-xl md:text-2xl -tracking-tight mb-2;
   }
   h2 a {
-    @apply pointer-events-none text-xl;
+    @apply pointer-events-none text-xl md:text-2xl;
   }
   h3 {
-    @apply text-primary text-lg md:text-xl mb-1 -tracking-tight;
+    @apply text-lg md:text-xl mb-1 -tracking-tight;
   }
   h3 a {
-    @apply pointer-events-none;
+    @apply pointer-events-none text-lg;
   }
   h4 {
     @apply text-left text-sm md:text-xl font-medium tracking-wide mb-2;
@@ -158,24 +158,39 @@
   .trans {
     @apply transition duration-300 ease-in-out;
   }
-  .swiper-slide {
+  /* .swiper-slide {
     @apply aspect-video px-10 py-8;
-  }
+  } */
   .carousel-indicators {
-    @apply absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4;
+    @apply absolute right-0 left-0 top-[65vh] flex justify-center p-0 z-50;
   }
   /* .carousel-inner {
     @apply relative w-full overflow-hidden aspect-video;
   } */
+  /* .carousel {
+    @apply top-0;
+  } */
   .carousel-item {
     @apply relative float-left w-full;
   }
+  .carousel-image {
+    @apply block w-auto max-h-[70vh] rounded;
+  }
   .carousel-control-prev {
-    @apply absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0;
+    @apply absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0 max-h-[70vh];
   }
+  /* .carousel-control-prev-icon {
+    @apply text-primary fill-primary bg-primary;
+  } */
   .carousel-control-next {
-    @apply absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0;
+    @apply absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0 max-h-[70vh];
   }
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 input:-webkit-autofill,
