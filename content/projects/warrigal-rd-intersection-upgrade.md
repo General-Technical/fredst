@@ -11,6 +11,8 @@ description: Working within the framework of Brisbane City Council standard
   protection given to the existing street trees which were also supplemented
   where possible.  The path the landscape improvements are allowing greater
   amenity and function enable a more active lifestyle.
+id: warrigal-rd
+target: "#warrigal-rd"
 image: /images/warrigal-rd_01.jpg
 image1: /images/warrigal-rd_02.jpg
 image2: /images/warrigal-rd_03.jpg

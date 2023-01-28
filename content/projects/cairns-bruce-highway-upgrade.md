@@ -14,6 +14,8 @@ description: (whilst employed at RPS) Cairns Bruce Highway Upgrade required a
   invaluable for infrastructure urban design. Tessa also designed the urban
   design treatments to the pedestrian overpass bridge, having to accommodate
   several governing bodies safety standards and aesthetic desires
+id: cbhu
+target: "#cbhu"
 image: /images/cbhu_01.jpg
 image1: /images/cbhu_02.jpg
 image2: /images/cbhu_03.jpg

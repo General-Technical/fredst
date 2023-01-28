@@ -14,6 +14,8 @@ description: FRED St worked with Toowoomba Regional Council to deliver a fully
   view for motorists, and has elements truly representative of the Masterplans’
   theme and design intent.  Flora is the them used to articulate is our unified
   connection to living in and on this land.
+id: tsrc
+target: "#tsrc"
 image: /images/tsrc_01.jpg
 image1: /images/tsrc_02.jpg
 image2: /images/tsrc_04.jpg

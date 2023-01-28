@@ -21,19 +21,7 @@
               <h3 class="underlined-text mb-2">
                 {{ project.title }}
               </h3>
-              <CarouselDark
-                :id="project.id"
-                :target="project.target"
-                :src1="project.image"
-                :src2="project.image1"
-                :src3="project.image2"
-                :src4="project.image3"
-                :src5="project.image4"
-              />
-              <!-- <h3 class="underlined-text mb-2">
-                {{ project.title }}
-              </h3>
-              <ContentRenderer :value="project" /> -->
+              <ContentRenderer :value="project" />
             </template>
           </Lightbox>
         </FadeUp>
