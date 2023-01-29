@@ -8,7 +8,7 @@
     <div class="carousel-indicators">
       <button
         type="button"
-        :data-bs-target="target"
+        :data-bs-target="'#' + id"
         data-bs-slide-to="0"
         class="active"
         aria-current="false"
@@ -17,28 +17,28 @@
       <button
         v-if="src2"
         type="button"
-        :data-bs-target="target"
+        :data-bs-target="'#' + id"
         data-bs-slide-to="1"
         aria-label="Slide 2"
       ></button>
       <button
         v-if="src3"
         type="button"
-        :data-bs-target="target"
+        :data-bs-target="'#' + id"
         data-bs-slide-to="2"
         aria-label="Slide 3"
       ></button>
       <button
         v-if="src4"
         type="button"
-        :data-bs-target="target"
+        :data-bs-target="'#' + id"
         data-bs-slide-to="3"
         aria-label="Slide 4"
       ></button>
       <button
         v-if="src5"
         type="button"
-        :data-bs-target="target"
+        :data-bs-target="'#' + id"
         data-bs-slide-to="4"
         aria-label="Slide 5"
       ></button>
@@ -46,26 +46,26 @@
     <!-- Inner -->
     <div class="carousel-inner relative w-full overflow-hidden">
       <div v-if="src1" class="carousel-item active">
-        <img :src="src1" class="carousel-image mx-auto" alt="..." />
+        <img :src="src1" class="carousel-image mx-auto" :alt="title" />
       </div>
       <div v-if="src2" class="carousel-item">
-        <img :src="src2" class="carousel-image" alt="..." />
+        <img :src="src2" class="carousel-image" :alt="title" />
       </div>
       <div v-if="src3" class="carousel-item">
-        <img :src="src3" class="carousel-image" alt="..." />
+        <img :src="src3" class="carousel-image" :alt="title" />
       </div>
       <div v-if="src4" class="carousel-item">
-        <img :src="src4" class="carousel-image" alt="..." />
+        <img :src="src4" class="carousel-image" :alt="title" />
       </div>
       <div v-if="src5" class="carousel-item">
-        <img :src="src5" class="carousel-image" alt="..." />
+        <img :src="src5" class="carousel-image" :alt="title" />
       </div>
     </div>
     <!-- Controls -->
     <button
       class="carousel-control-prev"
       type="button"
-      :data-bs-target="target"
+      :data-bs-target="'#' + id"
       data-bs-slide="prev"
     >
       <span
@@ -77,7 +77,7 @@
     <button
       class="carousel-control-next"
       type="button"
-      :data-bs-target="target"
+      :data-bs-target="'#' + id"
       data-bs-slide="next"
     >
       <span
@@ -92,11 +92,11 @@
 
 <script setup lang="ts">
 const carouseldark = defineProps({
-  id: {
+  title: {
     type: String,
     required: false,
   },
-  target: {
+  id: {
     type: String,
     required: false,
   },

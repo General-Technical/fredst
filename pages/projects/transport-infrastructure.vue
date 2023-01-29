@@ -22,8 +22,8 @@
                 {{ project.title }}
               </h3>
               <CarouselDark
+                :title="project.title"
                 :id="project.id"
-                :target="project.target"
                 :src1="project.image"
                 :src2="project.image1"
                 :src3="project.image2"

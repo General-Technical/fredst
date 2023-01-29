@@ -19,7 +19,6 @@ description: (whilst employed at RPS) Airport Link’s green wall and purple
   project as is the design of significant elements of this landmark
   infrastructure project.
 id: apl
-target: "#apl"
 image: /images/apl_01.jpg
 image1: /images/apl_02.jpg
 image2: /images/apl_05.jpg

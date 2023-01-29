@@ -13,7 +13,6 @@ description: "Working in a collaborative team with Arup, FRED st worked on
   through the intricate complexities posed by inserting new infrastructure
   within a highly urbanised environment.  "
 id: metro
-target: "#metro"
 image: /images/metro_01.jpg
 image1: /images/metro_02.jpg
 image2: /images/metro_03.jpg

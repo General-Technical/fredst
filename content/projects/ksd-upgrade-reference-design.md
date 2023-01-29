@@ -18,7 +18,6 @@ description: FRED St was engaged by Brisbane City Council to provide the Urban
   a commendation for Policies, Programs and Concepts - Large Scale in the 2016
   Australian Urban Design Awards.
 id: ksd
-target: "#ksd"
 image: /images/ksd_1.jpg
 image1: /images/ksd_2.jpg
 image2: /images/ksd_3.jpg
