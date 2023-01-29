@@ -88,6 +88,7 @@ collections:
       - { label: Location, name: location, widget: string }
       - { label: Description, name: description, widget: string }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: Id, name: id, widget: string }
       - {
           label: 'Hero Image',
           name: 'image',
@@ -101,7 +102,6 @@ collections:
           widget: 'image',
           choose_url: false,
           required: false,
-          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,
         }
       - {
           label: 'Project Image 2',
