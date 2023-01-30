@@ -13,7 +13,7 @@
           <FadeUp>
             <h1 class="page-title">{{ doc.title }}</h1>
             <Squares class="squares" />
-            <ContentRenderer :value="doc" />
+            <ContentRenderer :value="doc" class="markdown" />
           </FadeUp>
         </FadeUp>
         <FadeUp class="secondary-content">

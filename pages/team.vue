@@ -10,7 +10,7 @@
       <!-- Content -->
       <div class="container-mid">
         <FadeUp class="secondary-content left">
-          <ContentRenderer :value="doc" />
+          <ContentRenderer :value="doc" class="markdown" />
         </FadeUp>
         <FadeUp class="crd right">
           <h1 class="page-title">{{ doc.title }}</h1>

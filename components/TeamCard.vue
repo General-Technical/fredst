@@ -14,7 +14,7 @@
     <h5>
       {{ description }}
     </h5>
-    <ContentRenderer :value="body" class="mt-2" />
+    <ContentRenderer :value="body" class="markdown" />
   </div>
 </template>
 

@@ -18,7 +18,7 @@
         <h5 class="text-left w-9/12">{{ services }}</h5>
       </div>
     </div>
-    <p>
+    <p class="markdown">
       {{ description }}
     </p>
   </div>

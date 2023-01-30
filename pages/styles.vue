@@ -11,7 +11,7 @@
         h5 Medium - Project Card Sectors/Services Title, Team Card Role
       </h5>
       <h5>h5 - Project Card Sectors/Services, Team Card Description</h5>
-      <p>
+      <p class="markdown">
         Paragraph - Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Aspernatur minus eos fuga voluptas odio! Obcaecati pariatur, praesentium
         neque ex eligendi ad modi rem animi corrupti vero quod deserunt

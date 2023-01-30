@@ -12,7 +12,7 @@
         <div class="crd">
           <Squares class="squares" />
           <h1 class="page-title">{{ doc.title }}</h1>
-          <ContentRenderer :value="doc" />
+          <ContentRenderer :value="doc" class="markdown" />
         </div>
         <div class="secondary-content-low md:text-right">
           <FadeUp>

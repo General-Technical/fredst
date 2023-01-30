@@ -14,7 +14,7 @@
         </FadeUp>
         <div class="crd right">
           <Squares class="squares" />
-          <ContentRenderer :value="doc" />
+          <ContentRenderer :value="doc" class="markdown" />
         </div>
       </div>
     </ContentDoc>

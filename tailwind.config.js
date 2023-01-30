@@ -34,7 +34,22 @@ module.exports = {
         "hero-pattern":
           "linear-gradient(to right bottom, rgba(43, 108, 176, 0.9), rgba(43, 108, 176, 0.9)), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.eAFxNBriFW8k0jCNOTCe6gHaHs%26pid%3DApi&f=1')",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: "h1",
+            h2: "h2",
+            h3: "h3",
+            h4: "h4",
+            h5: "h5",
+            h6: "h6",
+          },
+        },
+      },
     },
   },
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [
+    require("tw-elements/dist/plugin"),
+    require("@tailwindcss/typography"),
+  ],
 };

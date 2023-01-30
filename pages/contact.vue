@@ -15,7 +15,7 @@
             <div>
               <h1 class="page-title">{{ doc.title }}</h1>
               <Squares class="squares" />
-              <ContentRenderer :value="doc" />
+              <ContentRenderer :value="doc" class="markdown" />
             </div>
             <div>
               <img :src="doc.map" :alt="doc.title" class="aspect-auto" />
