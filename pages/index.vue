@@ -12,7 +12,7 @@
         <FadeUp class="secondary-content-low left">
           <h1>{{ doc.title }}</h1>
         </FadeUp>
-        <div class="crd right">
+        <div class="crd right fade-up">
           <Squares class="squares" />
           <ContentRenderer :value="doc" class="markdown" />
         </div>

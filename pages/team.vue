@@ -12,9 +12,11 @@
         <FadeUp class="secondary-content left">
           <ContentRenderer :value="doc" class="markdown" />
         </FadeUp>
-        <FadeUp class="crd right">
-          <h1 class="page-title">{{ doc.title }}</h1>
-          <Squares class="squares" />
+        <div class="crd right fade-up">
+          <FadeUp>
+            <h1 class="page-title">{{ doc.title }}</h1>
+            <Squares class="squares" />
+          </FadeUp>
           <div class="team-grid">
             <!-- Team Member -->
             <template
@@ -33,7 +35,7 @@
               </FadeUp>
             </template>
           </div>
-        </FadeUp>
+        </div>
       </div>
     </ContentDoc>
   </section>

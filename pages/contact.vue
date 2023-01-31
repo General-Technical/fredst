@@ -10,8 +10,8 @@
       <!-- Content -->
       <div class="container-mid">
         <!-- Content -->
-        <FadeUp class="crd">
-          <div class="flex flex-col md:flex-row">
+        <div class="crd fade-up">
+          <FadeUp class="flex flex-col md:flex-row">
             <div>
               <h1 class="page-title">{{ doc.title }}</h1>
               <Squares class="squares" />
@@ -20,8 +20,8 @@
             <div>
               <img :src="doc.map" :alt="doc.title" class="aspect-auto" />
             </div>
-          </div>
-          <div class="flex gap-2 justify-start mt-8">
+          </FadeUp>
+          <FadeUp class="flex gap-2 justify-start mt-8">
             <Fb class="sosmed fill-info" />
             <In class="sosmed fill-neutral" />
             <Ig class="sosmed fill-accent" />
@@ -32,8 +32,8 @@
             >
               <Pin class="sosmed fill-accent" />
             </a>
-          </div>
-        </FadeUp>
+          </FadeUp>
+        </div>
       </div>
     </ContentDoc>
   </section>

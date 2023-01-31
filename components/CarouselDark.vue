@@ -6,7 +6,7 @@
   >
     <!-- Indicators -->
     <div
-      class="absolute right-0 left-0 top-[72vh] flex justify-center p-0 z-50"
+      class="carousel-indicators absolute right-0 left-0 top-[60vh] flex justify-center p-0 z-50"
     >
       <button
         type="button"

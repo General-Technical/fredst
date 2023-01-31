@@ -9,13 +9,15 @@
       />
       <!-- Content -->
       <div class="container-mid">
-        <FadeUp class="crd right">
+        <div class="crd right fade-up">
           <FadeUp>
             <h1 class="page-title">{{ doc.title }}</h1>
             <Squares class="squares" />
+          </FadeUp>
+          <FadeUp>
             <ContentRenderer :value="doc" class="markdown" />
           </FadeUp>
-        </FadeUp>
+        </div>
       </div>
     </ContentDoc>
   </section>

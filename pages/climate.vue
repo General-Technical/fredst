@@ -9,13 +9,15 @@
       />
       <!-- Content -->
       <div class="container-mid">
-        <FadeUp class="crd">
+        <div class="crd fade-up">
           <FadeUp>
             <h1 class="page-title">{{ doc.title }}</h1>
             <Squares class="squares" />
+          </FadeUp>
+          <FadeUp>
             <ContentRenderer :value="doc" class="markdown" />
           </FadeUp>
-        </FadeUp>
+        </div>
         <FadeUp class="secondary-content">
           <img :src="doc.logo" :alt="doc.title" class="aspect-auto" />
         </FadeUp>
