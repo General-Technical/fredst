@@ -72,7 +72,7 @@
     @apply bg-cover w-full h-[100vh] absolute top-0 z-0;
   }
   .container {
-    @apply grid grid-cols-5 gap-8 site-padding mt-[90vh] z-20;
+    @apply grid grid-cols-5 gap-8 site-padding mt-[88vh] z-20;
   }
   /* .container-mid {
     @apply flex flex-col md:flex-row gap-8 site-padding mt-[40vh] z-20;
@@ -105,10 +105,10 @@
     @apply row-start-2 md:row-start-1;
   }
   .projects-grid {
-    @apply grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-3 w-full site-padding mt-36 lg:mt-32;
+    @apply grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 w-full site-padding mt-36 lg:mt-32;
   }
   .team-grid {
-    @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 mt-3;
+    @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mt-3;
   }
   .underlined-text {
     @apply text-left mb-1 pb-2 border-b;
