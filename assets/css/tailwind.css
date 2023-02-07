@@ -9,10 +9,10 @@
     @apply mx-auto bg-secondary text-primary font-body font-light text-sm tracking-widest overflow-x-hidden;
   }
   header {
-    @apply flex items-center bg-secondary w-screen fixed top-0 left-0 py-4 z-50 shadow-md bg-opacity-90 h-16;
+    @apply flex items-center bg-secondary w-screen fixed top-0 left-0 py-4 z-50 shadow-md bg-opacity-90 h-20 sm:h-16;
   }
   footer {
-    @apply flex items-center justify-center site-padding z-50;
+    @apply flex items-center justify-center site-padding shadow-md  z-50;
   }
   nav {
     @apply flex flex-wrap site-padding justify-start items-center w-full;
@@ -57,10 +57,10 @@
     @apply max-w-screen-2xl mx-auto px-6;
   }
   .nav-item {
-    @apply font-bold uppercase tracking-widest;
+    @apply font-bold uppercase tracking-widest text-xs sm:text-sm;
   }
   .secondary-nav {
-    @apply bg-secondary w-screen fixed top-16 sm:top-[64px] pt-3.5 z-40 shadow-md bg-opacity-90 h-12;
+    @apply bg-secondary w-screen fixed top-20 sm:top-[64px] pt-3.5 z-40 shadow-md bg-opacity-90 h-12;
   }
   .secondary-nav-item {
     @apply text-xs sm:text-sm uppercase;
@@ -69,7 +69,7 @@
     @apply bg-cover w-full h-full absolute top-0 z-0;
   } */
   .hero-image {
-    @apply bg-cover w-full h-[100vh] absolute top-0 z-0;
+    @apply bg-cover w-full h-[100vh] absolute top-0 z-0 mt-32 sm:mt-28;
   }
   .container {
     @apply grid grid-cols-5 gap-8 site-padding mt-[88vh] z-20;

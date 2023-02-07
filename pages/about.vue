@@ -5,7 +5,7 @@
       <FadeUp
         bgImage
         :style="{ backgroundImage: 'url(' + doc.image + ')' }"
-        class="hero-image mt-28"
+        class="hero-image"
       />
       <!-- Content -->
       <div class="container">
