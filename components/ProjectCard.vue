@@ -8,7 +8,7 @@
     <h4>
       {{ title }}
     </h4>
-    <div class="flex flex-col border-t pt-2 pb-1 mb-2">
+    <div class="flex flex-col border-t pt-2">
       <div class="flex">
         <h5 class="font-medium w-3/12">Sector:</h5>
         <h5 class="text-left w-9/12">{{ sector }}</h5>
@@ -18,9 +18,7 @@
         <h5 class="text-left w-9/12">{{ services }}</h5>
       </div>
     </div>
-    <p class="markdown">
-      {{ description }}
-    </p>
+    <ContentRenderer class="markdown" :value="description" />
   </div>
 </template>
 

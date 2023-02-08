@@ -1,7 +1,7 @@
 <template>
   <div
     :id="id"
-    class="carousel slide carousel-dark relative z-20"
+    class="carousel slide carousel-dark relative z-20 mt-4"
     data-bs-ride="max-h-[70vh] top-8"
   >
     <!-- Indicators -->
@@ -65,7 +65,7 @@
     </div>
     <!-- Controls -->
     <button
-      class="absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline"
+      class="absolute top-56 sm:top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline"
       type="button"
       :data-bs-target="'#' + id"
       data-bs-slide="prev"
@@ -77,7 +77,7 @@
       <span class="visually-hidden">Previous</span>
     </button>
     <button
-      class="absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+      class="absolute top-56 sm:top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
       type="button"
       :data-bs-target="'#' + id"
       data-bs-slide="next"

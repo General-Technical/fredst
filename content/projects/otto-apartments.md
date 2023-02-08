@@ -4,7 +4,8 @@ sector: Residential Development
 services: Design & Documentation
 year: "2019"
 location: Mermaid Beach, Queensland
-description: TBC
+id: otto
 image: /images/dsc_7971.jpg
 ---
+
 .

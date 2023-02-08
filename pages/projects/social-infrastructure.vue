@@ -10,18 +10,22 @@
                 :title="project.title"
                 :sector="project.sector"
                 :services="project.services"
-                :description="project.description"
+                :description="project"
               />
             </template>
             <template v-slot:details>
-              <div
-                bgImage
-                :style="{ backgroundImage: 'url(' + project.image + ')' }"
-                class="aspect-video bg-cover mb-2"
-              />
-              <h3 class="underlined-text">
+              <h3 class="underlined-text mb-2">
                 {{ project.title }}
               </h3>
+              <CarouselDark
+                :title="project.title"
+                :id="project.id"
+                :src1="project.image"
+                :src2="project.image1"
+                :src3="project.image2"
+                :src4="project.image3"
+                :src5="project.image4"
+              />
             </template>
           </Lightbox>
         </FadeUp>
