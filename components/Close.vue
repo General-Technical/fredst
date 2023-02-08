@@ -1,7 +1,7 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="w-12 h-12"
+    class="w-10 h-10 sm:w-12 sm:h-12"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
