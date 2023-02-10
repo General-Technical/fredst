@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2020"
 location: Moreton Bay, Queensland
 id: lhsc
-image: /images/dsc_7814.jpg
-image1: /images/dsc_8523.jpg
-image2: /images/dsc_8506.jpg
-image3: /images/dsc_7868.jpg
-image4: /images/dsc_8537.jpg
+image: /images/les-hughes_11.jpg
+image1: /images/les-hughes_01.jpg
+image2: /images/les-hughes_03.jpg
+image3: /images/les-hughes_02.jpg
+image4: /images/les-hughes_08.jpg
 ---
 
 FRED St designed and documented the landscape for the Les Hughes
