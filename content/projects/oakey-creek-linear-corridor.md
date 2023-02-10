@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2017"
 location: Toowoomba Region, Queensland
 id: oakey-creek
-image: /images/dsc_0697.jpg
-image1: /images/01-oakey-creek-linear-corridor-tessa-leggo.jpg
-image2: /images/03-oakey-creek-linear-corridor-tessa-leggo.jpg
-image3: /images/dsc_2703.jpg
-image4: /images/09-oakey-creek-linear-corridor-tessa-leggo.jpg
+image: /images/oakey-creek_02.jpg
+image1: /images/oakey-creek_01.jpg
+image2: /images/oakey-creek_03.jpg
+image3: /images/oakey-creek_05.jpg
+image4: /images/oakey-creek_06.jpg
 ---
 
 FRED St worked with Toowoomba Regional Council on the delivery of
