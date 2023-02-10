@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2020"
 location: Brisbane, Queensland
 id: rochedale-ss
-image: /images/20220318_112051.jpg
+image: /images/rochedale_05.jpg
 image1: /images/rochedale-ss_concept-plan.jpg
-image2: /images/20220318_112141.jpg
-image3: /images/20220318_112211.jpg
-image4: /images/20220318_112027.jpg
+image2: /images/rochedale_04.jpg
+image3: /images/rochedale_01.jpg
+image4: /images/rochedale_02.jpg
 ---
 
 This design incorporated a specific planting palette, timber
