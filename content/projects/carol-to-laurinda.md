@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2020"
 location: Brisbane, Queensland
 id: ctl
-image: /images/img_20220308_080804.jpg
-image1: /images/dsc_9476.jpg
-image2: /images/img_20220308_082304.jpg
-image3: /images/dsc_9514.jpg
-image4: /images/img_20220308_080901.jpg
+image: /images/carol-to-laurinda_09.jpg
+image1: /images/carol-to-laurinda_03.jpg
+image2: /images/carol-to-laurinda_05.jpg
+image3: /images/carol-to-laurinda_04.jpg
+image4: /images/carol-to-laurinda_03.jpg
 ---
 
 The Carol to Laurinda shared active transport corridor demonstrates
