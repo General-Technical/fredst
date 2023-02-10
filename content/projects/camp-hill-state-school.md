@@ -5,10 +5,10 @@ services: Design & Documentation
 year: "2019"
 location: Brisbane, Queensland
 id: chss
-image: /images/dsc_0082.jpg
-image1: /images/dsc_0134.jpg
-image2: /images/dsc_0062.jpg
-image3: ""
+image: /images/camp-hill-ss_04.jpg
+image1: /images/camp-hill-ss_03.jpg
+image2: /images/camp-hill-ss_02.jpg
+image3: /images/camp-hill-ss_01.jpg
 image4: /images/dsc_0105.jpg
 ---
 
