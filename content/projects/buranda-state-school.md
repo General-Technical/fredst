@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2022"
 location: Brisbane, Queensland
 id: burandass
-image: /images/burandass_feature4.jpg
-image1: /images/burandass_feature9.jpg
-image2: /images/burandass_feature6.jpg
-image3: /images/burandass_feature8.jpg
-image4: /images/burandass_feature2.jpg
+image: /images/buranda-ss_03.jpg
+image1: /images/buranda-ss_01.jpg
+image2: /images/buranda-ss_02.jpg
+image3: /images/buranda-ss_04.jpg
+image4: /images/buranda-ss_05.jpg
 ---
 
 A landscape concept was developed to upgrade an existing outdoor
