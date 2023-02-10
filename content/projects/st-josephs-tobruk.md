@@ -5,9 +5,9 @@ services: Design & Documentation
 year: "2021"
 location: Beenleigh, Queensland
 id: st-joseph
-image: /images/dsc_2471.jpg
-image1: /images/dsc_2467.jpg
-image2: /images/dsc_2461.jpg
+image: /images/st-josephs_03.jpg
+image1: /images/st-josephs_02.jpg
+image2: /images/st-josephs_01.jpg
 ---
 
 By reimagining necessary infrastructure, a design was developed
