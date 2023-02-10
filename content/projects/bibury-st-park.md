@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2021"
 location: Redland Region, Queensland
 id: bibury
-image: /images/dsc_8373.jpg
-image1: /images/dsc_8342.jpg
-image2: /images/dsc_8335.jpg
-image3: /images/dsc_8343.jpg
-image4: /images/dsc_8339.jpg
+image: /images/bibury-park_04.jpg
+image1: /images/bibury-park_01.jpg
+image2: /images/bibury-park_07.jpg
+image3: /images/bibury-park_02.jpg
+image4: /images/bibury-park_05.jpg
 ---
 
 This design utilised existing vegetation to form the base of a
