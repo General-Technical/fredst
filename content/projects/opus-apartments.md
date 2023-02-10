@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2020"
 location: Broadbeach, Queensland
 id: opus
-image: /images/dsc_7909_11.jpg
-image1: /images/dsc_7923.jpg
-image2: /images/dsc_8690.jpg
-image3: /images/dsc_7928_29.jpg
-image4: /images/dsc_7914.jpg
+image: /images/opus_05.jpg
+image1: /images/opus_04.jpg
+image2: /images/opus_03.jpg
+image3: /images/opus_02.jpg
+image4: /images/opus_01.jpg
 ---
 
 Unique design thinking characterised the approach for the high-rise
