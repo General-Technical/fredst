@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2019"
 location: Southport, Queensland
 id: smith-collective
-image: /images/21-01-20b.jpg
-image1: /images/21-01-20-1-.jpg
-image2: /images/21-01-20-2-.jpg
-image3: /images/21-01-20-3-.jpg
-image4: /images/21-01-20c.jpg
+image: /images/smith-collective_05.jpg
+image1: /images/smith-collective_03.jpg
+image2: /images/smith-collective_04.jpg
+image3: /images/smith-collective_02.jpg
+image4: /images/smith-collective_01.jpg
 ---
 
 Smith Collective Park was delivered in concept design and detailed
