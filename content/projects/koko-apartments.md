@@ -5,10 +5,11 @@ services: Design & Documentation
 year: "2020"
 location: Broadbeach, Queensland
 id: ko
-image: /images/dsc_7895_96.jpg
-image1: /images/dsc_7886.jpg
-image2: /images/dsc_7892_93.jpg
-image3: /images/dsc_7882.jpg
+image: /images/koko_04.jpg
+image1: /images/koko_05.jpg
+image2: /images/koko_03.jpg
+image3: /images/koko_02.jpg
+image4: /images/koko_01.jpg
 ---
 
 The design for high-rise residential apartment Koko development
