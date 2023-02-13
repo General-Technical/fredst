@@ -12,7 +12,7 @@
     @apply flex items-center bg-secondary w-screen fixed top-0 left-0 py-4 z-50 shadow-md bg-opacity-90 h-20 sm:h-16;
   }
   footer {
-    @apply flex items-center justify-center site-padding shadow-md  z-50;
+    @apply flex items-center justify-center shadow-md z-50;
   }
   nav {
     @apply flex flex-wrap site-padding justify-start items-center w-full;

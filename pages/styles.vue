@@ -30,7 +30,7 @@
               :title="project.title"
               :sector="project.sector"
               :services="project.services"
-              :description="project.description"
+              :description="project"
               class="border-b"
             />
           </template>
