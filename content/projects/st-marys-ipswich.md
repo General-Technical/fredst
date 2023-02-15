@@ -5,11 +5,11 @@ services: Design & Documentation
 year: "2016"
 location: Ipswich, Queensland
 id: st-mary
-image: /images/img_2010.jpg
-image1: /images/img_2028.jpg
-image2: /images/img_2034.jpg
-image3: /images/img_2053.jpg
-image4: /images/img_2077.jpg
+image: /images/st-marys-ipswich_07.jpg
+image1: /images/st-marys-ipswich_06.jpg
+image2: /images/st-marys-ipswich_08.jpg
+image3: /images/st-marys-ipswich_01.jpg
+image4: /images/st-marys-ipswich_04.jpg
 ---
 
 Fred St designed and documented universally accessible play spaces
