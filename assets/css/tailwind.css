@@ -54,7 +54,7 @@
 
 @layer components {
   .site-padding {
-    @apply max-w-screen-2xl mx-auto px-6;
+    @apply max-w-screen-2xl 3xl:max-w-[2600px] mx-auto px-6;
   }
   .nav-item {
     @apply font-bold uppercase tracking-widest text-xs sm:text-sm;
@@ -65,18 +65,12 @@
   .secondary-nav-item {
     @apply text-xs sm:text-sm uppercase;
   }
-  /* .hero-image {
-    @apply bg-cover w-full h-full absolute top-0 z-0;
-  } */
   .hero-image {
     @apply bg-cover w-full h-[100vh] absolute top-0 z-0 mt-32 sm:mt-28;
   }
   .container {
     @apply grid grid-cols-5 gap-8 site-padding mt-[88vh] z-20;
   }
-  /* .container-mid {
-    @apply flex flex-col md:flex-row gap-8 site-padding mt-[40vh] z-20;
-  } */
   .container-mid {
     @apply grid grid-cols-5 gap-8 site-padding mt-[40vh] z-20;
   }
@@ -87,7 +81,7 @@
     @apply w-full lg:w-1/2 mb-4;
   }
   .markdown {
-    @apply prose max-w-none prose-sm;
+    @apply prose max-w-none min-w-[100%] prose-sm 3xl:prose;
   }
   .crd {
     @apply bg-secondary p-6 shadow-xl w-full h-fit col-span-5 md:col-span-3 z-40 px-4 sm:px-6 rounded-xl;
