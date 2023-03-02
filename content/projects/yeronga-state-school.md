@@ -1,7 +1,7 @@
 ---
 title: Yeronga State School
 sector: Social Infrastructure
-order: "10"
+order: "11"
 services: Design & Documentation
 year: "2022"
 location: Brisbane, Queensland
