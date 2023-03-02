@@ -42,8 +42,7 @@
 const { data: transport } = await useAsyncData("transport", () => {
   return queryContent("/projects")
     .where({ sector: "Transport Infrastructure" })
-    .sort({ year: -1 })
-    .sort({ sector: 1 })
+    .sort({ order: 1 })
     .find();
 });
 
