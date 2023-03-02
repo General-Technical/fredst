@@ -1,6 +1,7 @@
 ---
 title: Lead Childcare
 sector: Social Infrastructure
+order: "03"
 services: Design & Documentation
 year: "2014"
 location: Caboolture, Queensland

@@ -1,6 +1,7 @@
 ---
 title: Rochedale State School
 sector: Social Infrastructure
+order: "04"
 services: Design & Documentation
 year: "2020"
 location: Brisbane, Queensland

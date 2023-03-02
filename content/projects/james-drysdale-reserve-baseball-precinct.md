@@ -1,6 +1,7 @@
 ---
 title: James Drysdale Reserve Baseball Precinct
 sector: Parks & Open Space
+order: "03"
 services: Design & Documentation
 year: "2019"
 location: Moreton Bay, Queensland

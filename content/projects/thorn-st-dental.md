@@ -1,6 +1,7 @@
 ---
 title: Thorn St Dental
 sector: Urban Mixed Use
+order: "03"
 services: Design & Documentation
 year: "2014"
 location: Ipswich, Queensland

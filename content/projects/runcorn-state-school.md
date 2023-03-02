@@ -1,6 +1,7 @@
 ---
 title: Runcorn State School
 sector: Social Infrastructure
+order: "05"
 services: Design & Documentation
 year: "2022"
 location: Brisbane, Queensland

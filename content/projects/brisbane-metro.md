@@ -1,6 +1,7 @@
 ---
 title: Brisbane Metro
 sector: Transport Infrastructure
+order: "02"
 services: Bid, Design & Documentation
 year: x
 location: x

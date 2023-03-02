@@ -1,6 +1,7 @@
 ---
 title: Smith Collective Park
 sector: Parks & Open Space
+order: "07"
 services: Design & Documentation
 year: "2019"
 location: Southport, Queensland

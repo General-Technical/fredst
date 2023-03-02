@@ -41,8 +41,8 @@
 <script setup>
 const { data: projects } = await useAsyncData("projects", () => {
   return queryContent("/projects")
-    .sort({ year: -1 })
     .sort({ sector: 1 })
+    .sort({ order: 1 })
     .find();
 });
 

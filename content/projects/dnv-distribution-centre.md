@@ -1,6 +1,7 @@
 ---
 title: DNV Distribution Centre
 sector: Industrial
+order: "02"
 services: Design & Documentation
 year: "2020"
 location: Brisbane, Queensland

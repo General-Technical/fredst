@@ -5,13 +5,13 @@
       <FadeUp
         bgImage
         :style="{ backgroundImage: 'url(' + doc.image + ')' }"
-        class="hero-image"
+        class="hero-image mt-20 sm:mt-16"
       />
       <!-- Content -->
       <div class="container-mid">
         <!-- Content -->
         <div class="crd fade-up">
-          <FadeUp class="flex flex-col md:flex-row">
+          <div class="flex flex-col md:flex-row">
             <div>
               <h1 class="page-title">{{ doc.title }}</h1>
               <Squares class="squares" />
@@ -20,8 +20,8 @@
             <div>
               <img :src="doc.map" :alt="doc.title" class="aspect-auto" />
             </div>
-          </FadeUp>
-          <FadeUp class="flex gap-2 justify-start mt-8">
+          </div>
+          <div class="flex gap-2 justify-start mt-8">
             <Fb class="sosmed fill-info" />
             <In class="sosmed fill-neutral" />
             <Ig class="sosmed fill-accent" />
@@ -32,7 +32,7 @@
             >
               <Pin class="sosmed fill-accent" />
             </a>
-          </FadeUp>
+          </div>
         </div>
       </div>
     </ContentDoc>

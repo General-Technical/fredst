@@ -1,6 +1,7 @@
 ---
 title: Primewest SRG
 sector: Urban Mixed Use
+order: "02"
 services: Design & Documentation
 year: "2020"
 location: Strathpine, Queensland

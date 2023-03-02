@@ -1,6 +1,7 @@
 ---
 title: Opus Apartments
 sector: Residential Development
+order: "04"
 services: Design & Documentation
 year: "2020"
 location: Broadbeach, Queensland

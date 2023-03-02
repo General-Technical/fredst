@@ -84,7 +84,7 @@
     @apply prose max-w-none min-w-[100%] prose-sm 3xl:prose;
   }
   .crd {
-    @apply bg-secondary p-6 shadow-xl w-full h-fit col-span-5 md:col-span-3 z-40 px-4 sm:px-6 rounded-xl;
+    @apply bg-secondary p-6 shadow-xl w-full h-fit col-span-5 md:col-span-3 z-40 px-4 sm:px-6 rounded-xl bg-opacity-80;
   }
   .right {
     @apply col-start-1 md:col-start-3;

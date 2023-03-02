@@ -1,6 +1,7 @@
 ---
 title: Les Hughes Sports Complex
 sector: Parks & Open Space
+order: "04"
 services: Design & Documentation
 year: "2020"
 location: Moreton Bay, Queensland

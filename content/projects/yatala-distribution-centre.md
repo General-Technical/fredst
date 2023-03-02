@@ -1,6 +1,7 @@
 ---
 title: Yatala Distribution Centre
 sector: Industrial
+order: "04"
 services: Design & Documentation
 year: "2021"
 location: Yatala, Queensland

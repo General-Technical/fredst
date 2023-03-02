@@ -1,6 +1,7 @@
 ---
 title: Gympie Rd Noise Barrier
 sector: Transport Infrastructure
+order: "04"
 services: Landscape Assessment, Design & Documentation
 year: "2022"
 location: Aspley, Queensland

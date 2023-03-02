@@ -1,6 +1,7 @@
 ---
 title: Koko Apartments
 sector: Residential Development
+order: "02"
 services: Design & Documentation
 year: "2020"
 location: Broadbeach, Queensland

@@ -1,6 +1,7 @@
 ---
 title: Scape Student Living
 sector: Residential Development
+order: "06"
 services: Design & Documentation
 year: "2019"
 location: Brisbane, Queensland

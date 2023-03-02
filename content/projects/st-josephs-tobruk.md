@@ -1,6 +1,7 @@
 ---
 title: St Joseph's Tobruk
 sector: Social Infrastructure
+order: "06"
 services: Design & Documentation
 year: "2021"
 location: Beenleigh, Queensland

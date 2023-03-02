@@ -1,6 +1,7 @@
 ---
 title: Warrigal Rd Intersection Upgrade
 sector: Transport Infrastructure
+order: "07"
 services: Design & Documentation
 year: "2019"
 location: Brisbane, Queensland

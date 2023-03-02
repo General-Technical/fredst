@@ -9,9 +9,9 @@
       />
       <!-- Content -->
       <div class="container">
-        <FadeUp class="secondary-content-low left">
+        <div class="secondary-content-low left">
           <h1>{{ doc.title }}</h1>
-        </FadeUp>
+        </div>
         <div class="crd right fade-up">
           <Squares class="squares" />
           <ContentRenderer :value="doc" class="markdown" />

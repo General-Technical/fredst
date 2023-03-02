@@ -1,6 +1,7 @@
 ---
 title: Team Transport & Logistics
 sector: Industrial
+order: "03"
 services: Design & Documentation
 year: "2021"
 location: Brisbane, Queensland

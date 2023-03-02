@@ -9,13 +9,13 @@
       {{ title }}
     </h4>
     <div class="flex flex-col border-t pt-2">
-      <div class="flex">
-        <h5 class="font-medium w-3/12">Sector:</h5>
-        <h5 class="text-left w-9/12">{{ sector }}</h5>
+      <div class="flex gap-2">
+        <h5 class="font-medium">Sector:</h5>
+        <h5 class="text-left">{{ sector }}</h5>
       </div>
-      <div class="flex">
-        <h5 class="font-medium w-3/12">Services:</h5>
-        <h5 class="text-left w-9/12">{{ services }}</h5>
+      <div class="flex gap-2">
+        <h5 class="font-medium">Services:</h5>
+        <h5 class="text-left">{{ services }}</h5>
       </div>
     </div>
     <ContentRenderer class="markdown" :value="description" />

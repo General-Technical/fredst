@@ -1,6 +1,7 @@
 ---
 title: Thyme Retirement Village
 sector: Residential Development
+order: "08"
 services: Design & Documentation
 year: "2020"
 location: Morayfield, Queensland

@@ -13,10 +13,8 @@
           <ContentRenderer :value="doc" class="markdown" />
         </FadeUp>
         <div class="crd right fade-up">
-          <FadeUp>
-            <h1 class="page-title">{{ doc.title }}</h1>
-            <Squares class="squares" />
-          </FadeUp>
+          <h1 class="page-title">{{ doc.title }}</h1>
+          <Squares class="squares" />
           <div class="team-grid">
             <!-- Team Member -->
             <template
@@ -24,7 +22,7 @@
               v-for="person of people"
               :key="person.slug"
             >
-              <FadeUp class="flex flex-col flex-1">
+              <div class="flex flex-col flex-1">
                 <TeamCard
                   :src="person.image"
                   :name="person.name"
@@ -32,7 +30,7 @@
                   :description="person.description"
                   :body="person"
                 />
-              </FadeUp>
+              </div>
             </template>
           </div>
         </div>

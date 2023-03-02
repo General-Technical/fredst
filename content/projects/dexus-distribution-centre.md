@@ -1,6 +1,7 @@
 ---
 title: Dexus Distribution Centre
 sector: Industrial
+order: "01"
 services: Design & Documentation
 year: "2020"
 location: Brisbane, Queensland

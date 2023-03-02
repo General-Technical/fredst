@@ -1,6 +1,7 @@
 ---
 title: Nolan Park BMX Precinct
 sector: Parks & Open Space
+order: "05"
 services: Design & Documentation
 year: "2020"
 location: Moreton Bay, Queensland

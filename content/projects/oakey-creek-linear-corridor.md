@@ -1,6 +1,7 @@
 ---
 title: Oakey Creek Linear Corridor
 sector: Parks & Open Space
+order: "06"
 services: Design & Documentation
 year: "2017"
 location: Toowoomba Region, Queensland

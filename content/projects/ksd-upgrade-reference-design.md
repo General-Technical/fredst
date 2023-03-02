@@ -1,6 +1,7 @@
 ---
 title: KSD Upgrade Reference Design
 sector: Transport Infrastructure
+order: "05"
 services: Masterplanning, Concepts, Technical Specification
 year: "2015"
 location: Brisbane, Queensland
