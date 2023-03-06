@@ -1,27 +1,27 @@
-## Services
+# Services
 
-### Masterplanning
+<p class="text-lg font-bold uppercase text-right">Masterplanning</p>
 
-### Infrastructure Urban Design
+<p class="text-lg font-bold uppercase text-right">Infrastructure Urban Design</p>
 
-### Design & Documentation
+<p class="text-lg font-bold uppercase text-right">Design & Documentation</p>
 
-### Contract Administration
+<p class="text-lg font-bold uppercase text-right">Contract Administration</p>
 
-### Graphic & 3D Visualisation
+<p class="text-lg font-bold uppercase text-right">Graphic & 3D Visualisation</p>
 
 <br />
 
-## Sectors
+# Sectors
 
-### Transport Infrastructure
+<p class="text-lg font-bold uppercase text-right">Transport Infrastructure</p>
 
-### Social Infrastructure
+<p class="text-lg font-bold uppercase text-right">Social Infrastructure</p>
 
-### PUBLIC REALM, Parks & Open Space
+<p class="text-lg font-bold uppercase text-right">PUBLIC REALM, Parks & Open Space</p>
 
-### Residential
+<p class="text-lg font-bold uppercase text-right">Residential</p>
 
-### Urban Mixed-Use
+<p class="text-lg font-bold uppercase text-right">Urban Mixed-Use</p>
 
-### Industrial
+<p class="text-lg font-bold uppercase text-right">Industrial</p>

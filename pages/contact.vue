@@ -11,24 +11,30 @@
       <div class="container-mid">
         <!-- Content -->
         <div class="crd fade-up">
+          <h1 class="page-title">{{ doc.title }}</h1>
+          <Squares class="squares" />
           <div class="flex flex-col md:flex-row">
-            <div>
-              <h1 class="page-title">{{ doc.title }}</h1>
-              <Squares class="squares" />
+            <div class="flex w-2/3">
               <ContentRenderer :value="doc" class="markdown" />
             </div>
-            <div>
-              <img :src="doc.map" :alt="doc.title" class="aspect-auto" />
-            </div>
+            <img
+              :src="doc.map"
+              :alt="doc.title"
+              class="w-full md:w-2/3 rounded"
+            />
           </div>
-          <div class="flex gap-2 justify-start mt-8">
+          <p class="mt-4">
+            you can follow us on the following socials:
+            <span class="md:ml-4">or find directions on maps:</span>
+          </p>
+          <div class="flex gap-2 justify-start mt-4">
             <Fb class="sosmed fill-info" />
             <In class="sosmed fill-neutral" />
             <Ig class="sosmed fill-accent" />
             <a
               href="https://goo.gl/maps/3nH7r1nsZPgRuuVn6"
               target="_blank"
-              class="ml-auto"
+              class="mx-auto"
             >
               <Pin class="sosmed fill-accent" />
             </a>

@@ -14,17 +14,18 @@ We are constantly striving to be a landscape architectural firm that is socially
 
 For the 2021 calender year our carbon has been offset by supporting the Yarra Yarra Biodiversity Project which perfectly aligns to our company vision of project work that has positive benefits across multi levels..
 
-#### Taken from Yarra Yarra Biodiversity Project:
+Taken from Yarra Yarra Biodiversity Project:
 
 The Yarra Yarra Biodiversity Corridor plantings are located in the northern wheatbelt of Southwestern Australia. The region has an exceptionally high number of plant and animal species found nowhere else in the world. It has been identified as one of 35 global biodiversity hotspots for wildlife and plants, and the first one identified in Australia.
 The Yarra Yarra Corridor was once an area of vibrant woodlands. But since the arrival of Europeans in the early 1900s years ago, approximately 97% of the vegetation has been cleared for traditional farming practices. Now, due to problem soils and a drying climate, parts of the landscape are not suitable for traditional agriculture. The loss of habitat has also caused native species to be under threat.
 
 The Yarra Yarra Biodiversity Corridor project brings sustainable development benefits other than just ultimately sequestering carbon. These include:
-Supporting regional communities by injected more than $8 million into the local community (and 140 local businesses).
-Generation of new jobs for tree plantings, seed collection and integrated agricultural activities.
-Casual employment for 200+ people, including local indigenous people.
-Creation of an Australian Sandalwood integrated carbon industry in rural Australia.
-Preserving and registering (five sites) on the Department of Indigenous Affairs Registry aboriginal heritage sites discovered through conducting archaeological survey on properties.
-Baseline biodiversity surveys conducted by ecological scientists have discovered an amazing diversity of plant and animal species.
-Creation of wildlife habitats and the reintroduction of plant and animals, including over 30 species of conservation-significant native plants, 13 conservation-significant bird species and 100s of insect species.
-Combating desertification by protecting and stabilising the ground with vegetation, which reduces soil salinity and erosion by wind and water.
+
+- Supporting regional communities by injected more than $8 million into the local community (and 140 local businesses).
+- Generation of new jobs for tree plantings, seed collection and integrated agricultural activities.
+- Casual employment for 200+ people, including local indigenous people.
+- Creation of an Australian Sandalwood integrated carbon industry in rural Australia.
+- Preserving and registering (five sites) on the Department of Indigenous Affairs Registry aboriginal heritage sites discovered through conducting archaeological survey on properties.
+- Baseline biodiversity surveys conducted by ecological scientists have discovered an amazing diversity of plant and animal species.
+- Creation of wildlife habitats and the reintroduction of plant and animals, including over 30 species of conservation-significant native plants, 13 conservation-significant bird species and 100s of insect species.
+- Combating desertification by protecting and stabilising the ground with vegetation, which reduces soil salinity and erosion by wind and water.

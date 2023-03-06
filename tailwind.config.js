@@ -19,6 +19,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
+        display: ["display", "serif"],
+        headings: ["Montserrat", "sans-serif"],
         body: ["Raleway", "sans-serif"],
       },
       animation: {

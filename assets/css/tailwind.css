@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;1,400;1,600&display=swap");
+
+@font-face {
+  font-family: "display";
+  src: url("/assets/fonts/Znikomit.otf");
+}
 
 @tailwind base;
 @tailwind components;
@@ -17,23 +26,29 @@
   nav {
     @apply flex flex-wrap site-padding justify-start items-center w-full;
   }
+  nav ul {
+    @apply flex flex-row items-center justify-center gap-3 sm:gap-5 gap-y-2 text-center;
+  }
+  nav li {
+    @apply uppercase hover:underline hover:underline-offset-8 hover:decoration-2 trans;
+  }
   section {
     @apply flex flex-col min-h-screen justify-center py-4 bg-cover text-left;
   }
   h1 {
-    @apply font-medium text-primary text-2xl md:text-4xl -tracking-tight;
+    @apply font-display text-primary text-2xl md:text-4xl -tracking-tight mb-2;
   }
   h2 {
-    @apply font-medium text-xl md:text-2xl -tracking-tight mb-2;
+    @apply font-headings font-medium text-xl md:text-2xl tracking-normal mb-3;
   }
   h3 {
-    @apply text-lg md:text-xl mb-1 -tracking-tight;
+    @apply font-headings font-normal text-lg md:text-xl mb-4 tracking-normal;
   }
   h4 {
-    @apply text-left text-sm md:text-xl font-medium tracking-wide mb-2;
+    @apply font-display text-left text-sm md:text-2xl font-medium tracking-wide mb-3;
   }
   h5 {
-    @apply font-light text-left text-sm tracking-wider;
+    @apply font-headings font-light text-left text-base tracking-normal;
   }
   p {
     @apply text-left tracking-wider normal-case mb-2;
@@ -42,11 +57,14 @@
     @apply text-sm text-center tracking-widest trans;
   }
   ul {
+    @apply ml-4;
+  }
+  /* ul {
     @apply flex flex-row items-center justify-center gap-3 sm:gap-5 gap-y-2 text-center;
   }
   li {
     @apply uppercase hover:underline hover:underline-offset-8 hover:decoration-2 trans;
-  }
+  } */
   textarea {
     @apply h-24;
   }
@@ -54,16 +72,16 @@
 
 @layer components {
   .site-padding {
-    @apply max-w-screen-2xl 3xl:max-w-[2600px] mx-auto px-6;
+    @apply mx-auto px-6 lg:px-10;
   }
   .nav-item {
-    @apply font-bold uppercase tracking-widest text-xs sm:text-sm;
+    @apply font-headings font-semibold uppercase tracking-widest text-xs sm:text-sm;
   }
   .secondary-nav {
     @apply bg-secondary w-screen fixed top-20 sm:top-[64px] pt-3.5 z-40 shadow-md bg-opacity-90 h-12;
   }
   .secondary-nav-item {
-    @apply text-xs sm:text-sm uppercase;
+    @apply font-headings font-light text-xs sm:text-sm uppercase;
   }
   .hero-image {
     @apply bg-cover w-full h-[100vh] absolute top-0 z-0 mt-32 sm:mt-28;
@@ -81,7 +99,7 @@
     @apply w-full lg:w-1/2 mb-4;
   }
   .markdown {
-    @apply prose max-w-none min-w-[100%] prose-sm 3xl:prose;
+    @apply prose font-thin max-w-none min-w-[100%] 3xl:prose leading-snug prose-h6:italic;
   }
   .crd {
     @apply bg-secondary p-6 shadow-xl w-full h-fit col-span-5 md:col-span-3 z-40 px-4 sm:px-6 rounded-xl bg-opacity-80;
@@ -93,19 +111,19 @@
     @apply pt-0 md:mt-[75vh] col-span-5 md:col-span-2;
   }
   .secondary-content-low {
-    @apply md:mt-[25vh] col-span-5 md:col-span-2;
+    @apply md:mt-[30vh] col-span-5 md:col-span-2;
   }
   .left {
     @apply row-start-2 md:row-start-1;
   }
   .projects-grid {
-    @apply grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 w-full site-padding mt-36 lg:mt-32;
+    @apply grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 gap-y-6 w-full site-padding mt-36 lg:mt-32;
   }
   .team-grid {
-    @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mt-3;
+    @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4  gap-y-6 mt-3;
   }
   .underlined-text {
-    @apply text-left mb-1 pb-2 border-b;
+    @apply text-left mb-4 pb-4 border-b;
   }
   .sosmed {
     @apply w-6 h-6 fill-primary shadow trans;

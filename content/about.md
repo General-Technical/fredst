@@ -24,10 +24,7 @@ We’ve been involved in many projects for various sectors. Ranging from very sm
 
 Our strengths lie in being able to see the ‘big idea’ with strong a conceptual vision and excellence in communication. We have the capability to provide cutting edge graphic visualisation for presentations and an attention to detail that is apparent in highly resolved construction documentation. Our projects are characterised by ensuring resources are used in the most effective way, integrating necessary infrastructure with urban design elements and improved community outcomes.
 
-‘At the core of our design approach are collaborations that have lasting social benefits and that support a sustainable, robust and diverse community. We explore innovative ways to meld design and lifestyle, always ensuring the outcome is in-keeping with our client’s visions.’
-<br />
-<br />
+<p class="text-lg font-bold italic ml-4">‘At the core of our design approach are collaborations that have lasting social benefits and that support a sustainable, robust and diverse community. We explore innovative ways to meld design and lifestyle, always ensuring the outcome is in-keeping with our client’s visions.’</p>
 
-#### Tessa Leggo
-
-##### Director & Registered Landscape Architect
+<p class="text-lg font-semibold text-right mb-0 pb-0 leading-none not-prose">Tessa Leggo
+<br><span class="font-thin">Director & Registered Landscape Architect</span></p>

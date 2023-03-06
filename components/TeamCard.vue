@@ -3,15 +3,15 @@
     <div
       bgImage
       :style="{ backgroundImage: 'url(' + src + ')' }"
-      class="aspect-square bg-cover mb-2 rounded"
+      class="aspect-square bg-cover mb-3 rounded bg-center"
     />
-    <h4 class="underlined-text mb-3">
+    <h4 class="underlined-text">
       {{ name }}
     </h4>
-    <h5 class="font-medium">
+    <h5 class="text-lg">
       {{ role }}
     </h5>
-    <h5>
+    <h5 class="font-thin text-lg">
       {{ description }}
     </h5>
     <ContentRenderer :value="body" class="markdown" />
