@@ -9,7 +9,7 @@
       />
       <!-- Content -->
       <div class="container-mid">
-        <FadeUp class="secondary-content left">
+        <FadeUp class="second-content left">
           <ContentRenderer :value="doc" class="markdown" />
         </FadeUp>
         <div class="crd right fade-up">

@@ -15,10 +15,10 @@
 
 @layer base {
   body {
-    @apply mx-auto bg-secondary text-primary font-body font-light text-sm tracking-widest overflow-x-hidden;
+    @apply mx-auto bg-second text-prime font-body font-light text-sm tracking-widest overflow-x-hidden;
   }
   header {
-    @apply flex items-center bg-secondary w-screen fixed top-0 left-0 py-4 z-50 shadow-md bg-opacity-90 h-20 sm:h-16;
+    @apply flex items-center bg-second w-screen fixed top-0 left-0 py-4 z-50 shadow-md bg-opacity-90 h-20 sm:h-16;
   }
   footer {
     @apply flex items-center justify-center shadow-md z-50;
@@ -36,7 +36,7 @@
     @apply flex flex-col min-h-screen justify-center py-4 bg-cover text-left;
   }
   h1 {
-    @apply font-display text-primary text-2xl md:text-4xl -tracking-tight mb-2;
+    @apply font-display text-prime text-2xl md:text-4xl -tracking-tight mb-2;
   }
   h2 {
     @apply font-headings font-medium text-xl md:text-2xl tracking-normal mb-3;
@@ -77,10 +77,10 @@
   .nav-item {
     @apply font-headings font-semibold uppercase tracking-widest text-xs sm:text-sm;
   }
-  .secondary-nav {
-    @apply bg-secondary w-screen fixed top-20 sm:top-[64px] pt-3.5 z-40 shadow-md bg-opacity-90 h-12;
+  .second-nav {
+    @apply bg-second w-screen fixed top-20 sm:top-[64px] pt-3.5 z-40 shadow-md bg-opacity-90 h-12;
   }
-  .secondary-nav-item {
+  .second-nav-item {
     @apply font-headings font-light text-xs sm:text-sm uppercase;
   }
   .hero-image {
@@ -102,15 +102,15 @@
     @apply prose font-thin max-w-none min-w-[100%] 3xl:prose leading-snug prose-h6:italic;
   }
   .crd {
-    @apply bg-secondary p-6 shadow-xl w-full h-fit col-span-5 md:col-span-3 z-40 px-4 sm:px-6 rounded-xl bg-opacity-80;
+    @apply bg-second p-6 shadow-xl w-full h-fit col-span-5 md:col-span-3 z-40 px-4 sm:px-6 rounded-xl bg-opacity-80;
   }
   .right {
     @apply col-start-1 md:col-start-3;
   }
-  .secondary-content {
+  .second-content {
     @apply pt-0 md:mt-[75vh] col-span-5 md:col-span-2;
   }
-  .secondary-content-low {
+  .second-content-low {
     @apply md:mt-[30vh] col-span-5 md:col-span-2;
   }
   .left {
@@ -126,7 +126,7 @@
     @apply text-left mb-4 pb-4 border-b;
   }
   .sosmed {
-    @apply w-6 h-6 fill-primary shadow trans;
+    @apply w-6 h-6 fill-prime shadow trans;
   }
   .squares {
     @apply mb-5 bg-none flex;

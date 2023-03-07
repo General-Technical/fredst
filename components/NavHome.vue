@@ -1,20 +1,20 @@
 <template>
-  <div class="secondary-nav">
+  <div class="second-nav">
     <nav>
       <ul class="flex justify-end pb-3 sm:pb-4 xl:px-0 trans">
         <li class="decoration-info">
-          <NuxtLink to="/about" class="secondary-nav-item">About</NuxtLink>
+          <NuxtLink to="/about" class="second-nav-item">About</NuxtLink>
         </li>
         <li class="decoration-neutral">
-          <NuxtLink to="/team" class="secondary-nav-item">Team</NuxtLink>
+          <NuxtLink to="/team" class="second-nav-item">Team</NuxtLink>
         </li>
         <li class="decoration-accent">
-          <NuxtLink to="/climate" class="secondary-nav-item"
+          <NuxtLink to="/climate" class="second-nav-item"
             >Climate Active</NuxtLink
           >
         </li>
         <li class="decoration-info">
-          <NuxtLink to="/country" class="secondary-nav-item">Country</NuxtLink>
+          <NuxtLink to="/country" class="second-nav-item">Country</NuxtLink>
         </li>
       </ul>
     </nav>

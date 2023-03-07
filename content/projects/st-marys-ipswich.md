@@ -14,6 +14,6 @@ image4: /images/st-marys-ipswich_04.jpg
 ---
 
 Fred St designed and documented universally accessible play spaces
-within St Mary's Primary School. Great care and sensitivity was employed to
+within St Mary's prime School. Great care and sensitivity was employed to
 successfully integrate a modern and vibrant play outcome amongst the context
 of the heritage-listed St Mary's Roman Catholic Church Precinct.

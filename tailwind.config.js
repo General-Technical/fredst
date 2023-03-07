@@ -11,8 +11,8 @@ module.exports = {
   mode: "jit",
   theme: {
     colors: {
-      primary: "#000000",
-      secondary: "#ffffff",
+      prime: "#000000",
+      second: "#ffffff",
       accent: "#c81f46",
       neutral: "#B1D23B",
       info: "#19B4B9",

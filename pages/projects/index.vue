@@ -18,9 +18,10 @@
               />
             </template>
             <template v-slot:details>
-              <h3 class="underlined-text mb-2">
+              <h1 class="underlined-text mb-2">
                 {{ project.title }}
-              </h3>
+              </h1>
+              <!-- Blah -->
               <CarouselDark
                 :title="project.title"
                 :id="project.id"
@@ -30,6 +31,7 @@
                 :src4="project.image3"
                 :src5="project.image4"
               />
+              <!-- /Blah -->
             </template>
           </Lightbox>
         </FadeUp>

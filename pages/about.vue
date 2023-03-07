@@ -14,7 +14,7 @@
           <h1 class="page-title">{{ doc.title }}</h1>
           <ContentRenderer :value="doc" class="markdown" />
         </div>
-        <div class="secondary-content-low md:text-right">
+        <div class="second-content-low md:text-right">
           <FadeUp>
             <ContentDoc path="/services" />
           </FadeUp>

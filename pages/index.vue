@@ -9,7 +9,7 @@
       />
       <!-- Content -->
       <div class="container">
-        <div class="secondary-content-low left">
+        <div class="second-content-low left">
           <h1 class="md:text-6xl md:leading-[5rem]">{{ doc.title }}</h1>
         </div>
         <div class="crd right fade-up">

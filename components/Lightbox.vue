@@ -5,7 +5,7 @@
     </button>
     <Teleport to="body">
       <div
-        class="hidden site-padding trans fixed top-0 left-0 right-0 h-screen bottom-0 bg-secondary !bg-opacity-90 w-screen z-50"
+        class="hidden site-padding trans fixed top-0 left-0 right-0 h-screen bottom-0 bg-second !bg-opacity-90 w-screen z-50"
         :class="{ active }"
       >
         <button

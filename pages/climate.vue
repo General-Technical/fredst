@@ -9,7 +9,7 @@
       />
       <!-- Content -->
       <div class="container-mid">
-        <FadeUp class="secondary-content">
+        <FadeUp class="second-content">
           <img :src="doc.logo" :alt="doc.title" class="aspect-auto" />
         </FadeUp>
         <div class="crd fade-up">

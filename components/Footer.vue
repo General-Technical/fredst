@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-screen bg-secondary shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] mt-24 z-50"
+    class="w-screen bg-second shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] mt-24 z-50"
   >
     <footer>
       <div class="flex items-center justify-between w-full h-12 site-padding">

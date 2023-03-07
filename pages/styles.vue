@@ -2,7 +2,7 @@
   <section class="justify-start">
     <div class="site-padding pt-28 w-full flex flex-col gap-4">
       <div class="nav-item">Nav Item</div>
-      <div class="secondary-nav-item">Secondary Nav Item</div>
+      <div class="second-nav-item">second Nav Item</div>
       <h1>h1 - Page Title</h1>
       <h2>h2 - Services/Sectors Titles</h2>
       <h3>h3 - Services/Sectors</h3>
