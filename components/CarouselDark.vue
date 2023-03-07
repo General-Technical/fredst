@@ -4,7 +4,6 @@
     class="carousel slide carousel-dark relative z-20 mt-4"
     data-te-ride="max-h-[70vh] top-8"
     data-te-carousel-init
-    data-te-carousel-slide
   >
     <!-- Indicators -->
     <!-- Indicators -->
@@ -89,24 +88,21 @@
     <!-- Inner -->
     <!-- Controls -->
     <button
-      class="absolute top-0 bottom-0 left-0 z-[1] flex items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none pr-1 sm:bg-second sm:bg-opacity-0 sm:hover:bg-opacity-30 trans"
+      class="absolute top-0 bottom-0 left-0 z-[1] flex items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none sm:bg-second sm:bg-opacity-0 sm:hover:bg-opacity-30 trans"
       type="button"
       :data-te-target="'#' + id"
       data-te-slide="prev"
     >
-      <span class="inline-block h-8 w-8 dark:grayscale dark:invert">
+      <span class="inline-block h-12 w-12 dark:grayscale dark:invert">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="h-6 w-6"
+          width="auto"
+          height="auto"
+          viewBox="0 0 512 512"
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M15.75 19.5L8.25 12l7.5-7.5"
+            d="M352 115.4L331.3 96 160 256l171.3 160 20.7-19.3L201.5 256z"
+            fill="currentColor"
           />
         </svg>
       </span>
@@ -116,24 +112,21 @@
       >
     </button>
     <button
-      class="absolute top-0 bottom-0 right-0 z-[1] flex items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none pl-1 sm:bg-second sm:bg-opacity-0 sm:hover:bg-opacity-30 trans"
+      class="absolute top-0 bottom-0 right-0 z-[1] flex items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none sm:bg-second sm:bg-opacity-0 sm:hover:bg-opacity-30 trans"
       type="button"
       :data-te-target="'#' + id"
       data-te-slide="next"
     >
-      <span class="inline-block h-8 w-8 dark:grayscale dark:invert">
+      <span class="inline-block h-12 w-12 dark:grayscale dark:invert">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="h-6 w-6"
+          width="auto"
+          height="auto"
+          viewBox="0 0 512 512"
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+            fill="currentColor"
           />
         </svg>
       </span>
