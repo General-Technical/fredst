@@ -4,6 +4,7 @@
     class="carousel slide carousel-dark relative z-20 mt-4"
     data-te-ride="max-h-[70vh] top-8"
     data-te-carousel-init
+    data-te-carousel-slide
   >
     <!-- Indicators -->
     <!-- Indicators -->
@@ -46,7 +47,9 @@
       ></button>
     </div>
     <!-- Inner -->
-    <div class="carousel-inner relative w-full overflow-hidden">
+    <div
+      class="carousel-inner relative w-full overflow-hidden after:clear-both after:block after:content-['']"
+    >
       <!-- Single item -->
       <div
         v-if="src1"

@@ -18,9 +18,9 @@
               />
             </template>
             <template v-slot:details>
-              <h1 class="underlined-text mb-2">
+              <h4 class="underlined-text mb-2">
                 {{ project.title }}
-              </h1>
+              </h4>
               <CarouselDark
                 :title="project.title"
                 :id="project.id"
