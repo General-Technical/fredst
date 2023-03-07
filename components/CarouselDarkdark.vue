@@ -7,17 +7,14 @@
     data-te-carousel-slide
   >
     <!-- Indicators -->
-    <div
-      class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-      data-te-carousel-indicators
-    >
+    <!-- Indicators -->
+    <div class="carousel-indicators flex justify-center p-0 z-50 mt-10 sm:mt-0">
       <button
         type="button"
         :data-te-target="'#' + id"
         data-te-slide-to="0"
-        data-te-carousel-active
-        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-second bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none pointer-events-none"
-        aria-current="true"
+        class="active"
+        aria-current="false"
         aria-label="Slide 1"
       ></button>
       <button
@@ -25,7 +22,6 @@
         type="button"
         :data-te-target="'#' + id"
         data-te-slide-to="1"
-        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-second bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none pointer-events-none"
         aria-label="Slide 2"
       ></button>
       <button
@@ -33,7 +29,6 @@
         type="button"
         :data-te-target="'#' + id"
         data-te-slide-to="2"
-        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-second bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none pointer-events-none"
         aria-label="Slide 3"
       ></button>
       <button
@@ -41,7 +36,6 @@
         type="button"
         :data-te-target="'#' + id"
         data-te-slide-to="3"
-        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-second bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none pointer-events-none"
         aria-label="Slide 4"
       ></button>
       <button
@@ -49,7 +43,6 @@
         type="button"
         :data-te-target="'#' + id"
         data-te-slide-to="4"
-        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-second bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none pointer-events-none"
         aria-label="Slide 5"
       ></button>
     </div>
@@ -61,26 +54,38 @@
       <div
         v-if="src1"
         class="carousel-item"
+        data-te-carousel-fade
         data-te-carousel-item
         data-te-carousel-active
       >
         <img :src="src1" class="carousel-image mx-auto" :alt="title" />
       </div>
       <!-- Single item -->
-      <div v-if="src2" class="carousel-item hidden" data-te-carousel-item>
+      <div
+        v-if="src2"
+        class="carousel-item hidden"
+        data-te-carousel-fade
+        data-te-carousel-item
+      >
         <img :src="src2" class="carousel-image" :alt="title" />
       </div>
       <!-- Single item -->
-      <div v-if="src3" class="carousel-item hidden" data-te-carousel-item>
+      <div
+        v-if="src3"
+        class="carousel-item hidden"
+        data-te-carousel-fade
+        data-te-carousel-item
+      >
         <img :src="src3" class="carousel-image" :alt="title" />
       </div>
       <!-- Single item -->
-      <div v-if="src4" class="carousel-item hidden" data-te-carousel-item>
+      <div
+        v-if="src4"
+        class="carousel-item hidden"
+        data-te-carousel-fade
+        data-te-carousel-item
+      >
         <img :src="src4" class="carousel-image" :alt="title" />
-      </div>
-      <!-- Single item -->
-      <div v-if="src5" class="carousel-item hidden" data-te-carousel-item>
-        <img :src="src5" class="carousel-image" :alt="title" />
       </div>
     </div>
     <!-- Inner -->
@@ -138,10 +143,10 @@
 
 <style scoped>
 .carousel-item {
-  @apply relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none;
+  @apply relative float-left w-full;
 }
 .carousel-image {
-  @apply block w-auto mx-auto max-h-[70vh] rounded;
+  @apply block w-auto max-h-[70vh] rounded mx-auto;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
