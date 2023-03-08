@@ -27,7 +27,7 @@
     @apply flex flex-wrap site-padding justify-start items-center w-full;
   }
   nav ul {
-    @apply flex flex-row items-center justify-center gap-3 sm:gap-5 gap-y-2 text-center;
+    @apply flex flex-row items-center justify-center gap-3 sm:gap-5 gap-y-2 text-center ml-0;
   }
   nav li {
     @apply uppercase hover:underline hover:underline-offset-8 hover:decoration-2 trans;
@@ -45,7 +45,7 @@
     @apply font-headings font-normal text-lg md:text-xl mb-4 tracking-normal;
   }
   h4 {
-    @apply font-display text-left text-sm md:text-2xl font-medium tracking-wide mb-3;
+    @apply font-display text-left text-xl md:text-2xl font-medium tracking-wide mb-3;
   }
   h5 {
     @apply font-headings font-light text-left text-base tracking-normal;
