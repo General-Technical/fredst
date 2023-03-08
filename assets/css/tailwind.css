@@ -36,19 +36,19 @@
     @apply flex flex-col min-h-screen justify-center py-4 bg-cover text-left;
   }
   h1 {
-    @apply font-display text-prime text-2xl md:text-4xl -tracking-tight mb-2;
+    @apply font-display text-prime text-2xl md:text-4xl 3xl:text-6xl -tracking-tight mb-2;
   }
   h2 {
-    @apply font-headings font-medium text-xl md:text-2xl tracking-normal mb-3;
+    @apply font-headings font-medium text-xl md:text-2xl 3xl:text-3xl tracking-normal mb-3;
   }
   h3 {
-    @apply font-headings font-normal text-lg md:text-xl mb-4 tracking-normal;
+    @apply font-headings font-normal text-lg md:text-xl 3xl:text-2xl mb-4 tracking-normal;
   }
   h4 {
-    @apply font-display text-left text-xl md:text-2xl font-medium tracking-wide mb-3;
+    @apply font-display text-left text-xl md:text-2xl 3xl:text-4xl font-medium tracking-wide mb-3;
   }
   h5 {
-    @apply font-headings font-light text-left text-base tracking-normal;
+    @apply font-headings font-light text-left text-base tracking-normal 3xl:text-xl;
   }
   p {
     @apply text-left tracking-wider normal-case mb-2;
@@ -93,7 +93,7 @@
     @apply w-full lg:w-1/2 mb-4;
   }
   .markdown {
-    @apply prose font-thin max-w-none min-w-[100%] 3xl:prose leading-snug prose-h6:italic;
+    @apply prose font-thin max-w-none min-w-[100%] 3xl:prose-xl leading-snug prose-h6:italic;
   }
   .crd {
     @apply bg-second p-6 shadow-xl w-full h-fit col-span-5 md:col-span-3 z-40 px-4 sm:px-6 rounded-xl bg-opacity-80;
