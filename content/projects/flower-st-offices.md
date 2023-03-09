@@ -12,8 +12,7 @@ image2: /images/flower-st_11.jpg
 image3: /images/flower-st_06.jpg
 image4: /images/flower-st_12.jpg
 ---
-
-Fred St were engaged to design a private garden to complement and
+FRED St were engaged to design a private garden to complement and
 enhance the evolution of a suburban character residence into offices and
 counselling rooms for the Mercy Partners. The role of the garden in this
 project is significant as it directly nourishes the spiritual practice of
