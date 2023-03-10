@@ -10,7 +10,9 @@
       <!-- Content -->
       <div class="container">
         <div class="second-content-low left">
-          <h1 class="md:text-6xl md:leading-[5rem]">{{ doc.title }}</h1>
+          <h1 class="md:text-6xl md:leading-[5rem]">
+            {{ doc.title }}
+          </h1>
         </div>
         <div class="crd right fade-up">
           <Squares class="squares" />

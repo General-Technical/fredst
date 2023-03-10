@@ -25,18 +25,14 @@
           </div>
           <p class="mt-4">
             you can follow us on the following socials:
-            <span class="md:ml-4">or find directions on maps:</span>
+            <br />or find directions on maps:
           </p>
           <div class="flex gap-2 justify-start mt-4">
             <Fb class="sosmed fill-info" />
             <In class="sosmed fill-neutral" />
             <Ig class="sosmed fill-accent" />
-            <a
-              href="https://goo.gl/maps/3nH7r1nsZPgRuuVn6"
-              target="_blank"
-              class="mx-auto"
-            >
-              <Pin class="sosmed fill-accent" />
+            <a href="https://goo.gl/maps/3nH7r1nsZPgRuuVn6" target="_blank">
+              <Pin class="sosmed fill-accent shadow-none" />
             </a>
           </div>
         </div>

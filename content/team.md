@@ -5,7 +5,7 @@ image: /images/hero_team-01.jpg
 
 ## Our team of highly skilled professionals are determined to provide the combined product of functional landscapes and creative outcomes in a socially responsible context.
 
-### FRED St was started in 2014 and in that time we have been lucky enough to receive a number of industry awards:
+<p class="font-body  text-lg">FRED St was started in 2014 and in that time we have been lucky enough to receive a number of industry awards:</p>
 
 **AILA Qld Award for Excellence 2016 - Infrastructure**
 <br>L&UD Masterplan - KSD Reference Design & Framework

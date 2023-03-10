@@ -1,5 +1,5 @@
 ---
-title: Fred St is Climate Active
+title: FRED St is Climate Active
 image: /images/hero_climate-active-01.jpg
 logo: /images/Climate_Active_Network_Member_Logo_pos_RGB.png
 ---
