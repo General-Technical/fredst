@@ -10,12 +10,16 @@
       <!-- Content -->
       <div class="container-mid">
         <div class="second-content md:mt-0 left">
-          <h2 class="text-white mb-96">
+          <h2 class="text-white mt-8 mb-10 md:mb-[600px]">
             Our team of highly skilled professionals are determined to provide
             the combined product of functional landscapes and creative outcomes
             in a socially responsible context.
           </h2>
-          <FadeUp class="mt-44">
+          <FadeUp>
+            <p class="not-prose font-body text-xl font-normal mb-10">
+              FRED St was started in 2014 and in that time we have been lucky
+              enough to receive a number of industry awards:
+            </p>
             <ContentRenderer :value="doc" class="markdown" />
           </FadeUp>
         </div>
