@@ -110,7 +110,7 @@
     @apply mt-[30vh] col-span-2;
   }
   .page-title {
-    @apply w-full mb-4;
+    @apply w-full mb-6;
   }
   .markdown {
     @apply prose font-light max-w-none min-w-[100%] prose-sm xl:prose-base 3xl:prose-lg leading-snug prose-h6:italic prose-h3:mt-0 pt-0;
@@ -132,7 +132,7 @@
     @apply w-6 h-6 fill-prime shadow trans;
   }
   .squares {
-    @apply mb-5 bg-none flex;
+    @apply mb-6 bg-none flex;
   }
   .trans {
     @apply transition duration-300 ease-in-out;
