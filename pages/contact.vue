@@ -13,8 +13,9 @@
         <div class="crd fade-up">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
-          <div class="flex flex-col md:flex-row">
-            <div class="flex w-2/3">
+          <div class="flex flex-col md:flex-row mt-">
+            <div class="w-2/3">
+              <h3>FRED St PTY LTD</h3>
               <ContentRenderer :value="doc" class="markdown" />
             </div>
             <img

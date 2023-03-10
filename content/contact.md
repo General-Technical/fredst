@@ -4,8 +4,6 @@ image: /images/hero_contact-01.jpg
 map: /images/map-01.jpg
 ---
 
-### FRED St PTY LTD
-
 +61 7 3393 2914
 
 info@fredst.com
