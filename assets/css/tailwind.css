@@ -97,10 +97,10 @@
     @apply col-start-1 md:col-start-3;
   } */
   .second-content {
-    @apply pt-0 md:mt-[75vh] mx-auto md:col-span-2 md:pr-8;
+    @apply pt-0 md:mt-[75vh] mx-auto md:col-span-2 3xl:col-span-1 md:pr-8;
   }
   .second-content-low {
-    @apply md:mt-[30vh] content-margin md:col-span-2 flex mt-8 md:justify-center;
+    @apply md:mt-[30vh] content-margin md:col-span-2 3xl:col-span-1 flex mt-8 md:justify-center;
   }
   .left {
     @apply row-start-2 md:row-start-1;

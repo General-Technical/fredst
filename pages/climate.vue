@@ -14,9 +14,9 @@
           <Squares class="squares" />
           <ContentRenderer :value="doc" class="markdown" />
         </div>
-        <FadeUp class="second-content md:col-start-1 md:row-start-1">
+        <div class="second-content">
           <img :src="doc.logo" :alt="doc.title" class="aspect-auto mx-auto" />
-        </FadeUp>
+        </div>
       </div>
     </ContentDoc>
   </section>
