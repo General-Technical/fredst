@@ -1,7 +1,7 @@
 ---
 title: Cairns Bruce Highway Upgrade
 sector: Transport Infrastructure
-order: "03"
+order: "06"
 services: Bid, Design & Documentation
 year: x
 location: x
