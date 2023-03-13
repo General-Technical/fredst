@@ -7,18 +7,14 @@
         :style="{ backgroundImage: 'url(' + doc.image + ')' }"
         class="hero-image mt-28"
       />
-      <div
-        class="grid grid-cols-5 gap-8 site-padding md:absolute mt-44 md:mt-0 top-60 z-50"
-      >
-        <h2 class="text-right text-white col-span-5 md:col-span-2">
-          Our team of highly skilled professionals are determined to provide the
-          combined product of functional landscapes and creative outcomes in a
-          socially responsible context.
-        </h2>
-      </div>
       <!-- Content -->
-      <div class="container-mid mt-8 md:mt-[40vh]">
+      <div class="container-mid">
         <FadeUp class="second-content left">
+          <h2 class="mt-8 mb-10">
+            Our team of highly skilled professionals are determined to provide
+            the combined product of functional landscapes and creative outcomes
+            in a socially responsible context.
+          </h2>
           <p class="not-prose font-body text-xl font-normal mb-10">
             FRED St was started in 2014 and in that time we have been lucky
             enough to receive a number of industry awards:
