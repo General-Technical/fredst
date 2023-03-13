@@ -54,7 +54,7 @@
     @apply text-left tracking-wider normal-case mb-2;
   }
   a {
-    @apply text-center tracking-widest trans underline-offset-4;
+    @apply text-center tracking-widest trans;
   }
   ul {
     @apply ml-4;
