@@ -124,6 +124,312 @@ collections:
           choose_url: false,
           required: false,
         }
+
+  - label: "Social"
+    name: "social"
+    folder: "content/projects/02.social"
+    format: "frontmatter"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: "Sector"
+        name: "sector"
+        widget: "select"
+        options:
+          [
+            "Transport Infrastructure",
+            "Social Infrastructure",
+            "Parks & Open Space",
+            "Residential Development",
+            "Urban Mixed Use",
+            "Industrial",
+          ]
+      - { label: Order, name: order, widget: string }
+      - { label: Services, name: services, widget: string }
+      - { label: Year, name: year, widget: string }
+      - { label: Location, name: location, widget: string }
+      - { label: Id, name: id, widget: string }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Hero Image",
+          name: "image",
+          widget: "image",
+          choose_url: false,
+          required: true,
+        }
+      - {
+          label: "Project Image 1",
+          name: "image1",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 2",
+          name: "image2",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 3",
+          name: "image3",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 4",
+          name: "image4",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+
+  - label: "Parks"
+    name: "parks"
+    folder: "content/projects/03.parks"
+    format: "frontmatter"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: "Sector"
+        name: "sector"
+        widget: "select"
+        options:
+          [
+            "Transport Infrastructure",
+            "Social Infrastructure",
+            "Parks & Open Space",
+            "Residential Development",
+            "Urban Mixed Use",
+            "Industrial",
+          ]
+      - { label: Order, name: order, widget: string }
+      - { label: Services, name: services, widget: string }
+      - { label: Year, name: year, widget: string }
+      - { label: Location, name: location, widget: string }
+      - { label: Id, name: id, widget: string }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Hero Image",
+          name: "image",
+          widget: "image",
+          choose_url: false,
+          required: true,
+        }
+      - {
+          label: "Project Image 1",
+          name: "image1",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 2",
+          name: "image2",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 3",
+          name: "image3",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 4",
+          name: "image4",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+
+  - label: "Residential"
+    name: "residential"
+    folder: "content/projects/04.residential"
+    format: "frontmatter"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: "Sector"
+        name: "sector"
+        widget: "select"
+        options:
+          [
+            "Transport Infrastructure",
+            "Social Infrastructure",
+            "Parks & Open Space",
+            "Residential Development",
+            "Urban Mixed Use",
+            "Industrial",
+          ]
+      - { label: Order, name: order, widget: string }
+      - { label: Services, name: services, widget: string }
+      - { label: Year, name: year, widget: string }
+      - { label: Location, name: location, widget: string }
+      - { label: Id, name: id, widget: string }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Hero Image",
+          name: "image",
+          widget: "image",
+          choose_url: false,
+          required: true,
+        }
+      - {
+          label: "Project Image 1",
+          name: "image1",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 2",
+          name: "image2",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 3",
+          name: "image3",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 4",
+          name: "image4",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+
+  - label: "Urban"
+    name: "urban"
+    folder: "content/projects/05.urban"
+    format: "frontmatter"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: "Sector"
+        name: "sector"
+        widget: "select"
+        options:
+          [
+            "Transport Infrastructure",
+            "Social Infrastructure",
+            "Parks & Open Space",
+            "Residential Development",
+            "Urban Mixed Use",
+            "Industrial",
+          ]
+      - { label: Order, name: order, widget: string }
+      - { label: Services, name: services, widget: string }
+      - { label: Year, name: year, widget: string }
+      - { label: Location, name: location, widget: string }
+      - { label: Id, name: id, widget: string }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Hero Image",
+          name: "image",
+          widget: "image",
+          choose_url: false,
+          required: true,
+        }
+      - {
+          label: "Project Image 1",
+          name: "image1",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 2",
+          name: "image2",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 3",
+          name: "image3",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 4",
+          name: "image4",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+
+  - label: "Industrial"
+    name: "industrial"
+    folder: "content/projects/06.industrial"
+    format: "frontmatter"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: "Sector"
+        name: "sector"
+        widget: "select"
+        options:
+          [
+            "Transport Infrastructure",
+            "Social Infrastructure",
+            "Parks & Open Space",
+            "Residential Development",
+            "Urban Mixed Use",
+            "Industrial",
+          ]
+      - { label: Order, name: order, widget: string }
+      - { label: Services, name: services, widget: string }
+      - { label: Year, name: year, widget: string }
+      - { label: Location, name: location, widget: string }
+      - { label: Id, name: id, widget: string }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Hero Image",
+          name: "image",
+          widget: "image",
+          choose_url: false,
+          required: true,
+        }
+      - {
+          label: "Project Image 1",
+          name: "image1",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 2",
+          name: "image2",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 3",
+          name: "image3",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 4",
+          name: "image4",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+
   - label: "Team"
     name: "team"
     folder: "content/people"
