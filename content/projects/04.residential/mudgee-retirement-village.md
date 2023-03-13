@@ -1,5 +1,6 @@
 ---
-title: Mudgee Retirement Village
+title1: Mudgee
+title2: Retirement Village
 sector: Residential Development
 order: "03"
 services: Design & Documentation

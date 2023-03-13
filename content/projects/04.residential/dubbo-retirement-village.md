@@ -1,5 +1,6 @@
 ---
-title: Dubbo Retirement Village
+title1: Dubbo
+title2: Retirement Village
 sector: Residential Development
 order: "01"
 services: Design & Documentation

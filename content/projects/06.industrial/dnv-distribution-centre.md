@@ -1,5 +1,6 @@
 ---
-title: DNV Distribution Centre
+title1: DNV
+title2: Distribution Centre
 sector: Industrial
 order: "02"
 services: Design & Documentation

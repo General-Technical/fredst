@@ -1,5 +1,6 @@
 ---
-title: St Mary's Ipswich
+title1: St Mary's
+title2: Ipswich
 sector: Social Infrastructure
 order: "07"
 services: Design & Documentation

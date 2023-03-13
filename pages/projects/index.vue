@@ -11,7 +11,8 @@
             <template v-slot:summary>
               <ProjectCard
                 :src="project.image"
-                :title="project.title"
+                :title1="project.title1"
+                :title2="project.title2"
                 :sector="project.sector"
                 :services="project.services"
                 :description="project"

@@ -1,5 +1,6 @@
 ---
-title: Nolan Park BMX Precinct
+title1: Nolan Park
+title2: BMX Precinct
 sector: Parks & Open Space
 order: "05"
 services: Design & Documentation

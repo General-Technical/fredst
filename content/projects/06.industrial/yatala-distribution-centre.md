@@ -1,5 +1,6 @@
 ---
-title: Yatala Distribution Centre
+title1: Yatala
+title2: Distribution Centre
 sector: Industrial
 order: "04"
 services: Design & Documentation

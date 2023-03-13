@@ -1,5 +1,6 @@
 ---
-title: Gympie Rd Noise Barrier
+title1: Gympie Rd
+title2: Noise Barrier
 sector: Transport Infrastructure
 order: "04"
 services: Landscape Assessment, Design & Documentation

@@ -1,5 +1,6 @@
 ---
-title: Les Hughes Sports Complex
+title1: Les Hughes
+title2: Sports Complex
 sector: Parks & Open Space
 order: "04"
 services: Design & Documentation

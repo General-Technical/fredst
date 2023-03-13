@@ -1,5 +1,6 @@
 ---
-title: Camp Hill State School
+title1: Camp Hill
+title2: State School
 sector: Social Infrastructure
 order: "02"
 services: Design & Documentation

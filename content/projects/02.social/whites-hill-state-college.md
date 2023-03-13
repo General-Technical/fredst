@@ -1,5 +1,6 @@
 ---
-title: White's Hill State College
+title1: White's Hill
+title2: State College
 sector: Social Infrastructure
 order: "08"
 services: Design & Documentation

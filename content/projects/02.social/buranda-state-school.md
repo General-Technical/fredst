@@ -1,5 +1,6 @@
 ---
-title: Buranda State School
+title1: Buranda
+title2: State School
 sector: Social Infrastructure
 order: "01"
 services: Design & Documentation

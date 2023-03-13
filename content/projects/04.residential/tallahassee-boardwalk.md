@@ -1,5 +1,6 @@
 ---
-title: Tallahassee Boardwalk
+title1: Tallahassee
+title2: Boardwalk
 sector: Residential Development
 order: "07"
 services: Design & Documentation

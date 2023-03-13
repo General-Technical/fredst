@@ -1,5 +1,6 @@
 ---
-title: Yeronga State School
+title1: Yeronga
+title2: State School
 sector: Social Infrastructure
 order: "10"
 services: Design & Documentation

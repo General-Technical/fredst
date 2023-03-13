@@ -1,5 +1,6 @@
 ---
-title: Thyme Retirement Village
+title1: Thyme
+title2: Retirement Village
 sector: Residential Development
 order: "08"
 services: Design & Documentation

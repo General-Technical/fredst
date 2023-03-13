@@ -1,5 +1,6 @@
 ---
-title: Oakey Creek Linear Corridor
+title1: Oakey Creek
+title2: Linear Corridor
 sector: Parks & Open Space
 order: "06"
 services: Design & Documentation

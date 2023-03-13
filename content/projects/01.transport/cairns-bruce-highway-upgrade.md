@@ -1,5 +1,6 @@
 ---
-title: Cairns Bruce Highway Upgrade
+title1: Cairns Bruce Highway
+title2: Upgrade
 sector: Transport Infrastructure
 order: "06"
 services: Bid, Design & Documentation

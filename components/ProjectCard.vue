@@ -5,9 +5,7 @@
       :style="{ backgroundImage: 'url(' + src + ')' }"
       class="aspect-square bg-cover mb-3 rounded bg-center"
     />
-    <h4>
-      {{ title }}
-    </h4>
+    <h4>{{ title1 }}<br />{{ title2 }}</h4>
     <div class="flex flex-col border-t pt-3">
       <div class="flex">
         <h5 class="font-light project-subhead">Sector:</h5>
@@ -28,7 +26,11 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  title: {
+  title1: {
+    type: String,
+    required: true,
+  },
+  title2: {
     type: String,
     required: true,
   },

@@ -1,5 +1,6 @@
 ---
-title: Warrigal Rd Intersection Upgrade
+title1: Warrigal Rd
+title2: Intersection Upgrade
 sector: Transport Infrastructure
 order: "07"
 services: Design & Documentation

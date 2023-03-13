@@ -1,5 +1,6 @@
 ---
-title: Flower St Offices
+title1: Flower St
+title2: Offices
 sector: Urban Mixed Use
 order: "01"
 services: Design & Documentation
@@ -12,6 +13,7 @@ image2: /images/flower-st_11.jpg
 image3: /images/flower-st_06.jpg
 image4: /images/flower-st_12.jpg
 ---
+
 FRED St were engaged to design a private garden to complement and
 enhance the evolution of a suburban character residence into offices and
 counselling rooms for the Mercy Partners. The role of the garden in this

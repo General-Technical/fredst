@@ -1,5 +1,6 @@
 ---
-title: Smith Collective Park
+title1: Smith Collective
+title2: Park
 sector: Parks & Open Space
 order: "07"
 services: Design & Documentation

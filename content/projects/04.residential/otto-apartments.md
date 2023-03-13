@@ -1,5 +1,6 @@
 ---
-title: Otto Apartments
+title1: Otto
+title2: Apartments
 sector: Residential Development
 order: "05"
 services: Design & Documentation

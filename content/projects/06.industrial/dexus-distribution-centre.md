@@ -1,5 +1,6 @@
 ---
-title: Dexus Distribution Centre
+title1: Dexus
+title2: Distribution Centre
 sector: Industrial
 order: "01"
 services: Design & Documentation

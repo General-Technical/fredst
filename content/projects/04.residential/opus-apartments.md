@@ -1,5 +1,6 @@
 ---
-title: Opus Apartments
+title1: Opus
+title2: Apartments
 sector: Residential Development
 order: "04"
 services: Design & Documentation

@@ -1,5 +1,6 @@
 ---
-title: Rochedale State School
+title1: Rochedale
+title2: State School
 sector: Social Infrastructure
 order: "04"
 services: Design & Documentation

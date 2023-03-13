@@ -1,5 +1,6 @@
 ---
-title: Scape Student Living
+title1: Scape
+title2: Student Living
 sector: Residential Development
 order: "06"
 services: Design & Documentation

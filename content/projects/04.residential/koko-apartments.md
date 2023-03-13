@@ -1,5 +1,6 @@
 ---
-title: Koko Apartments
+title1: Koko
+title2: Apartments
 sector: Residential Development
 order: "02"
 services: Design & Documentation

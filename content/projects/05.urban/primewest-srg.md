@@ -1,5 +1,6 @@
 ---
-title: Primewest SRG
+title1: Primewest
+title2: SRG
 sector: Urban Mixed Use
 order: "02"
 services: Design & Documentation

@@ -1,5 +1,6 @@
 ---
-title: Thorn St Dental
+title1: Thorn St
+title2: Dental
 sector: Urban Mixed Use
 order: "03"
 services: Design & Documentation

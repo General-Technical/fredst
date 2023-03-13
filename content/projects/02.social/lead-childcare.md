@@ -1,5 +1,6 @@
 ---
-title: Lead Childcare
+title1: Lead
+title2: Childcare
 sector: Social Infrastructure
 order: "03"
 services: Design & Documentation

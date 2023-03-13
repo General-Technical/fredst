@@ -1,5 +1,6 @@
 ---
-title: James Drysdale Reserve Baseball Precinct
+title1: James Drysdale Reserve
+title2: Baseball Precinct
 sector: Parks & Open Space
 order: "03"
 services: Design & Documentation

@@ -1,5 +1,6 @@
 ---
-title: St Joseph's Tobruk
+title1: St Joseph's
+title2: Tobruk
 sector: Social Infrastructure
 order: "06"
 services: Design & Documentation

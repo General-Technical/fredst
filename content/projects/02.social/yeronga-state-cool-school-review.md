@@ -1,5 +1,6 @@
 ---
-title: Yeronga State Cool School Review
+title1: Yeronga State
+title2: Cool School Review
 sector: Social Infrastructure
 order: "09"
 services: Strategic Plan?

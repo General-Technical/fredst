@@ -1,5 +1,6 @@
 ---
-title: Bibury St Park
+title1: Bibury St
+title2: Park
 sector: Parks & Open Space
 order: "01"
 services: Design & Documentation
