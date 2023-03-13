@@ -42,10 +42,7 @@
 
 <script setup>
 const { data: projects } = await useAsyncData("projects", () => {
-  return queryContent("/projects")
-    .sort({ sector: 1 })
-    .sort({ order: 1 })
-    .find();
+  return queryContent("/projects").sort({ order: 1 }).find();
 });
 
 definePageMeta({
