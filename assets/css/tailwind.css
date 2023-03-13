@@ -85,7 +85,7 @@
     @apply px-0 md:px-8 lg:mx-12 xl:mx-16;
   }
   .content-grid {
-    @apply grid grid-cols-1 md:grid-cols-5 xl:grid-cols-2;
+    @apply grid grid-cols-1 md:grid-cols-5 3xl:grid-cols-2;
   }
   .container {
     @apply min-w-full site-padding content-grid mt-[88vh] z-20;
@@ -93,14 +93,17 @@
   .container-mid {
     @apply min-w-full site-padding content-grid mt-[40vh] z-20;
   }
+  .crd {
+    @apply bg-second p-8 shadow-xl h-fit z-40 rounded-xl bg-opacity-80 content-margin md:col-span-3 3xl:col-span-1;
+  }
   /* .right {
     @apply col-start-1 md:col-start-3;
   } */
   .second-content {
-    @apply pt-0 md:mt-[75vh] mx-auto md:col-span-2 xl:col-span-1 md:pr-8;
+    @apply pt-0 md:mt-[75vh] mx-auto md:col-span-2 3xl:col-span-1 md:pr-8;
   }
   .second-content-low {
-    @apply md:mt-[30vh] content-margin md:col-span-2 xl:col-span-1 flex mt-8 md:justify-center;
+    @apply md:mt-[30vh] content-margin md:col-span-2 3xl:col-span-1 flex mt-8 md:justify-center;
   }
   .left {
     @apply row-start-2 md:row-start-1;
@@ -114,9 +117,6 @@
   }
   .markdown {
     @apply prose font-light max-w-none min-w-[100%] prose-sm xl:prose-base 3xl:prose-lg leading-snug prose-h6:italic prose-h3:mt-0 pt-0;
-  }
-  .crd {
-    @apply bg-second p-8 shadow-xl h-fit z-40 rounded-xl bg-opacity-80 content-margin md:col-span-3 xl:col-span-1;
   }
 
   .projects-grid {
