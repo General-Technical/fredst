@@ -9,7 +9,7 @@
       />
       <!-- Content -->
       <div class="container-mid">
-        <div class="crd right fade-up 3xl:mt-96">
+        <div class="crd right fade-up 3xl:mt-[520px]">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
           <ContentRenderer :value="doc" class="markdown" />

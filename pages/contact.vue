@@ -10,7 +10,7 @@
       <!-- Content -->
       <div class="container-mid">
         <!-- Content -->
-        <div class="crd fade-up 3xl:mt-96">
+        <div class="crd fade-up 3xl:mt-[520px]">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
           <div class="grid grid-cols-1 md:grid-cols-5 md:gap-4">
@@ -27,7 +27,7 @@
             <!-- </div> -->
           </div>
           <p class="mt-4">
-            You can follow us on the following socials:
+            You can follow us on the following socials
             <br />or find directions on maps:
           </p>
           <div class="flex gap-2 justify-start mt-4">
