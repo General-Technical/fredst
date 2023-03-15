@@ -100,7 +100,7 @@
     @apply col-start-1 md:col-start-3;
   } */
   .second-content {
-    @apply pt-0 md:mt-[75vh] 3xl:mt-[68vh] mx-auto md:col-span-2 3xl:col-span-1 md:pr-8;
+    @apply pt-0 md:mt-[75vh] 3xl:mt-[68vh] content-margin mx-auto md:col-span-2 3xl:col-span-1 md:pr-8;
   }
   .second-content-low {
     @apply md:mt-[30vh] 3xl:mt-72 content-margin md:col-span-2 3xl:col-span-1 flex mt-8 md:justify-center z-50;
