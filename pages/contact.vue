@@ -10,7 +10,7 @@
       <!-- Content -->
       <div class="container-mid">
         <!-- Content -->
-        <div class="crd fade-up">
+        <div class="crd fade-up 3xl:mt-96">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />
           <div class="grid grid-cols-1 md:grid-cols-5 md:gap-4">
