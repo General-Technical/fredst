@@ -21,7 +21,9 @@
       <!-- Content -->
       <div class="container-mid mt-8 md:mt-[40vh]">
         <FadeUp class="second-content left">
-          <p class="not-prose font-body text-xl font-normal mb-10 3xl:text-4xl">
+          <p
+            class="not-prose font-body text-xl font-normal mb-10 mt-16 md:mt-0 3xl:text-4xl"
+          >
             FRED St was started in 2014 and in that time we have been lucky
             enough to receive a number of industry awards:
           </p>

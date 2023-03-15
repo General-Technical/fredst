@@ -45,7 +45,7 @@
     @apply font-headings font-normal text-lg md:text-xl 3xl:text-2xl mb-4 tracking-normal;
   }
   h4 {
-    @apply font-display text-left text-xl md:text-2xl 3xl:text-4xl font-medium tracking-wide mb-3;
+    @apply font-display text-left text-xl md:text-2xl 3xl:text-4xl 3xl:leading-normal font-medium tracking-wide mb-3;
   }
   h5 {
     @apply font-headings font-light text-left text-base tracking-normal 3xl:text-xl;
