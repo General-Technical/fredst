@@ -27,7 +27,7 @@
             <!-- </div> -->
           </div>
           <p class="mt-4">
-            you can follow us on the following socials:
+            You can follow us on the following socials:
             <br />or find directions on maps:
           </p>
           <div class="flex gap-2 justify-start mt-4">
