@@ -16,7 +16,7 @@
         <h5 class="font-thin project-item">{{ services }}</h5>
       </div>
     </div>
-    <ContentRenderer class="markdown !prose-sm my-3" :value="description" />
+    <ContentRenderer class="markdown my-3" :value="description" />
   </div>
 </template>
 

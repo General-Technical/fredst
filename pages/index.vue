@@ -10,7 +10,7 @@
       <!-- Content -->
       <div class="container">
         <div class="second-content-low left">
-          <h1 class="md:text-6xl md:leading-[5rem]">
+          <h1 class="md:text-6xl md:leading-[5rem] 3xl:text-8xl">
             {{ doc.title }}
           </h1>
         </div>

@@ -48,7 +48,7 @@
     @apply font-display text-left text-xl md:text-2xl 3xl:text-4xl 3xl:leading-normal font-medium tracking-wide mb-3;
   }
   h5 {
-    @apply font-headings font-light text-left text-base tracking-normal 3xl:text-xl;
+    @apply font-headings font-light text-left text-base tracking-normal 3xl:text-2xl;
   }
   p {
     @apply text-left tracking-wider normal-case mb-2;
@@ -116,7 +116,7 @@
     @apply w-full mb-6;
   }
   .markdown {
-    @apply prose font-light max-w-none min-w-[100%] prose-sm xl:prose-base 3xl:prose-lg leading-snug prose-h6:italic prose-h3:mt-0 pt-0;
+    @apply prose font-light max-w-none min-w-[100%] prose-sm xl:prose-base 3xl:prose-2xl leading-snug prose-h6:italic prose-h3:mt-0 pt-0;
   }
 
   .projects-grid {
