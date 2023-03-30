@@ -20,7 +20,7 @@
       </div>
       <!-- Content -->
       <div class="container-mid">
-        <FadeUp class="second-content left">
+        <div class="second-content left">
           <p
             class="not-prose font-body text-xl font-normal mb-10 mt-16 md:mt-0 3xl:text-4xl"
           >
@@ -28,7 +28,7 @@
             enough to receive a number of industry awards:
           </p>
           <ContentRenderer :value="doc" class="markdown" />
-        </FadeUp>
+        </div>
         <div class="crd right fade-up">
           <h1 class="page-title">{{ doc.title }}</h1>
           <Squares class="squares" />

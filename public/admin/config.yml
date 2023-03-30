@@ -125,6 +125,27 @@ collections:
           choose_url: false,
           required: false,
         }
+      - {
+          label: "Project Image 5",
+          name: "image5",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 6",
+          name: "image6",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 7",
+          name: "image7",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
 
   - label: "Social"
     name: "social"
@@ -183,6 +204,27 @@ collections:
       - {
           label: "Project Image 4",
           name: "image4",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 5",
+          name: "image5",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 6",
+          name: "image6",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 7",
+          name: "image7",
           widget: "image",
           choose_url: false,
           required: false,
@@ -249,6 +291,27 @@ collections:
           choose_url: false,
           required: false,
         }
+      - {
+          label: "Project Image 5",
+          name: "image5",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 6",
+          name: "image6",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 7",
+          name: "image7",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
 
   - label: "Residential"
     name: "residential"
@@ -307,6 +370,27 @@ collections:
       - {
           label: "Project Image 4",
           name: "image4",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 5",
+          name: "image5",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 6",
+          name: "image6",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 7",
+          name: "image7",
           widget: "image",
           choose_url: false,
           required: false,
@@ -373,6 +457,27 @@ collections:
           choose_url: false,
           required: false,
         }
+      - {
+          label: "Project Image 5",
+          name: "image5",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 6",
+          name: "image6",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 7",
+          name: "image7",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
 
   - label: "Industrial"
     name: "industrial"
@@ -431,6 +536,27 @@ collections:
       - {
           label: "Project Image 4",
           name: "image4",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 5",
+          name: "image5",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 6",
+          name: "image6",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Project Image 7",
+          name: "image7",
           widget: "image",
           choose_url: false,
           required: false,

@@ -22,7 +22,6 @@
               <h4 class="underlined-text mb-2">
                 {{ project.title }}
               </h4>
-              <!-- Blah -->
               <CarouselDark
                 :title="project.title"
                 :id="project.id"
@@ -31,8 +30,10 @@
                 :src3="project.image2"
                 :src4="project.image3"
                 :src5="project.image4"
+                :src6="project.image5"
+                :src7="project.image6"
+                :src8="project.image7"
               />
-              <!-- /Blah -->
             </template>
           </Lightbox>
         </FadeUp>

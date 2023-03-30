@@ -15,9 +15,7 @@
           <ContentRenderer :value="doc" class="markdown" />
         </div>
         <div class="second-content-low md:text-right">
-          <FadeUp>
-            <ContentDoc path="/services" />
-          </FadeUp>
+          <ContentDoc path="/services" />
         </div>
       </div>
     </ContentDoc>
