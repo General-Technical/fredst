@@ -1,8 +1,45 @@
 <template>
   <Head>
     <Title>Fred St.</Title>
+
     <Link rel="icon" type="image/png" href="/assets/favicon.png" />
-    <Meta name="" content="" />
+
+    <!-- Primary Meta Tags -->
+    <Meta
+      name="title"
+      content="Fred St - Landscape Architectural design consultancy"
+    />
+    <Meta
+      name="description"
+      content="Landscape Architectural design consultancy that focused on, and became renowned for, designing unique and memorable places and spaces for people. As designers we are privileged to have the opportunity to influence public realm, urban form and living environments and at FRED St we are always mindful to ensure that our work impacts positively upon everyone that interacts with our projects."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <Meta property="og:type" content="website" />
+    <Meta property="og:url" content="https://fredst.com/" />
+    <Meta
+      property="og:title"
+      content="Fred St - Landscape Architectural design consultancy"
+    />
+    <Meta
+      property="og:description"
+      content="Landscape Architectural design consultancy that focused on, and became renowned for, designing unique and memorable places and spaces for people. As designers we are privileged to have the opportunity to influence public realm, urban form and living environments and at FRED St we are always mindful to ensure that our work impacts positively upon everyone that interacts with our projects."
+    />
+    <Meta property="og:image" content="/assets/FredSt_Logo_Header.jpg" />
+
+    <!-- Twitter -->
+    <Meta property="twitter:card" content="summary_large_image" />
+    <Meta property="twitter:url" content="https://fredst.com/" />
+    <Meta
+      property="twitter:title"
+      content="Fred St - Landscape Architectural design consultancy"
+    />
+    <Meta
+      property="twitter:description"
+      content="Landscape Architectural design consultancy that focused on, and became renowned for, designing unique and memorable places and spaces for people. As designers we are privileged to have the opportunity to influence public realm, urban form and living environments and at FRED St we are always mindful to ensure that our work impacts positively upon everyone that interacts with our projects."
+    />
+    <Meta property="twitter:image" content="/assets/FredSt_Logo_Header.jpg" />
+
     <Script
       src="https://identity.netlify.com/v1/netlify-identity-widget.js"
       defer
