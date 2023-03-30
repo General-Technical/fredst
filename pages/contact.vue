@@ -18,13 +18,11 @@
               <h3>FRED St PTY LTD</h3>
               <ContentRenderer :value="doc" class="markdown" />
             </div>
-            <!-- <div class="col-span-3"> -->
             <img
               :src="doc.map"
               :alt="doc.title"
               class="w-full md:col-span-3 rounded"
             />
-            <!-- </div> -->
           </div>
           <p class="mt-4 markdown">
             You can follow us on the following socials

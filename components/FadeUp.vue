@@ -7,5 +7,3 @@
     <slot />
   </div>
 </template>
-
-x-intersect:leave="$el.classList.remove('opacity-100', '-translate-y-0')"
