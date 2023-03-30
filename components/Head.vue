@@ -16,5 +16,16 @@
       rel="stylesheet"
       href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css"
     />
+
+    <Link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <Script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" />
+
+    <Script
+      src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"
+    />
   </Head>
 </template>
