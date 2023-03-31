@@ -22,7 +22,7 @@
       <div class="container-mid">
         <div class="second-content left">
           <p
-            class="not-prose font-body text-xl font-normal mb-10 mt-16 md:mt-0 3xl:text-4xl"
+            class="not-prose font-body text-xl font-normal pt-16 lg:pt-2 md:mt-0 3xl:text-4xl"
           >
             FRED St was started in 2014 and in that time we have been lucky
             enough to receive a number of industry awards:
