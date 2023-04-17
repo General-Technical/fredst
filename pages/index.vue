@@ -25,6 +25,6 @@
 
 <script setup>
 useHead({
-  title: "Company - Fred St.",
+  title: "FREDSt - Landscape Architecture",
 });
 </script>
