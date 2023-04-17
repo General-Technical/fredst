@@ -7,11 +7,11 @@
     <!-- Primary Meta Tags -->
     <Meta
       name="title"
-      content="Fred St - Landscape Architectural design consultancy"
+      content="Fred St - Landscape Architectural Design Consultancy"
     />
     <Meta
       name="description"
-      content="Landscape Architectural design consultancy that focused on, and became renowned for, designing unique and memorable places and spaces for people. As designers we are privileged to have the opportunity to influence public realm, urban form and living environments and at FRED St we are always mindful to ensure that our work impacts positively upon everyone that interacts with our projects."
+      content="FREDSt is a Landscape Architectural design consultancy that focused on, and became renowned for, designing unique and memorable places and spaces for people. As designers we are privileged to have the opportunity to influence public realm, urban form and living environments and at FREDSt we are always mindful to ensure that our work impacts positively upon everyone that interacts with our projects."
     />
 
     <!-- Open Graph / Facebook -->
