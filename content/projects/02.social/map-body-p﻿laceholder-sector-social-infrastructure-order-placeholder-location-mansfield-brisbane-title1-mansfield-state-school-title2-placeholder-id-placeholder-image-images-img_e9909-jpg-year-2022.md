@@ -1,12 +1,12 @@
 ---
-title1: Mansfield State School
-title2: Placeholder
+title1: Mansfield
+title2: State School
 sector: Social Infrastructure
 order: Placeholder
 services: Design and Documentation
 year: "2022"
 location: Mansfield, Brisbane
-id: Placeholder
+id: MansfieldSS
 image: /images/img_e9909.jpg
 ---
 P﻿laceholder
