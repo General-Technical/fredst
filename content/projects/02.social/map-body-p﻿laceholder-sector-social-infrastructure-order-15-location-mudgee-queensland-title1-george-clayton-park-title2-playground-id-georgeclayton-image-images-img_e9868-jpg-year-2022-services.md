@@ -5,8 +5,8 @@ sector: Parks & Open Space
 order: "15"
 services: Design & Documentation
 year: "2022"
-location: Mudgee, Queensland
+location: Manly, Queensland
 id: GeorgeClayton
 image: /images/img_e9868.jpg
 ---
-P﻿laceholder
+.
