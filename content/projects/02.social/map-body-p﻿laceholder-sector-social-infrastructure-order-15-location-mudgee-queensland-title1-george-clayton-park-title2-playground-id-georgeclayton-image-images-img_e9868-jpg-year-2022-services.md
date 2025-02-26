@@ -1,7 +1,7 @@
 ---
 title1: George Clayton Park
 title2: Playground
-sector: Social Infrastructure
+sector: Parks & Open Space
 order: "15"
 services: Design & Documentation
 year: "2022"
