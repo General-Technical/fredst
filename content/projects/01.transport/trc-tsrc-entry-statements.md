@@ -1,5 +1,5 @@
 ---
-title1: TRC TSRC
+title1: TRC Toowoomba Second Range Crossing
 title2: Entry Statements
 sector: Transport Infrastructure
 order: "02"
