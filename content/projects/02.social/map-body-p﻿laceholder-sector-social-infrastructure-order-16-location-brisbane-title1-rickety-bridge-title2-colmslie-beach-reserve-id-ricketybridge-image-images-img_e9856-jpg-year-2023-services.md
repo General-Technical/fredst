@@ -1,7 +1,7 @@
 ---
 title1: Rickety Bridge
 title2: Colmslie Beach Reserve
-sector: Social Infrastructure
+sector: Parks & Open Space
 order: "16"
 services: Design & Documentation
 year: "2023"
