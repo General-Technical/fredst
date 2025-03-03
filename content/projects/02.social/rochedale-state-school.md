@@ -11,7 +11,7 @@ image: /images/rochedale_05.jpg
 image1: /images/rochedale-ss_concept-plan.jpg
 image2: /images/rochedale_04.jpg
 image3: /images/rochedale_01.jpg
-image4: /images/rochedale_02.jpg
+image4: /images/rochedale_03.jpg
 ---
 
 This design incorporated a specific planting palette, timber
