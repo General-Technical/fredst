@@ -11,7 +11,7 @@ image: /images/yatala-distribution_03.jpg
 image1: /images/yatala-distribution_06.jpg
 image2: /images/yatala-distribution_02.jpg
 image3: /images/yatala-distribution_04.jpg
-image4: /images/yatala-distribution_05.jpg
+image4: ""
 ---
 
 .
