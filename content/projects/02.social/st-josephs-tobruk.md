@@ -9,7 +9,7 @@ location: Beenleigh, Queensland
 id: st-joseph
 image: /images/st-josephs_03.jpg
 image1: /images/st-josephs_02.jpg
-image2: /images/st-josephs_01.jpg
+image2: ""
 ---
 
 By reimagining necessary infrastructure, a design was developed
