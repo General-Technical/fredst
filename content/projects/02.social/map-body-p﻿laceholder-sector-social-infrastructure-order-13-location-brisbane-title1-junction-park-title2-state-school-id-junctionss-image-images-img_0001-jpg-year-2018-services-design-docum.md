@@ -7,6 +7,6 @@ services: Design & Documentation
 year: "2018"
 location: Brisbane
 id: JunctionSS
-image: /images/img_0001.jpg
+image: /images/junction-park-ss.jpg
 ---
-P﻿laceholder
+Navigating grade changes and DDA access requirements, FREDSt transformed previously restricted space into a multifaceted "Grove" merging play elements, outdoor learning spaces, seating and natural systems.
