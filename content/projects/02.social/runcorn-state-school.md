@@ -7,7 +7,7 @@ services: Design & Documentation
 year: "2022"
 location: Brisbane, Queensland
 id: bridge_view
-image: /images/bridge_view.jpg
+image: /images/runcorn-ss.jpg
 ---
 
 Through a student engagement exercise, Fred St was able to
