@@ -7,7 +7,7 @@ services: Design & Documentation
 year: "2019"
 location: Brisbane, Queensland
 id: warrigal-rd
-image: /images/warrigal-rd_01.jpg
+image: /images/warrigal-rd.jpg
 image1: /images/warrigal-rd_02.jpg
 image2: /images/warrigal-rd_03.jpg
 ---
