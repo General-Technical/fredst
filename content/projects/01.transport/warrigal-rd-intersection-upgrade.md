@@ -11,11 +11,8 @@ image: /images/warrigal-rd_01.jpg
 image1: /images/warrigal-rd_02.jpg
 image2: /images/warrigal-rd_03.jpg
 ---
-
 Working within the framework of Brisbane City Council standard
 guidelines, FRED St delivered a design outcome that improved the local
 streetscape function whilst maintaining a cohesive neighbourhood
-aesthetic. Robust, natice species were specifyied to the verges with
-protection given to the existing street trees which were also supplemented
-where possible. The path the landscape improvements are allowing greater
-amenity and function enable a more active lifestyle.
+aesthetic. Robust, native species were specified to the verges with
+protection given to the new and existing street trees. The path the landscape improvements are found upon allow for greater amenity and function, enabling a more active lifestyle.
