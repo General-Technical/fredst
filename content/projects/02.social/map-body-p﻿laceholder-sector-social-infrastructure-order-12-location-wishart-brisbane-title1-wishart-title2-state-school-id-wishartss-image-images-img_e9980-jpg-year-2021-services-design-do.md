@@ -9,4 +9,4 @@ location: Wishart, Brisbane
 id: WishartSS
 image: /images/wishart-ss.jpg
 ---
-Following the construction of a new building, FREDSt developed the existing tired courtyard to blend together the two areas and better distinguish active and passive spaces. Creative ground surfacing and garden beds activated one side whilst custom poppy murals provide historical teaching opportunities on the other.
+Following the construction of a new building, FREDSt developed the existing tired courtyard to blend together the two areas and better meet the needs of the school. Creative ground surfacing, seating arrangements and garden beds activate one side whilst custom poppy murals celebrate the ANZAC's and provide historical teaching opportunities on the other.
