@@ -13,5 +13,4 @@ image2: /images/yatala-distribution_02.jpg
 image3: /images/yatala-distribution_04.jpg
 image4: ""
 ---
-
-.
+A large scale, multi building industrial complex with extenstive water quality infrastructure integrated for on-site treatment.  Stringent Council requirements have been followed to great effect, resulting in a dominant landscape that will continue to improve in the coming years.
