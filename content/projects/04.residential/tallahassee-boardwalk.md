@@ -10,8 +10,8 @@ id: tallahassee
 image: /images/boardwalk-4-.jpg
 image1: /images/boardwalk-5-.jpg
 image2: /images/boardwalk-6-.jpg
-image3: /images/dsc_8015_17.jpg
-image4: /images/dsc_8036_37.jpg
+image3: ""
+image4: ""
 ---
 
 This project focused on delivering a high quality resort-style
