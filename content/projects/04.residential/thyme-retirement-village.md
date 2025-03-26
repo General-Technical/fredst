@@ -8,10 +8,9 @@ year: "2020"
 location: Morayfield, Queensland
 id: thyme-rv
 image: /images/dsc_8402.jpg
-image1: /images/dsc_8382.jpg
-image2: /images/dsc_8422.jpg
-image3: /images/dsc_8386.jpg
-image4: /images/dsc_8438.jpg
+image1: ""
+image2: ""
+image3: ""
+image4: ""
 ---
-
-.
+The landscape project for Thyme retirement village centered on creating nature-inspired spaces with a focus on native planting to promote sustainability and local biodiversity. Two small community parks were thoughtfully integrated, offering residents a peaceful pocket park for relaxation and a croquet field with barbecues for social gatherings. Native plantings provide low-maintenance beauty and support the surrounding ecosystem. The design fosters a sense of connection to nature and community for all residents.
