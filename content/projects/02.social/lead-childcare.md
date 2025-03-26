@@ -7,11 +7,11 @@ services: Design & Documentation
 year: "2014"
 location: Caboolture, Queensland
 id: caboolture
-image: /images/caboolture-lead-childcare_02.jpg
+image: /images/lead-childcare.jpg
 image1: /images/caboolture-lead-childcare_04.jpg
 image2: /images/caboolture-lead-childcare_05.jpg
 image3: /images/caboolture-lead-childcare_06.jpg
-image4: /images/caboolture-lead-childcare_01.jpg
+image4: /images/lead-childcare-2.jpg
 ---
 
 Bringing together the desired outcomes of functionality, education
