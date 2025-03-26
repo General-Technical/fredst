@@ -1,5 +1,5 @@
 ---
-title1: Team Transport &
+title1: Team Transport
 title2: Logistics
 sector: Industrial
 order: "03"
