@@ -13,7 +13,4 @@ image2: /images/koko_03.jpg
 image3: /images/koko_02.jpg
 image4: /images/koko_01.jpg
 ---
-
-The design for high-rise residential apartment Koko development
-features custom planter troughs to maximise use of space in confined areas.
-ETC ETC.
+The design for the high-rise residential apartment development, Koko, features custom planter troughs brimming with tropical plants to maximise use of space in confined areas. FRED St successfully delivered these alongside other bespoke planters despite challenges such as limited light and soil depths. Stylish surface finishes enhance the luxury of the communal spaces through natural tones and textures
