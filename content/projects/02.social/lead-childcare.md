@@ -10,7 +10,7 @@ id: caboolture
 image: /images/lead-childcare.jpg
 image1: /images/caboolture-lead-childcare_04.jpg
 image2: /images/caboolture-lead-childcare_05.jpg
-image3: /images/caboolture-lead-childcare_06.jpg
+image3: /images/lead-childcare-3.jpg
 image4: /images/lead-childcare-2.jpg
 ---
 
