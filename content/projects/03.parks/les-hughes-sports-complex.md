@@ -8,7 +8,7 @@ year: "2020"
 location: Moreton Bay, Queensland
 id: lhsc
 image: /images/les-hughes_11.jpg
-image1: /images/les-hughes_01.jpg
+image1: /images/les-hughes_07.jpg
 image2: /images/les-hughes_03.jpg
 image3: /images/les-hughes_02.jpg
 image4: /images/les-hughes_08.jpg
