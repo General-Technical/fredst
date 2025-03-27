@@ -7,6 +7,7 @@ services: Design & Documentation
 year: "2021"
 location: Brisbane, Queensland
 id: team-transport
-image: /images/bridge_view.jpg
+image: /images/dnv-1.jpg
+image1: /images/dnv-2.jpg
 ---
 This small-scale industrial landscape project utilized an all-natural planting palette to soften the carpark area and actively reduce the sites hardscape expanse. Screening plantings were strategically placed to conceal electrical infrastructure, enhancing the site's appearance and shading ability, while maintaining its functionality.
