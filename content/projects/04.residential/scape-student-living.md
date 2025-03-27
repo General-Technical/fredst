@@ -9,8 +9,8 @@ location: Brisbane, Queensland
 id: scape-student
 image: /images/scape_01.jpg
 image1: /images/scape_06.jpg
-image2: /images/scape_10.jpg
-image3: /images/scape_08.jpg
+image2: /images/scape_12.jpg
+image3: /images/scape_13.jpg
 image4: /images/scape_12.jpg
 ---
 
