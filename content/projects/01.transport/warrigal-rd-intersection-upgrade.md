@@ -8,8 +8,8 @@ year: "2019"
 location: Brisbane, Queensland
 id: warrigal-rd
 image: /images/warrigal-rd.jpg
-image1: /images/warrigal-rd_02.jpg
-image2: /images/warrigal-rd_03.jpg
+image1: ""
+image2: ""
 ---
 Working within the framework of Brisbane City Council standard
 guidelines, FRED St delivered a design outcome that improved the local
