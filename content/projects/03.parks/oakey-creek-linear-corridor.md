@@ -9,9 +9,9 @@ location: Toowoomba Region, Queensland
 id: oakey-creek
 image: /images/oakey-creek_02.jpg
 image1: /images/oakey-creek_01.jpg
-image2: /images/oakey-creek_03.jpg
-image3: /images/oakey-creek_05.jpg
-image4: /images/oakey-creek_06.jpg
+image2: /images/oakey-creek_05.jpg
+image3: /images/oakey-creek_06.jpg
+image4: ""
 ---
 
 FRED St worked with Toowoomba Regional Council on the delivery of
