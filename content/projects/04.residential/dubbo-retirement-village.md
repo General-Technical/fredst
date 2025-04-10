@@ -2,7 +2,7 @@
 title1: Dubbo
 title2: Retirement Village
 sector: Residential Development
-order: "01"
+order: "08"
 services: Design & Documentation
 year: "2022"
 location: Dubbo, New South Wales
