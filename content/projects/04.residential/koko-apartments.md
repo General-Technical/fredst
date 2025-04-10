@@ -2,7 +2,7 @@
 title1: Koko
 title2: Apartments
 sector: Residential Development
-order: "02"
+order: "04"
 services: Design & Documentation
 year: "2020"
 location: Broadbeach, Queensland
