@@ -2,7 +2,7 @@
 title1: Inala State School
 title2: Playground
 sector: Social Infrastructure
-order: "04"
+order: "05"
 services: Design & Documentation
 year: "2024"
 location: Inala
