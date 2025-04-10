@@ -1,6 +1,6 @@
 ---
-title1: Yeronga
-title2: State School
+title1: Yeronga State School
+title2: Oval & Surrounds Refurbishment
 sector: Social Infrastructure
 order: "02"
 services: Design & Documentation
