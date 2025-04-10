@@ -1,8 +1,8 @@
 ---
-title1: Yeronga
+title1: "Yeronga "
 title2: Cool School Review
 sector: Social Infrastructure
-order: "16"
+order: "17"
 services: Strategic Plan
 year: "2017"
 location: Brisbane, Queensland
