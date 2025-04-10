@@ -2,7 +2,7 @@
 title1: Tallahassee
 title2: Boardwalk
 sector: Residential Development
-order: "07"
+order: "02"
 services: Design & Documentation
 year: "2018"
 location: Burleigh Heads, Queensland
