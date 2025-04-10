@@ -2,7 +2,7 @@
 title1: White's Hill
 title2: State College
 sector: Social Infrastructure
-order: "08"
+order: "06"
 services: Design & Documentation
 year: "2021"
 location: Brisbane, Queensland
