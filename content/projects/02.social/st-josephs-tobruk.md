@@ -2,7 +2,7 @@
 title1: St Joseph's
 title2: Tobruk
 sector: Social Infrastructure
-order: "03"
+order: "04"
 services: Design & Documentation
 year: "2021"
 location: Beenleigh, Queensland
