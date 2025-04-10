@@ -2,7 +2,7 @@
 title1: St Mary's
 title2: Ipswich
 sector: Social Infrastructure
-order: "07"
+order: "13"
 services: Design & Documentation
 year: "2016"
 location: Ipswich, Queensland
