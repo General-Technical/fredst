@@ -7,11 +7,11 @@ services: Design & Documentation
 year: "2019"
 location: Brisbane, Queensland
 id: chss
-image: /images/camp-hill-ss_04.jpg
+image: /images/camp-hill-2.jpg
 image1: /images/camp-hill-ss_03.jpg
 image2: /images/camp-hill-ss_02.jpg
 image3: /images/camp-hill-ss_01.jpg
-image4: /images/camp-hill-2.jpg
+image4: /images/camp-hill-ss_04.jpg
 ---
 
 Fred St was engaged to remediate a free play area that had suffered
