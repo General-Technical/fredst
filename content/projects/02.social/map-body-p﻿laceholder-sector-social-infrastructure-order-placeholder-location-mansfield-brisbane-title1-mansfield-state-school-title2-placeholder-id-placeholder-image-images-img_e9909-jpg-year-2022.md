@@ -2,7 +2,7 @@
 title1: Mansfield
 title2: State School
 sector: Social Infrastructure
-order: "08"
+order: "09"
 services: Design and Documentation
 year: "2022"
 location: Mansfield, Brisbane
