@@ -2,7 +2,7 @@
 title1: Flower St
 title2: Offices
 sector: Urban Mixed Use
-order: "01"
+order: "02"
 services: Design & Documentation
 year: "2019"
 location: Brisbane, Queensland
