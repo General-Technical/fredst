@@ -2,7 +2,7 @@
 title1: Camp Hill
 title2: State School
 sector: Social Infrastructure
-order: "14"
+order: "15"
 services: Design & Documentation
 year: "2019"
 location: Brisbane, Queensland
