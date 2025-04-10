@@ -2,7 +2,7 @@
 title1: Opus
 title2: Apartments
 sector: Residential Development
-order: "04"
+order: "03"
 services: Design & Documentation
 year: "2020"
 location: Broadbeach, Queensland
