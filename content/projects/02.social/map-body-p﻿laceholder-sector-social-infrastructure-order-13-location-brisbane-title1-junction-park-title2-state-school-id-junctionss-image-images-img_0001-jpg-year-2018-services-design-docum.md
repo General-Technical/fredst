@@ -2,7 +2,7 @@
 title1: Junction Park
 title2: State School
 sector: Social Infrastructure
-order: "13"
+order: "10"
 services: Design & Documentation
 year: "2018"
 location: Brisbane
