@@ -2,7 +2,7 @@
 title1: Buranda
 title2: State School
 sector: Social Infrastructure
-order: "01"
+order: "12"
 services: Design & Documentation
 year: "2022"
 location: Brisbane, Queensland
