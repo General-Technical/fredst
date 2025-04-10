@@ -2,7 +2,7 @@
 title1: Manly State School
 title2: Playground
 sector: Social Infrastructure
-order: "05"
+order: "06"
 services: Design & Documentation
 year: "2021"
 location: Manly
