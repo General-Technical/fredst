@@ -2,7 +2,7 @@
 title1: Rickety Bridge
 title2: Colmslie Beach Reserve
 sector: Parks & Open Space
-order: "16"
+order: "03"
 services: Design & Documentation
 year: "2023"
 location: Brisbane
