@@ -7,11 +7,13 @@ services: Design & Documentation
 year: "2020"
 location: Strathpine, Queensland
 id: primewest-srg
-image: /images/srg-offices_10.jpg
-image1: /images/srg-offices_12.jpg
-image2: /images/srg-offices_07.jpg
-image3: /images/srg-offices_15.jpg
-image4: /images/srg-offices_06.jpg
+image: /images/srg-1-.jpg
+image1: /images/srg-2-.jpg
+image2: /images/srg-3-.jpg
+image3: /images/srg-4-.jpg
+image4: /images/srg-5-.jpg
+image5: /images/srg-6-.jpg
+image6: /images/srg-7-.jpg
 ---
 
 Fred St was engaged to deliver the external works package
