@@ -13,8 +13,7 @@ image2: /images/scape_12.jpg
 image3: /images/scape_04.jpg
 image4: /images/scape_09.jpg
 ---
-
-Fred St designed and documented internal, external, and streetscape
+FRED St designed and documented internal, external, and streetscape
 works for this multi-level student accommodation project. A rooftop common
 area was appointed with BBQ facilities and a mix of moveable and fixed seating
 options with large planting troughs providing distinction between seating
