@@ -13,8 +13,7 @@ image2: /images/runcorn-3.jpg
 image3: /images/runcorn-5.jpg
 image4: /images/runcorn-6.jpg
 ---
-
-Through a student engagement exercise, Fred St was able to
+Through a student engagement exercise, FRED St was able to
 incorporate student wishes into the design process of this expansive school
 upgrade. Design outcomes include nature play areas, noise reduction, outdoor
 learning opportunities and celebrations of the school's heritage.
