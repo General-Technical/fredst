@@ -13,8 +13,7 @@ image2: /images/whites-hill_11.jpg
 image3: /images/whites-hill_05.jpg
 image4: /images/whites-hill_10.jpg
 ---
-
-The nature play design prepared by Fred St brought exciting and
+The nature play design prepared by FRED St brought exciting and
 dynamic solutions to a site defined by steep embankments and erosion problems.
 This design embraces and champions the potential opportunities presented in
 working across differing gradients, while improving environmental conditions
