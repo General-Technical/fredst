@@ -13,10 +13,9 @@ image2: /images/oakey-creek_05.jpg
 image3: /images/oakey-creek_01.jpg
 image4: ""
 ---
-
 FRED St worked with Toowoomba Regional Council on the delivery of
 the detailed design for the Oakey Creek Corridor. Taking the direction from a
-previously commissioned masterplan, Fred St developed the design to provide
+previously commissioned masterplan, FRED St developed the design to provide
 the means to establish this series of parklands as a linked District Level
 recreational asset. This project received the AILA Queensland 2018 Regional
 Achievement Award.
