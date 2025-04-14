@@ -13,8 +13,7 @@ image2: /images/camp-hill-ss_02.jpg
 image3: /images/camp-hill-ss_01.jpg
 image4: /images/camp-hill-ss_04.jpg
 ---
-
-Fred St was engaged to remediate a free play area that had suffered
+FRED St was engaged to remediate a free play area that had suffered
 degradation and loss of surface materials due to unmanaged gradients and lack
 of circulation structure. Terraces and retaining walls were employed to
 provide stability to the sloping site, while rock swales were placed to
