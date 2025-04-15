@@ -2,7 +2,7 @@
 title1: Otto
 title2: Apartments
 sector: Residential Development
-order: "09"
+order: "10"
 services: Design & Documentation
 year: "2019"
 location: Mermaid Beach, Queensland
