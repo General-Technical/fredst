@@ -13,8 +13,4 @@ image2: /images/yss_04.jpg
 image3: /images/yss_06.jpg
 image4: /images/yss_07.jpg
 ---
-
-A design was prepared by Fred St to link previously disparate
-areas through cohesive and functional nature play programming. This site
-presented challenges in the form of steep embankments, erosion, and
-undetermined connections.
+Fred St created a thoughtful landscape design that brought cohesion to previously disconnected areas through nature and function based elements. Addressing challenges like steep embankments, erosion, and undefined circulation, the design transformed complex terrain into a functional and engaging space that better relates to the adjacent oval context. Key features include terraced seating, meandering creek beds, decking to tree protection zones, and nature play connections through native garden beds—enhancing both usability and natural beauty.
