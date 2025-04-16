@@ -12,7 +12,7 @@ image1: /images/opus_04.jpg
 image2: /images/opus_03.jpg
 image3: /images/opus_02.jpg
 image4: /images/opus-1-.jpg
-image5: /images/opus-13-.jpg
+image5: /images/opus-3.1-.jpg
 ---
 
 Unique design thinking characterised the approach for the high-rise
