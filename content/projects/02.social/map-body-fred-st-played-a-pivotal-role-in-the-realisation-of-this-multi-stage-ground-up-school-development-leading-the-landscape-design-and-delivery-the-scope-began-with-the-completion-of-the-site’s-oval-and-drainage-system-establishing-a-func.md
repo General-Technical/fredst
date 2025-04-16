@@ -6,7 +6,7 @@ order: "03"
 services: Design & Documentation
 year: "2023"
 location: Fitzgibbon
-id: HolySpirit
+id: hpsc
 image: /images/holy-1-.jpg
 image1: /images/holy-2-.jpg
 image2: /images/holy-3-.jpg
