@@ -1,14 +1,14 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-  # Global Commit Message Templates
+  # Commit Message
   commit_messages:
-    create: Create entry in {{collection}} at {{path}}
-    update: Update entry in {{collection}} at {{path}}
-    delete: Delete entry in {{collection}} at {{path}}
-    uploadMedia: Upload media asset to {{path}}
-    deleteMedia: Delete media asset from {{path}}
-    openAuthoring: "{{message}}" # Keep this if using editorial workflow
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
 
 site_url: https://fredst-2022.netlify.app
 display_url: https://fredst-2022.netlify.app
