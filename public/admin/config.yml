@@ -1,6 +1,14 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
+  # Commit Message
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
 
 site_url: https://fredst-2022.netlify.app
 display_url: https://fredst-2022.netlify.app
