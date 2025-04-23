@@ -3,7 +3,7 @@ title1: Wyandra Lane
 title2: Subdivision
 sector: Urban Mixed Use
 order: "06"
-services: Design & Documenation
+services: Masterplanning, Design & Documenation
 year: "2024"
 location: Gleneagle
 id: wyandra
