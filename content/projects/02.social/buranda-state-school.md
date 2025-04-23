@@ -7,8 +7,8 @@ services: Design & Documentation
 year: "2022"
 location: Brisbane, Queensland
 id: burandass
-image: /images/buranda-ss_03.jpg
-image1: /images/buranda-ss_01.jpg
+image: /images/buranda-ss_01.jpg
+image1: /images/buranda-ss_03.jpg
 image2: /images/buranda-ss_02.jpg
 image3: /images/buranda-ss_04.jpg
 image4: /images/buranda-ss_05.jpg
