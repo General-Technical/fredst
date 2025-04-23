@@ -7,7 +7,7 @@ services: Strategic Plan
 year: "2017"
 location: Brisbane, Queensland
 id: yeronga-state-review
-image: /images/bridge_view.jpg
+image: /images/cool-school-1-.jpg
 ---
 An extensive and impartial consultation and analysis process
 ensured that a fact-based outcome was achieved for this strategy. FRED St
